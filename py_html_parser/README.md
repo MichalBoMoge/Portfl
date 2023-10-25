@@ -1,0 +1,1 @@
+Program created for checking for updates on ARM-based devices. This program parses html page, takes all devices, and puts them in an excel file. If since the last time program was used new devices showed up, they will be highlighted. Program uses openpyxl, pandas and BS5 packages;
