@@ -1,0 +1,1238 @@
+reset
+sys.cpu ARMv94-A
+;sys.cpu cortexm85
+sys.up
+
+;SYStem.Option.DisMode THUMB 
+;setup.Dis LEGACY 
+;SYStem.Option.DisMode ARM
+
+TOOLBAR   ON
+STATUSBAR ON
+FramePOS 26.0,14.857,,,Maximized
+WinPAGE.RESet
+
+WinPAGE.Create P000
+WinCLEAR
+
+WinPOS 0.0 0.0 109. 2. 13. 1. W000
+WinTABS 16. 10. 25.
+list
+
+WinPAGE.select P000
+
+d.s P:0x0 %le %long 0x04452000 // addqv v0.8h, p0, z0.h
+d.s , %le %long 0x04453555 // addqv v21.8h, p5, z10.h
+d.s , %le %long 0x04452db7 // addqv v23.8h, p3, z13.h
+d.s , %le %long 0x04453fff // addqv v31.8h, p7, z31.h
+d.s , %le %long 0x04852000 // addqv v0.4s, p0, z0.s
+d.s , %le %long 0x04853555 // addqv v21.4s, p5, z10.s
+d.s , %le %long 0x04852db7 // addqv v23.4s, p3, z13.s
+d.s , %le %long 0x04853fff // addqv v31.4s, p7, z31.s
+d.s , %le %long 0x04c52000 // addqv v0.2d, p0, z0.d
+d.s , %le %long 0x04c53555 // addqv v21.2d, p5, z10.d
+d.s , %le %long 0x04c52db7 // addqv v23.2d, p3, z13.d
+d.s , %le %long 0x04c53fff // addqv v31.2d, p7, z31.d
+d.s , %le %long 0x04052000 // addqv v0.16b, p0, z0.b
+d.s , %le %long 0x04053555 // addqv v21.16b, p5, z10.b
+d.s , %le %long 0x04052db7 // addqv v23.16b, p3, z13.b
+d.s , %le %long 0x04053fff // addqv v31.16b, p7, z31.b
+d.s , %le %long 0x045e2000 // andqv v0.8h, p0, z0.h
+d.s , %le %long 0x045e3555 // andqv v21.8h, p5, z10.h
+d.s , %le %long 0x045e2db7 // andqv v23.8h, p3, z13.h
+d.s , %le %long 0x045e3fff // andqv v31.8h, p7, z31.h
+d.s , %le %long 0x049e2000 // andqv v0.4s, p0, z0.s
+d.s , %le %long 0x049e3555 // andqv v21.4s, p5, z10.s
+d.s , %le %long 0x049e2db7 // andqv v23.4s, p3, z13.s
+d.s , %le %long 0x049e3fff // andqv v31.4s, p7, z31.s
+d.s , %le %long 0x04de2000 // andqv v0.2d, p0, z0.d
+d.s , %le %long 0x04de3555 // andqv v21.2d, p5, z10.d
+d.s , %le %long 0x04de2db7 // andqv v23.2d, p3, z13.d
+d.s , %le %long 0x04de3fff // andqv v31.2d, p7, z31.d
+d.s , %le %long 0x041e2000 // andqv v0.16b, p0, z0.b
+d.s , %le %long 0x041e3555 // andqv v21.16b, p5, z10.b
+d.s , %le %long 0x041e2db7 // andqv v23.16b, p3, z13.b
+d.s , %le %long 0x041e3fff // andqv v31.16b, p7, z31.b
+d.s , %le %long 0x04512ff7 // movprfx z23.h, p3/m, z31.h
+d.s , %le %long 0x65008db7 // bfadd z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x65008db7 // bfadd z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x65008000 // bfadd z0.h, p0/m, z0.h, z0.h
+d.s , %le %long 0x65009555 // bfadd z21.h, p5/m, z21.h, z10.h
+d.s , %le %long 0x65008db7 // bfadd z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x65009fff // bfadd z31.h, p7/m, z31.h, z31.h
+d.s , %le %long 0x65000000 // bfadd z0.h, z0.h, z0.h
+d.s , %le %long 0x65150155 // bfadd z21.h, z10.h, z21.h
+d.s , %le %long 0x650801b7 // bfadd z23.h, z13.h, z8.h
+d.s , %le %long 0x651f03ff // bfadd z31.h, z31.h, z31.h
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x642825b7 // bfclamp z23.h, z13.h, z8.h
+d.s , %le %long 0x64202400 // bfclamp z0.h, z0.h, z0.h
+d.s , %le %long 0x64352555 // bfclamp z21.h, z10.h, z21.h
+d.s , %le %long 0x642825b7 // bfclamp z23.h, z13.h, z8.h
+d.s , %le %long 0x643f27ff // bfclamp z31.h, z31.h, z31.h
+d.s , %le %long 0x04512ff7 // movprfx z23.h, p3/m, z31.h
+d.s , %le %long 0x65068db7 // bfmax z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x65068db7 // bfmax z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x65068000 // bfmax z0.h, p0/m, z0.h, z0.h
+d.s , %le %long 0x65069555 // bfmax z21.h, p5/m, z21.h, z10.h
+d.s , %le %long 0x65068db7 // bfmax z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x65069fff // bfmax z31.h, p7/m, z31.h, z31.h
+d.s , %le %long 0x04512ff7 // movprfx z23.h, p3/m, z31.h
+d.s , %le %long 0x65048db7 // bfmaxnm z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x65048db7 // bfmaxnm z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x65048000 // bfmaxnm z0.h, p0/m, z0.h, z0.h
+d.s , %le %long 0x65049555 // bfmaxnm z21.h, p5/m, z21.h, z10.h
+d.s , %le %long 0x65048db7 // bfmaxnm z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x65049fff // bfmaxnm z31.h, p7/m, z31.h, z31.h
+d.s , %le %long 0x04512ff7 // movprfx z23.h, p3/m, z31.h
+d.s , %le %long 0x65078db7 // bfmin z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x65078db7 // bfmin z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x65078000 // bfmin z0.h, p0/m, z0.h, z0.h
+d.s , %le %long 0x65079555 // bfmin z21.h, p5/m, z21.h, z10.h
+d.s , %le %long 0x65078db7 // bfmin z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x65079fff // bfmin z31.h, p7/m, z31.h, z31.h
+d.s , %le %long 0x04512ff7 // movprfx z23.h, p3/m, z31.h
+d.s , %le %long 0x65058db7 // bfminnm z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x65058db7 // bfminnm z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x65058000 // bfminnm z0.h, p0/m, z0.h, z0.h
+d.s , %le %long 0x65059555 // bfminnm z21.h, p5/m, z21.h, z10.h
+d.s , %le %long 0x65058db7 // bfminnm z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x65059fff // bfminnm z31.h, p7/m, z31.h, z31.h
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x646809b7 // bfmla z23.h, z13.h, z0.h[5]
+d.s , %le %long 0x64200800 // bfmla z0.h, z0.h, z0.h[0]
+d.s , %le %long 0x64750955 // bfmla z21.h, z10.h, z5.h[6]
+d.s , %le %long 0x646809b7 // bfmla z23.h, z13.h, z0.h[5]
+d.s , %le %long 0x647f0bff // bfmla z31.h, z31.h, z7.h[7]
+d.s , %le %long 0x04512ff7 // movprfx z23.h, p3/m, z31.h
+d.s , %le %long 0x65280db7 // bfmla z23.h, p3/m, z13.h, z8.h
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x65280db7 // bfmla z23.h, p3/m, z13.h, z8.h
+d.s , %le %long 0x65200000 // bfmla z0.h, p0/m, z0.h, z0.h
+d.s , %le %long 0x65351555 // bfmla z21.h, p5/m, z10.h, z21.h
+d.s , %le %long 0x65280db7 // bfmla z23.h, p3/m, z13.h, z8.h
+d.s , %le %long 0x653f1fff // bfmla z31.h, p7/m, z31.h, z31.h
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x64680db7 // bfmls z23.h, z13.h, z0.h[5]
+d.s , %le %long 0x64200c00 // bfmls z0.h, z0.h, z0.h[0]
+d.s , %le %long 0x64750d55 // bfmls z21.h, z10.h, z5.h[6]
+d.s , %le %long 0x64680db7 // bfmls z23.h, z13.h, z0.h[5]
+d.s , %le %long 0x647f0fff // bfmls z31.h, z31.h, z7.h[7]
+d.s , %le %long 0x04512ff7 // movprfx z23.h, p3/m, z31.h
+d.s , %le %long 0x65282db7 // bfmls z23.h, p3/m, z13.h, z8.h
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x65282db7 // bfmls z23.h, p3/m, z13.h, z8.h
+d.s , %le %long 0x65202000 // bfmls z0.h, p0/m, z0.h, z0.h
+d.s , %le %long 0x65353555 // bfmls z21.h, p5/m, z10.h, z21.h
+d.s , %le %long 0x65282db7 // bfmls z23.h, p3/m, z13.h, z8.h
+d.s , %le %long 0x653f3fff // bfmls z31.h, p7/m, z31.h, z31.h
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x64e8a1b7 // bfmlslb z23.s, z13.h, z8.h
+d.s , %le %long 0x64e0a000 // bfmlslb z0.s, z0.h, z0.h
+d.s , %le %long 0x64f5a155 // bfmlslb z21.s, z10.h, z21.h
+d.s , %le %long 0x64e8a1b7 // bfmlslb z23.s, z13.h, z8.h
+d.s , %le %long 0x64ffa3ff // bfmlslb z31.s, z31.h, z31.h
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x64e869b7 // bfmlslb z23.s, z13.h, z0.h[3]
+d.s , %le %long 0x64e06000 // bfmlslb z0.s, z0.h, z0.h[0]
+d.s , %le %long 0x64f56155 // bfmlslb z21.s, z10.h, z5.h[4]
+d.s , %le %long 0x64e869b7 // bfmlslb z23.s, z13.h, z0.h[3]
+d.s , %le %long 0x64ff6bff // bfmlslb z31.s, z31.h, z7.h[7]
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x64e8a5b7 // bfmlslt z23.s, z13.h, z8.h
+d.s , %le %long 0x64e0a400 // bfmlslt z0.s, z0.h, z0.h
+d.s , %le %long 0x64f5a555 // bfmlslt z21.s, z10.h, z21.h
+d.s , %le %long 0x64e8a5b7 // bfmlslt z23.s, z13.h, z8.h
+d.s , %le %long 0x64ffa7ff // bfmlslt z31.s, z31.h, z31.h
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x64e86db7 // bfmlslt z23.s, z13.h, z0.h[3]
+d.s , %le %long 0x64e06400 // bfmlslt z0.s, z0.h, z0.h[0]
+d.s , %le %long 0x64f56555 // bfmlslt z21.s, z10.h, z5.h[4]
+d.s , %le %long 0x64e86db7 // bfmlslt z23.s, z13.h, z0.h[3]
+d.s , %le %long 0x64ff6fff // bfmlslt z31.s, z31.h, z7.h[7]
+d.s , %le %long 0x64202800 // bfmul z0.h, z0.h, z0.h[0]
+d.s , %le %long 0x64752955 // bfmul z21.h, z10.h, z5.h[6]
+d.s , %le %long 0x646829b7 // bfmul z23.h, z13.h, z0.h[5]
+d.s , %le %long 0x647f2bff // bfmul z31.h, z31.h, z7.h[7]
+d.s , %le %long 0x04512ff7 // movprfx z23.h, p3/m, z31.h
+d.s , %le %long 0x65028db7 // bfmul z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x65028db7 // bfmul z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x65028000 // bfmul z0.h, p0/m, z0.h, z0.h
+d.s , %le %long 0x65029555 // bfmul z21.h, p5/m, z21.h, z10.h
+d.s , %le %long 0x65028db7 // bfmul z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x65029fff // bfmul z31.h, p7/m, z31.h, z31.h
+d.s , %le %long 0x65000800 // bfmul z0.h, z0.h, z0.h
+d.s , %le %long 0x65150955 // bfmul z21.h, z10.h, z21.h
+d.s , %le %long 0x650809b7 // bfmul z23.h, z13.h, z8.h
+d.s , %le %long 0x651f0bff // bfmul z31.h, z31.h, z31.h
+d.s , %le %long 0x04512ff7 // movprfx z23.h, p3/m, z31.h
+d.s , %le %long 0x65018db7 // bfsub z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x65018db7 // bfsub z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x65018000 // bfsub z0.h, p0/m, z0.h, z0.h
+d.s , %le %long 0x65019555 // bfsub z21.h, p5/m, z21.h, z10.h
+d.s , %le %long 0x65018db7 // bfsub z23.h, p3/m, z23.h, z13.h
+d.s , %le %long 0x65019fff // bfsub z31.h, p7/m, z31.h, z31.h
+d.s , %le %long 0x65000400 // bfsub z0.h, z0.h, z0.h
+d.s , %le %long 0x65150555 // bfsub z21.h, z10.h, z21.h
+d.s , %le %long 0x650805b7 // bfsub z23.h, z13.h, z8.h
+d.s , %le %long 0x651f07ff // bfsub z31.h, z31.h, z31.h
+d.s , %le %long 0x25608200 // cntp x0, pn0.h, vlx2
+d.s , %le %long 0x25608755 // cntp x21, pn10.h, vlx4
+d.s , %le %long 0x256087b7 // cntp x23, pn13.h, vlx4
+d.s , %le %long 0x256087ff // cntp xzr, pn15.h, vlx4
+d.s , %le %long 0x25a08200 // cntp x0, pn0.s, vlx2
+d.s , %le %long 0x25a08755 // cntp x21, pn10.s, vlx4
+d.s , %le %long 0x25a087b7 // cntp x23, pn13.s, vlx4
+d.s , %le %long 0x25a087ff // cntp xzr, pn15.s, vlx4
+d.s , %le %long 0x25e08200 // cntp x0, pn0.d, vlx2
+d.s , %le %long 0x25e08755 // cntp x21, pn10.d, vlx4
+d.s , %le %long 0x25e087b7 // cntp x23, pn13.d, vlx4
+d.s , %le %long 0x25e087ff // cntp xzr, pn15.d, vlx4
+d.s , %le %long 0x25208200 // cntp x0, pn0.b, vlx2
+d.s , %le %long 0x25208755 // cntp x21, pn10.b, vlx4
+d.s , %le %long 0x252087b7 // cntp x23, pn13.b, vlx4
+d.s , %le %long 0x252087ff // cntp xzr, pn15.b, vlx4
+d.s , %le %long 0x4482c020 // sclamp z0.s, z1.s, z2.s
+d.s , %le %long 0x4482c020 // sclamp z0.s, z1.s, z2.s
+d.s , %le %long 0x4482c020 // sclamp z0.s, z1.s, z2.s
+d.s , %le %long 0x4482c020 // sclamp z0.s, z1.s, z2.s
+d.s , %le %long 0x05222400 // dupq z0.h, z0.h[0]
+d.s , %le %long 0x05362555 // dupq z21.h, z10.h[5]
+d.s , %le %long 0x052a25b7 // dupq z23.h, z13.h[2]
+d.s , %le %long 0x053e27ff // dupq z31.h, z31.h[7]
+d.s , %le %long 0x05242400 // dupq z0.s, z0.s[0]
+d.s , %le %long 0x05342555 // dupq z21.s, z10.s[2]
+d.s , %le %long 0x052c25b7 // dupq z23.s, z13.s[1]
+d.s , %le %long 0x053c27ff // dupq z31.s, z31.s[3]
+d.s , %le %long 0x05282400 // dupq z0.d, z0.d[0]
+d.s , %le %long 0x05382555 // dupq z21.d, z10.d[1]
+d.s , %le %long 0x052825b7 // dupq z23.d, z13.d[0]
+d.s , %le %long 0x053827ff // dupq z31.d, z31.d[1]
+d.s , %le %long 0x05212400 // dupq z0.b, z0.b[0]
+d.s , %le %long 0x05352555 // dupq z21.b, z10.b[10]
+d.s , %le %long 0x052925b7 // dupq z23.b, z13.b[4]
+d.s , %le %long 0x053f27ff // dupq z31.b, z31.b[15]
+d.s , %le %long 0x045d2000 // eorqv v0.8h, p0, z0.h
+d.s , %le %long 0x045d3555 // eorqv v21.8h, p5, z10.h
+d.s , %le %long 0x045d2db7 // eorqv v23.8h, p3, z13.h
+d.s , %le %long 0x045d3fff // eorqv v31.8h, p7, z31.h
+d.s , %le %long 0x049d2000 // eorqv v0.4s, p0, z0.s
+d.s , %le %long 0x049d3555 // eorqv v21.4s, p5, z10.s
+d.s , %le %long 0x049d2db7 // eorqv v23.4s, p3, z13.s
+d.s , %le %long 0x049d3fff // eorqv v31.4s, p7, z31.s
+d.s , %le %long 0x04dd2000 // eorqv v0.2d, p0, z0.d
+d.s , %le %long 0x04dd3555 // eorqv v21.2d, p5, z10.d
+d.s , %le %long 0x04dd2db7 // eorqv v23.2d, p3, z13.d
+d.s , %le %long 0x04dd3fff // eorqv v31.2d, p7, z31.d
+d.s , %le %long 0x041d2000 // eorqv v0.16b, p0, z0.b
+d.s , %le %long 0x041d3555 // eorqv v21.16b, p5, z10.b
+d.s , %le %long 0x041d2db7 // eorqv v23.16b, p3, z13.b
+d.s , %le %long 0x041d3fff // eorqv v31.16b, p7, z31.b
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x056825b7 // extq z23.b, z23.b, z13.b, #0x8
+d.s , %le %long 0x05602400 // extq z0.b, z0.b, z0.b, #0x0
+d.s , %le %long 0x05652555 // extq z21.b, z21.b, z10.b, #0x5
+d.s , %le %long 0x056825b7 // extq z23.b, z23.b, z13.b, #0x8
+d.s , %le %long 0x056f27ff // extq z31.b, z31.b, z31.b, #0x0f
+d.s , %le %long 0x64d0a000 // faddqv v0.2d, p0, z0.d
+d.s , %le %long 0x64d0b555 // faddqv v21.2d, p5, z10.d
+d.s , %le %long 0x64d0adb7 // faddqv v23.2d, p3, z13.d
+d.s , %le %long 0x64d0bfff // faddqv v31.2d, p7, z31.d
+d.s , %le %long 0x6450a000 // faddqv v0.8h, p0, z0.h
+d.s , %le %long 0x6450b555 // faddqv v21.8h, p5, z10.h
+d.s , %le %long 0x6450adb7 // faddqv v23.8h, p3, z13.h
+d.s , %le %long 0x6450bfff // faddqv v31.8h, p7, z31.h
+d.s , %le %long 0x6490a000 // faddqv v0.4s, p0, z0.s
+d.s , %le %long 0x6490b555 // faddqv v21.4s, p5, z10.s
+d.s , %le %long 0x6490adb7 // faddqv v23.4s, p3, z13.s
+d.s , %le %long 0x6490bfff // faddqv v31.4s, p7, z31.s
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x64e825b7 // fclamp z23.d, z13.d, z8.d
+d.s , %le %long 0x64e02400 // fclamp z0.d, z0.d, z0.d
+d.s , %le %long 0x64f52555 // fclamp z21.d, z10.d, z21.d
+d.s , %le %long 0x64e825b7 // fclamp z23.d, z13.d, z8.d
+d.s , %le %long 0x64ff27ff // fclamp z31.d, z31.d, z31.d
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x646825b7 // fclamp z23.h, z13.h, z8.h
+d.s , %le %long 0x64602400 // fclamp z0.h, z0.h, z0.h
+d.s , %le %long 0x64752555 // fclamp z21.h, z10.h, z21.h
+d.s , %le %long 0x646825b7 // fclamp z23.h, z13.h, z8.h
+d.s , %le %long 0x647f27ff // fclamp z31.h, z31.h, z31.h
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x64a825b7 // fclamp z23.s, z13.s, z8.s
+d.s , %le %long 0x64a02400 // fclamp z0.s, z0.s, z0.s
+d.s , %le %long 0x64b52555 // fclamp z21.s, z10.s, z21.s
+d.s , %le %long 0x64a825b7 // fclamp z23.s, z13.s, z8.s
+d.s , %le %long 0x64bf27ff // fclamp z31.s, z31.s, z31.s
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x642881b7 // fdot z23.s, z13.h, z8.h
+d.s , %le %long 0x64208000 // fdot z0.s, z0.h, z0.h
+d.s , %le %long 0x64358155 // fdot z21.s, z10.h, z21.h
+d.s , %le %long 0x642881b7 // fdot z23.s, z13.h, z8.h
+d.s , %le %long 0x643f83ff // fdot z31.s, z31.h, z31.h
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x642841b7 // fdot z23.s, z13.h, z0.h[1]
+d.s , %le %long 0x64204000 // fdot z0.s, z0.h, z0.h[0]
+d.s , %le %long 0x64354155 // fdot z21.s, z10.h, z5.h[2]
+d.s , %le %long 0x642841b7 // fdot z23.s, z13.h, z0.h[1]
+d.s , %le %long 0x643f43ff // fdot z31.s, z31.h, z7.h[3]
+d.s , %le %long 0x44022020 // cmla z0.b, z1.b, z2.b, #0x0
+d.s , %le %long 0x64d4a000 // fmaxnmqv v0.2d, p0, z0.d
+d.s , %le %long 0x64d4b555 // fmaxnmqv v21.2d, p5, z10.d
+d.s , %le %long 0x64d4adb7 // fmaxnmqv v23.2d, p3, z13.d
+d.s , %le %long 0x64d4bfff // fmaxnmqv v31.2d, p7, z31.d
+d.s , %le %long 0x6454a000 // fmaxnmqv v0.8h, p0, z0.h
+d.s , %le %long 0x6454b555 // fmaxnmqv v21.8h, p5, z10.h
+d.s , %le %long 0x6454adb7 // fmaxnmqv v23.8h, p3, z13.h
+d.s , %le %long 0x6454bfff // fmaxnmqv v31.8h, p7, z31.h
+d.s , %le %long 0x6494a000 // fmaxnmqv v0.4s, p0, z0.s
+d.s , %le %long 0x6494b555 // fmaxnmqv v21.4s, p5, z10.s
+d.s , %le %long 0x6494adb7 // fmaxnmqv v23.4s, p3, z13.s
+d.s , %le %long 0x6494bfff // fmaxnmqv v31.4s, p7, z31.s
+d.s , %le %long 0x64d6a000 // fmaxqv v0.2d, p0, z0.d
+d.s , %le %long 0x64d6b555 // fmaxqv v21.2d, p5, z10.d
+d.s , %le %long 0x64d6adb7 // fmaxqv v23.2d, p3, z13.d
+d.s , %le %long 0x64d6bfff // fmaxqv v31.2d, p7, z31.d
+d.s , %le %long 0x6456a000 // fmaxqv v0.8h, p0, z0.h
+d.s , %le %long 0x6456b555 // fmaxqv v21.8h, p5, z10.h
+d.s , %le %long 0x6456adb7 // fmaxqv v23.8h, p3, z13.h
+d.s , %le %long 0x6456bfff // fmaxqv v31.8h, p7, z31.h
+d.s , %le %long 0x6496a000 // fmaxqv v0.4s, p0, z0.s
+d.s , %le %long 0x6496b555 // fmaxqv v21.4s, p5, z10.s
+d.s , %le %long 0x6496adb7 // fmaxqv v23.4s, p3, z13.s
+d.s , %le %long 0x6496bfff // fmaxqv v31.4s, p7, z31.s
+d.s , %le %long 0x64d5a000 // fminnmqv v0.2d, p0, z0.d
+d.s , %le %long 0x64d5b555 // fminnmqv v21.2d, p5, z10.d
+d.s , %le %long 0x64d5adb7 // fminnmqv v23.2d, p3, z13.d
+d.s , %le %long 0x64d5bfff // fminnmqv v31.2d, p7, z31.d
+d.s , %le %long 0x6455a000 // fminnmqv v0.8h, p0, z0.h
+d.s , %le %long 0x6455b555 // fminnmqv v21.8h, p5, z10.h
+d.s , %le %long 0x6455adb7 // fminnmqv v23.8h, p3, z13.h
+d.s , %le %long 0x6455bfff // fminnmqv v31.8h, p7, z31.h
+d.s , %le %long 0x6495a000 // fminnmqv v0.4s, p0, z0.s
+d.s , %le %long 0x6495b555 // fminnmqv v21.4s, p5, z10.s
+d.s , %le %long 0x6495adb7 // fminnmqv v23.4s, p3, z13.s
+d.s , %le %long 0x6495bfff // fminnmqv v31.4s, p7, z31.s
+d.s , %le %long 0x64d7a000 // fminqv v0.2d, p0, z0.d
+d.s , %le %long 0x64d7b555 // fminqv v21.2d, p5, z10.d
+d.s , %le %long 0x64d7adb7 // fminqv v23.2d, p3, z13.d
+d.s , %le %long 0x64d7bfff // fminqv v31.2d, p7, z31.d
+d.s , %le %long 0x6457a000 // fminqv v0.8h, p0, z0.h
+d.s , %le %long 0x6457b555 // fminqv v21.8h, p5, z10.h
+d.s , %le %long 0x6457adb7 // fminqv v23.8h, p3, z13.h
+d.s , %le %long 0x6457bfff // fminqv v31.8h, p7, z31.h
+d.s , %le %long 0x6497a000 // fminqv v0.4s, p0, z0.s
+d.s , %le %long 0x6497b555 // fminqv v21.4s, p5, z10.s
+d.s , %le %long 0x6497adb7 // fminqv v23.4s, p3, z13.s
+d.s , %le %long 0x6497bfff // fminqv v31.4s, p7, z31.s
+d.s , %le %long 0xa0000000 // ld1b { z0.b, z1.b }, pn8/z, [x0, x0]
+d.s , %le %long 0xa0151554 // ld1b { z20.b, z21.b }, pn13/z, [x10, x21]
+d.s , %le %long 0xa0080db6 // ld1b { z22.b, z23.b }, pn11/z, [x13, x8]
+d.s , %le %long 0xa01f1ffe // ld1b { z30.b, z31.b }, pn15/z, [sp, xzr]
+d.s , %le %long 0xa0400000 // ld1b { z0.b, z1.b }, pn8/z, [x0]
+d.s , %le %long 0xa0451554 // ld1b { z20.b, z21.b }, pn13/z, [x10, #0x0a, mul vl]
+d.s , %le %long 0xa0480db6 // ld1b { z22.b, z23.b }, pn11/z, [x13, #-0x10, mul vl]
+d.s , %le %long 0xa04f1ffe // ld1b { z30.b, z31.b }, pn15/z, [sp, #-0x2, mul vl]
+d.s , %le %long 0xa0008000 // ld1b { z0.b - z3.b }, pn8/z, [x0, x0]
+d.s , %le %long 0xa0159554 // ld1b { z20.b - z23.b }, pn13/z, [x10, x21]
+d.s , %le %long 0xa0088db4 // ld1b { z20.b - z23.b }, pn11/z, [x13, x8]
+d.s , %le %long 0xa01f9ffc // ld1b { z28.b - z31.b }, pn15/z, [sp, xzr]
+d.s , %le %long 0xa0408000 // ld1b { z0.b - z3.b }, pn8/z, [x0]
+d.s , %le %long 0xa0459554 // ld1b { z20.b - z23.b }, pn13/z, [x10, #0x14, mul vl]
+d.s , %le %long 0xa0488db4 // ld1b { z20.b - z23.b }, pn11/z, [x13, #-0x20, mul vl]
+d.s , %le %long 0xa04f9ffc // ld1b { z28.b - z31.b }, pn15/z, [sp, #-0x4, mul vl]
+d.s , %le %long 0xa0006000 // ld1d { z0.d, z1.d }, pn8/z, [x0, x0, lsl  #3]
+d.s , %le %long 0xa0157554 // ld1d { z20.d, z21.d }, pn13/z, [x10, x21, lsl  #3]
+d.s , %le %long 0xa0086db6 // ld1d { z22.d, z23.d }, pn11/z, [x13, x8, lsl  #3]
+d.s , %le %long 0xa01f7ffe // ld1d { z30.d, z31.d }, pn15/z, [sp, xzr, lsl  #3]
+d.s , %le %long 0xa0406000 // ld1d { z0.d, z1.d }, pn8/z, [x0]
+d.s , %le %long 0xa0457554 // ld1d { z20.d, z21.d }, pn13/z, [x10, #0x0a, mul vl]
+d.s , %le %long 0xa0486db6 // ld1d { z22.d, z23.d }, pn11/z, [x13, #-0x10, mul vl]
+d.s , %le %long 0xa04f7ffe // ld1d { z30.d, z31.d }, pn15/z, [sp, #-0x2, mul vl]
+d.s , %le %long 0xa000e000 // ld1d { z0.d - z3.d }, pn8/z, [x0, x0, lsl  #3]
+d.s , %le %long 0xa015f554 // ld1d { z20.d - z23.d }, pn13/z, [x10, x21, lsl  #3]
+d.s , %le %long 0xa008edb4 // ld1d { z20.d - z23.d }, pn11/z, [x13, x8, lsl  #3]
+d.s , %le %long 0xa01ffffc // ld1d { z28.d - z31.d }, pn15/z, [sp, xzr, lsl  #3]
+d.s , %le %long 0xa040e000 // ld1d { z0.d - z3.d }, pn8/z, [x0]
+d.s , %le %long 0xa045f554 // ld1d { z20.d - z23.d }, pn13/z, [x10, #0x14, mul vl]
+d.s , %le %long 0xa048edb4 // ld1d { z20.d - z23.d }, pn11/z, [x13, #-0x20, mul vl]
+d.s , %le %long 0xa04ffffc // ld1d { z28.d - z31.d }, pn15/z, [sp, #-0x4, mul vl]
+d.s , %le %long 0xa5808000 // ld1d { z0.q }, p0/z, [x0, x0, lsl  #3]
+d.s , %le %long 0xa5959555 // ld1d { z21.q }, p5/z, [x10, x21, lsl  #3]
+d.s , %le %long 0xa5888db7 // ld1d { z23.q }, p3/z, [x13, x8, lsl  #3]
+d.s , %le %long 0xa5888db7 // ld1d { z23.q }, p3/z, [x13, x8, lsl  #3]
+d.s , %le %long 0xa5902000 // ld1d { z0.q }, p0/z, [x0]
+d.s , %le %long 0xa5902000 // ld1d { z0.q }, p0/z, [x0]
+d.s , %le %long 0xa5953555 // ld1d { z21.q }, p5/z, [x10, #0x5, mul vl]
+d.s , %le %long 0xa5982db7 // ld1d { z23.q }, p3/z, [x13, #-0x8, mul vl]
+d.s , %le %long 0xa59f3fff // ld1d { z31.q }, p7/z, [sp, #-0x1, mul vl]
+d.s , %le %long 0xa59f3fff // ld1d { z31.q }, p7/z, [sp, #-0x1, mul vl]
+d.s , %le %long 0xa0002000 // ld1h { z0.h, z1.h }, pn8/z, [x0, x0, lsl  #1]
+d.s , %le %long 0xa0153554 // ld1h { z20.h, z21.h }, pn13/z, [x10, x21, lsl  #1]
+d.s , %le %long 0xa0082db6 // ld1h { z22.h, z23.h }, pn11/z, [x13, x8, lsl  #1]
+d.s , %le %long 0xa01f3ffe // ld1h { z30.h, z31.h }, pn15/z, [sp, xzr, lsl  #1]
+d.s , %le %long 0xa0402000 // ld1h { z0.h, z1.h }, pn8/z, [x0]
+d.s , %le %long 0xa0453554 // ld1h { z20.h, z21.h }, pn13/z, [x10, #0x0a, mul vl]
+d.s , %le %long 0xa0482db6 // ld1h { z22.h, z23.h }, pn11/z, [x13, #-0x10, mul vl]
+d.s , %le %long 0xa04f3ffe // ld1h { z30.h, z31.h }, pn15/z, [sp, #-0x2, mul vl]
+d.s , %le %long 0xa000a000 // ld1h { z0.h - z3.h }, pn8/z, [x0, x0, lsl  #1]
+d.s , %le %long 0xa015b554 // ld1h { z20.h - z23.h }, pn13/z, [x10, x21, lsl  #1]
+d.s , %le %long 0xa008adb4 // ld1h { z20.h - z23.h }, pn11/z, [x13, x8, lsl  #1]
+d.s , %le %long 0xa01fbffc // ld1h { z28.h - z31.h }, pn15/z, [sp, xzr, lsl  #1]
+d.s , %le %long 0xa040a000 // ld1h { z0.h - z3.h }, pn8/z, [x0]
+d.s , %le %long 0xa045b554 // ld1h { z20.h - z23.h }, pn13/z, [x10, #0x14, mul vl]
+d.s , %le %long 0xa048adb4 // ld1h { z20.h - z23.h }, pn11/z, [x13, #-0x20, mul vl]
+d.s , %le %long 0xa04fbffc // ld1h { z28.h - z31.h }, pn15/z, [sp, #-0x4, mul vl]
+d.s , %le %long 0xc400a000 // ld1q { z0.q }, p0/z, [z0.d, x0]
+d.s , %le %long 0xc415b555 // ld1q { z21.q }, p5/z, [z10.d, x21]
+d.s , %le %long 0xc408adb7 // ld1q { z23.q }, p3/z, [z13.d, x8]
+d.s , %le %long 0xc41fbfff // ld1q { z31.q }, p7/z, [z31.d]
+d.s , %le %long 0xa0004000 // ld1w { z0.s, z1.s }, pn8/z, [x0, x0, lsl  #2]
+d.s , %le %long 0xa0155554 // ld1w { z20.s, z21.s }, pn13/z, [x10, x21, lsl  #2]
+d.s , %le %long 0xa0084db6 // ld1w { z22.s, z23.s }, pn11/z, [x13, x8, lsl  #2]
+d.s , %le %long 0xa01f5ffe // ld1w { z30.s, z31.s }, pn15/z, [sp, xzr, lsl  #2]
+d.s , %le %long 0xa0404000 // ld1w { z0.s, z1.s }, pn8/z, [x0]
+d.s , %le %long 0xa0455554 // ld1w { z20.s, z21.s }, pn13/z, [x10, #0x0a, mul vl]
+d.s , %le %long 0xa0484db6 // ld1w { z22.s, z23.s }, pn11/z, [x13, #-0x10, mul vl]
+d.s , %le %long 0xa04f5ffe // ld1w { z30.s, z31.s }, pn15/z, [sp, #-0x2, mul vl]
+d.s , %le %long 0xa000c000 // ld1w { z0.s - z3.s }, pn8/z, [x0, x0, lsl  #2]
+d.s , %le %long 0xa015d554 // ld1w { z20.s - z23.s }, pn13/z, [x10, x21, lsl  #2]
+d.s , %le %long 0xa008cdb4 // ld1w { z20.s - z23.s }, pn11/z, [x13, x8, lsl  #2]
+d.s , %le %long 0xa01fdffc // ld1w { z28.s - z31.s }, pn15/z, [sp, xzr, lsl  #2]
+d.s , %le %long 0xa040c000 // ld1w { z0.s - z3.s }, pn8/z, [x0]
+d.s , %le %long 0xa045d554 // ld1w { z20.s - z23.s }, pn13/z, [x10, #0x14, mul vl]
+d.s , %le %long 0xa048cdb4 // ld1w { z20.s - z23.s }, pn11/z, [x13, #-0x20, mul vl]
+d.s , %le %long 0xa04fdffc // ld1w { z28.s - z31.s }, pn15/z, [sp, #-0x4, mul vl]
+d.s , %le %long 0xa5008000 // ld1w { z0.q }, p0/z, [x0, x0, lsl  #2]
+d.s , %le %long 0xa5159555 // ld1w { z21.q }, p5/z, [x10, x21, lsl  #2]
+d.s , %le %long 0xa5088db7 // ld1w { z23.q }, p3/z, [x13, x8, lsl  #2]
+d.s , %le %long 0xa5088db7 // ld1w { z23.q }, p3/z, [x13, x8, lsl  #2]
+d.s , %le %long 0xa5102000 // ld1w { z0.q }, p0/z, [x0]
+d.s , %le %long 0xa5153555 // ld1w { z21.q }, p5/z, [x10, #0x5, mul vl]
+d.s , %le %long 0xa5182db7 // ld1w { z23.q }, p3/z, [x13, #-0x8, mul vl]
+d.s , %le %long 0xa51f3fff // ld1w { z31.q }, p7/z, [sp, #-0x1, mul vl]
+d.s , %le %long 0xa4a08000 // ld2q { z0.q, z1.q }, p0/z, [x0, x0, lsl  #4]
+d.s , %le %long 0xa4b59555 // ld2q { z21.q, z22.q }, p5/z, [x10, x21, lsl  #4]
+d.s , %le %long 0xa4a88db7 // ld2q { z23.q, z24.q }, p3/z, [x13, x8, lsl  #4]
+d.s , %le %long 0xa490e000 // ld2q { z0.q, z1.q }, p0/z, [x0]
+d.s , %le %long 0xa495f555 // ld2q { z21.q, z22.q }, p5/z, [x10, #0x0a, mul vl]
+d.s , %le %long 0xa498edb7 // ld2q { z23.q, z24.q }, p3/z, [x13, #-0x10, mul vl]
+d.s , %le %long 0xa49fffff // ld2q { z31.q, z0.q }, p7/z, [sp, #-0x2, mul vl]
+d.s , %le %long 0xa5208000 // ld3q { z0.q - z2.q }, p0/z, [x0, x0, lsl  #4]
+d.s , %le %long 0xa5359555 // ld3q { z21.q - z23.q }, p5/z, [x10, x21, lsl  #4]
+d.s , %le %long 0xa5288db7 // ld3q { z23.q - z25.q }, p3/z, [x13, x8, lsl  #4]
+d.s , %le %long 0xa510e000 // ld3q { z0.q - z2.q }, p0/z, [x0]
+d.s , %le %long 0xa515f555 // ld3q { z21.q - z23.q }, p5/z, [x10, #0x0f, mul vl]
+d.s , %le %long 0xa518edb7 // ld3q { z23.q - z25.q }, p3/z, [x13, #-0x18, mul vl]
+d.s , %le %long 0xa51fffff // ld3q { z31.q, z0.q, z1.q }, p7/z, [sp, #-0x3, mul vl]
+d.s , %le %long 0xa5a08000 // ld4q { z0.q - z3.q }, p0/z, [x0, x0, lsl  #4]
+d.s , %le %long 0xa5b59555 // ld4q { z21.q - z24.q }, p5/z, [x10, x21, lsl  #4]
+d.s , %le %long 0xa5a88db7 // ld4q { z23.q - z26.q }, p3/z, [x13, x8, lsl  #4]
+d.s , %le %long 0xa590e000 // ld4q { z0.q - z3.q }, p0/z, [x0]
+d.s , %le %long 0xa595f555 // ld4q { z21.q - z24.q }, p5/z, [x10, #0x14, mul vl]
+d.s , %le %long 0xa598edb7 // ld4q { z23.q - z26.q }, p3/z, [x13, #-0x20, mul vl]
+d.s , %le %long 0xa59fffff // ld4q { z31.q, z0.q, z1.q, z2.q }, p7/z, [sp, #-0x4, mul vl]
+d.s , %le %long 0xa0000001 // ldnt1b { z0.b, z1.b }, pn8/z, [x0, x0]
+d.s , %le %long 0xa0151555 // ldnt1b { z20.b, z21.b }, pn13/z, [x10, x21]
+d.s , %le %long 0xa0080db7 // ldnt1b { z22.b, z23.b }, pn11/z, [x13, x8]
+d.s , %le %long 0xa01f1fff // ldnt1b { z30.b, z31.b }, pn15/z, [sp, xzr]
+d.s , %le %long 0xa0400001 // ldnt1b { z0.b, z1.b }, pn8/z, [x0]
+d.s , %le %long 0xa0451555 // ldnt1b { z20.b, z21.b }, pn13/z, [x10, #0x0a, mul vl]
+d.s , %le %long 0xa0480db7 // ldnt1b { z22.b, z23.b }, pn11/z, [x13, #-0x10, mul vl]
+d.s , %le %long 0xa04f1fff // ldnt1b { z30.b, z31.b }, pn15/z, [sp, #-0x2, mul vl]
+d.s , %le %long 0xa0008001 // ldnt1b { z0.b - z3.b }, pn8/z, [x0, x0]
+d.s , %le %long 0xa0159555 // ldnt1b { z20.b - z23.b }, pn13/z, [x10, x21]
+d.s , %le %long 0xa0088db5 // ldnt1b { z20.b - z23.b }, pn11/z, [x13, x8]
+d.s , %le %long 0xa01f9ffd // ldnt1b { z28.b - z31.b }, pn15/z, [sp, xzr]
+d.s , %le %long 0xa0408001 // ldnt1b { z0.b - z3.b }, pn8/z, [x0]
+d.s , %le %long 0xa0459555 // ldnt1b { z20.b - z23.b }, pn13/z, [x10, #0x14, mul vl]
+d.s , %le %long 0xa0488db5 // ldnt1b { z20.b - z23.b }, pn11/z, [x13, #-0x20, mul vl]
+d.s , %le %long 0xa04f9ffd // ldnt1b { z28.b - z31.b }, pn15/z, [sp, #-0x4, mul vl]
+d.s , %le %long 0xa0006001 // ldnt1d { z0.d, z1.d }, pn8/z, [x0, x0, lsl  #3]
+d.s , %le %long 0xa0157555 // ldnt1d { z20.d, z21.d }, pn13/z, [x10, x21, lsl  #3]
+d.s , %le %long 0xa0086db7 // ldnt1d { z22.d, z23.d }, pn11/z, [x13, x8, lsl  #3]
+d.s , %le %long 0xa01f7fff // ldnt1d { z30.d, z31.d }, pn15/z, [sp, xzr, lsl  #3]
+d.s , %le %long 0xa0406001 // ldnt1d { z0.d, z1.d }, pn8/z, [x0]
+d.s , %le %long 0xa0457555 // ldnt1d { z20.d, z21.d }, pn13/z, [x10, #0x0a, mul vl]
+d.s , %le %long 0xa0486db7 // ldnt1d { z22.d, z23.d }, pn11/z, [x13, #-0x10, mul vl]
+d.s , %le %long 0xa04f7fff // ldnt1d { z30.d, z31.d }, pn15/z, [sp, #-0x2, mul vl]
+d.s , %le %long 0xa000e001 // ldnt1d { z0.d - z3.d }, pn8/z, [x0, x0, lsl  #3]
+d.s , %le %long 0xa015f555 // ldnt1d { z20.d - z23.d }, pn13/z, [x10, x21, lsl  #3]
+d.s , %le %long 0xa008edb5 // ldnt1d { z20.d - z23.d }, pn11/z, [x13, x8, lsl  #3]
+d.s , %le %long 0xa01ffffd // ldnt1d { z28.d - z31.d }, pn15/z, [sp, xzr, lsl  #3]
+d.s , %le %long 0xa040e001 // ldnt1d { z0.d - z3.d }, pn8/z, [x0]
+d.s , %le %long 0xa045f555 // ldnt1d { z20.d - z23.d }, pn13/z, [x10, #0x14, mul vl]
+d.s , %le %long 0xa048edb5 // ldnt1d { z20.d - z23.d }, pn11/z, [x13, #-0x20, mul vl]
+d.s , %le %long 0xa04ffffd // ldnt1d { z28.d - z31.d }, pn15/z, [sp, #-0x4, mul vl]
+d.s , %le %long 0xa0002001 // ldnt1h { z0.h, z1.h }, pn8/z, [x0, x0, lsl  #1]
+d.s , %le %long 0xa0153555 // ldnt1h { z20.h, z21.h }, pn13/z, [x10, x21, lsl  #1]
+d.s , %le %long 0xa0082db7 // ldnt1h { z22.h, z23.h }, pn11/z, [x13, x8, lsl  #1]
+d.s , %le %long 0xa01f3fff // ldnt1h { z30.h, z31.h }, pn15/z, [sp, xzr, lsl  #1]
+d.s , %le %long 0xa0402001 // ldnt1h { z0.h, z1.h }, pn8/z, [x0]
+d.s , %le %long 0xa0453555 // ldnt1h { z20.h, z21.h }, pn13/z, [x10, #0x0a, mul vl]
+d.s , %le %long 0xa0482db7 // ldnt1h { z22.h, z23.h }, pn11/z, [x13, #-0x10, mul vl]
+d.s , %le %long 0xa04f3fff // ldnt1h { z30.h, z31.h }, pn15/z, [sp, #-0x2, mul vl]
+d.s , %le %long 0xa000a001 // ldnt1h { z0.h - z3.h }, pn8/z, [x0, x0, lsl  #1]
+d.s , %le %long 0xa015b555 // ldnt1h { z20.h - z23.h }, pn13/z, [x10, x21, lsl  #1]
+d.s , %le %long 0xa008adb5 // ldnt1h { z20.h - z23.h }, pn11/z, [x13, x8, lsl  #1]
+d.s , %le %long 0xa01fbffd // ldnt1h { z28.h - z31.h }, pn15/z, [sp, xzr, lsl  #1]
+d.s , %le %long 0xa040a001 // ldnt1h { z0.h - z3.h }, pn8/z, [x0]
+d.s , %le %long 0xa045b555 // ldnt1h { z20.h - z23.h }, pn13/z, [x10, #0x14, mul vl]
+d.s , %le %long 0xa048adb5 // ldnt1h { z20.h - z23.h }, pn11/z, [x13, #-0x20, mul vl]
+d.s , %le %long 0xa04fbffd // ldnt1h { z28.h - z31.h }, pn15/z, [sp, #-0x4, mul vl]
+d.s , %le %long 0xa0004001 // ldnt1w { z0.s, z1.s }, pn8/z, [x0, x0, lsl  #2]
+d.s , %le %long 0xa0155555 // ldnt1w { z20.s, z21.s }, pn13/z, [x10, x21, lsl  #2]
+d.s , %le %long 0xa0084db7 // ldnt1w { z22.s, z23.s }, pn11/z, [x13, x8, lsl  #2]
+d.s , %le %long 0xa01f5fff // ldnt1w { z30.s, z31.s }, pn15/z, [sp, xzr, lsl  #2]
+d.s , %le %long 0xa0404001 // ldnt1w { z0.s, z1.s }, pn8/z, [x0]
+d.s , %le %long 0xa0455555 // ldnt1w { z20.s, z21.s }, pn13/z, [x10, #0x0a, mul vl]
+d.s , %le %long 0xa0484db7 // ldnt1w { z22.s, z23.s }, pn11/z, [x13, #-0x10, mul vl]
+d.s , %le %long 0xa04f5fff // ldnt1w { z30.s, z31.s }, pn15/z, [sp, #-0x2, mul vl]
+d.s , %le %long 0xa000c001 // ldnt1w { z0.s - z3.s }, pn8/z, [x0, x0, lsl  #2]
+d.s , %le %long 0xa015d555 // ldnt1w { z20.s - z23.s }, pn13/z, [x10, x21, lsl  #2]
+d.s , %le %long 0xa008cdb5 // ldnt1w { z20.s - z23.s }, pn11/z, [x13, x8, lsl  #2]
+d.s , %le %long 0xa01fdffd // ldnt1w { z28.s - z31.s }, pn15/z, [sp, xzr, lsl  #2]
+d.s , %le %long 0xa040c001 // ldnt1w { z0.s - z3.s }, pn8/z, [x0]
+d.s , %le %long 0xa045d555 // ldnt1w { z20.s - z23.s }, pn13/z, [x10, #0x14, mul vl]
+d.s , %le %long 0xa048cdb5 // ldnt1w { z20.s - z23.s }, pn11/z, [x13, #-0x20, mul vl]
+d.s , %le %long 0xa04fdffd // ldnt1w { z28.s - z31.s }, pn15/z, [sp, #-0x4, mul vl]
+d.s , %le %long 0x045c2000 // orqv v0.8h, p0, z0.h
+d.s , %le %long 0x045c3555 // orqv v21.8h, p5, z10.h
+d.s , %le %long 0x045c2db7 // orqv v23.8h, p3, z13.h
+d.s , %le %long 0x045c3fff // orqv v31.8h, p7, z31.h
+d.s , %le %long 0x049c2000 // orqv v0.4s, p0, z0.s
+d.s , %le %long 0x049c3555 // orqv v21.4s, p5, z10.s
+d.s , %le %long 0x049c2db7 // orqv v23.4s, p3, z13.s
+d.s , %le %long 0x049c3fff // orqv v31.4s, p7, z31.s
+d.s , %le %long 0x04dc2000 // orqv v0.2d, p0, z0.d
+d.s , %le %long 0x04dc3555 // orqv v21.2d, p5, z10.d
+d.s , %le %long 0x04dc2db7 // orqv v23.2d, p3, z13.d
+d.s , %le %long 0x04dc3fff // orqv v31.2d, p7, z31.d
+d.s , %le %long 0x041c2000 // orqv v0.16b, p0, z0.b
+d.s , %le %long 0x041c3555 // orqv v21.16b, p5, z10.b
+d.s , %le %long 0x041c2db7 // orqv v23.16b, p3, z13.b
+d.s , %le %long 0x041c3fff // orqv v31.16b, p7, z31.b
+d.s , %le %long 0x25607010 // pext p0.h, pn8[0x0]
+d.s , %le %long 0x25607155 // pext p5.h, pn10[0x1]
+d.s , %le %long 0x256071b7 // pext p7.h, pn13[0x1]
+d.s , %le %long 0x256073ff // pext p15.h, pn15[0x3]
+d.s , %le %long 0x25a07010 // pext p0.s, pn8[0x0]
+d.s , %le %long 0x25a07155 // pext p5.s, pn10[0x1]
+d.s , %le %long 0x25a071b7 // pext p7.s, pn13[0x1]
+d.s , %le %long 0x25a073ff // pext p15.s, pn15[0x3]
+d.s , %le %long 0x25e07010 // pext p0.d, pn8[0x0]
+d.s , %le %long 0x25e07155 // pext p5.d, pn10[0x1]
+d.s , %le %long 0x25e071b7 // pext p7.d, pn13[0x1]
+d.s , %le %long 0x25e073ff // pext p15.d, pn15[0x3]
+d.s , %le %long 0x25207010 // pext p0.b, pn8[0x0]
+d.s , %le %long 0x25207155 // pext p5.b, pn10[0x1]
+d.s , %le %long 0x252071b7 // pext p7.b, pn13[0x1]
+d.s , %le %long 0x252073ff // pext p15.b, pn15[0x3]
+d.s , %le %long 0x25607410 // pext { p0.h, p1.h }, pn8[0x0]
+d.s , %le %long 0x25607555 // pext { p5.h, p6.h }, pn10[0x1]
+d.s , %le %long 0x256075b7 // pext { p7.h, p8.h }, pn13[0x1]
+d.s , %le %long 0x256075ff // pext { p15.h, p0.h }, pn15[0x1]
+d.s , %le %long 0x25a07410 // pext { p0.s, p1.s }, pn8[0x0]
+d.s , %le %long 0x25a07555 // pext { p5.s, p6.s }, pn10[0x1]
+d.s , %le %long 0x25a075b7 // pext { p7.s, p8.s }, pn13[0x1]
+d.s , %le %long 0x25a075ff // pext { p15.s, p0.s }, pn15[0x1]
+d.s , %le %long 0x25e07410 // pext { p0.d, p1.d }, pn8[0x0]
+d.s , %le %long 0x25e07555 // pext { p5.d, p6.d }, pn10[0x1]
+d.s , %le %long 0x25e075b7 // pext { p7.d, p8.d }, pn13[0x1]
+d.s , %le %long 0x25e075ff // pext { p15.d, p0.d }, pn15[0x1]
+d.s , %le %long 0x252075b7 // pext { p7.b, p8.b }, pn13[0x1]
+d.s , %le %long 0x252075ff // pext { p15.b, p0.b }, pn15[0x1]
+d.s , %le %long 0x052c3800 // pmov p0.h, z0[0x0]
+d.s , %le %long 0x052c3945 // pmov p5.h, z10[0x0]
+d.s , %le %long 0x052c39a7 // pmov p7.h, z13[0x0]
+d.s , %le %long 0x052e3bef // pmov p15.h, z31[0x1]
+d.s , %le %long 0x05683800 // pmov p0.s, z0[0x0]
+d.s , %le %long 0x056c3945 // pmov p5.s, z10[0x2]
+d.s , %le %long 0x056839a7 // pmov p7.s, z13[0x0]
+d.s , %le %long 0x056e3bef // pmov p15.s, z31[0x3]
+d.s , %le %long 0x05a83800 // pmov p0.d, z0[0x0]
+d.s , %le %long 0x05ec3945 // pmov p5.d, z10[0x6]
+d.s , %le %long 0x05e839a7 // pmov p7.d, z13[0x4]
+d.s , %le %long 0x05ee3bef // pmov p15.d, z31[0x7]
+d.s , %le %long 0x052a3800 // pmov p0.b, z0
+d.s , %le %long 0x052a3945 // pmov p5.b, z10
+d.s , %le %long 0x052a39a7 // pmov p7.b, z13
+d.s , %le %long 0x052a3bef // pmov p15.b, z31
+d.s , %le %long 0x052a3800 // pmov p0.b, z0
+d.s , %le %long 0x052d3800 // pmov z0[0x0], p0.h
+d.s , %le %long 0x052d3955 // pmov z21[0x0], p10.h
+d.s , %le %long 0x052d39b7 // pmov z23[0x0], p13.h
+d.s , %le %long 0x052f39ff // pmov z31[0x1], p15.h
+d.s , %le %long 0x05693800 // pmov z0[0x0], p0.s
+d.s , %le %long 0x056d3955 // pmov z21[0x2], p10.s
+d.s , %le %long 0x056939b7 // pmov z23[0x0], p13.s
+d.s , %le %long 0x056f39ff // pmov z31[0x3], p15.s
+d.s , %le %long 0x05a93800 // pmov z0[0x0], p0.d
+d.s , %le %long 0x05ed3955 // pmov z21[0x6], p10.d
+d.s , %le %long 0x05e939b7 // pmov z23[0x4], p13.d
+d.s , %le %long 0x05ef39ff // pmov z31[0x7], p15.d
+d.s , %le %long 0x052b3800 // pmov z0, p0.b
+d.s , %le %long 0x052b3955 // pmov z21, p10.b
+d.s , %le %long 0x052b39b7 // pmov z23, p13.b
+d.s , %le %long 0x052b39ff // pmov z31, p15.b
+d.s , %le %long 0x052b3800 // pmov z0, p0.b
+d.s , %le %long 0x25607810 // ptrue pn8.h
+d.s , %le %long 0x25607815 // ptrue pn13.h
+d.s , %le %long 0x25607817 // ptrue pn15.h
+d.s , %le %long 0x25607811 // ptrue pn9.h
+d.s , %le %long 0x25a07810 // ptrue pn8.s
+d.s , %le %long 0x25a07815 // ptrue pn13.s
+d.s , %le %long 0x25a07817 // ptrue pn15.s
+d.s , %le %long 0x25a07811 // ptrue pn9.s
+d.s , %le %long 0x25e07810 // ptrue pn8.d
+d.s , %le %long 0x25e07815 // ptrue pn13.d
+d.s , %le %long 0x25e07817 // ptrue pn15.d
+d.s , %le %long 0x25e07811 // ptrue pn9.d
+d.s , %le %long 0x25207810 // ptrue pn8.b
+d.s , %le %long 0x25207815 // ptrue pn13.b
+d.s , %le %long 0x25207817 // ptrue pn15.b
+d.s , %le %long 0x25207811 // ptrue pn9.b
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x4488c9b7 // sdot z23.s, z13.h, z0.h[1]
+d.s , %le %long 0x4480c800 // sdot z0.s, z0.h, z0.h[0]
+d.s , %le %long 0x4495c955 // sdot z21.s, z10.h, z5.h[2]
+d.s , %le %long 0x4488c9b7 // sdot z23.s, z13.h, z0.h[1]
+d.s , %le %long 0x449fcbff // sdot z31.s, z31.h, z7.h[3]
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x4408c9b7 // sdot z23.s, z13.h, z8.h
+d.s , %le %long 0x4400c800 // sdot z0.s, z0.h, z0.h
+d.s , %le %long 0x4415c955 // sdot z21.s, z10.h, z21.h
+d.s , %le %long 0x4408c9b7 // sdot z23.s, z13.h, z8.h
+d.s , %le %long 0x441fcbff // sdot z31.s, z31.h, z31.h
+d.s , %le %long 0x044c2000 // smaxqv v0.8h, p0, z0.h
+d.s , %le %long 0x044c3555 // smaxqv v21.8h, p5, z10.h
+d.s , %le %long 0x044c2db7 // smaxqv v23.8h, p3, z13.h
+d.s , %le %long 0x044c3fff // smaxqv v31.8h, p7, z31.h
+d.s , %le %long 0x048c2000 // smaxqv v0.4s, p0, z0.s
+d.s , %le %long 0x048c3555 // smaxqv v21.4s, p5, z10.s
+d.s , %le %long 0x048c2db7 // smaxqv v23.4s, p3, z13.s
+d.s , %le %long 0x048c3fff // smaxqv v31.4s, p7, z31.s
+d.s , %le %long 0x04cc2000 // smaxqv v0.2d, p0, z0.d
+d.s , %le %long 0x04cc3555 // smaxqv v21.2d, p5, z10.d
+d.s , %le %long 0x04cc2db7 // smaxqv v23.2d, p3, z13.d
+d.s , %le %long 0x04cc3fff // smaxqv v31.2d, p7, z31.d
+d.s , %le %long 0x040c2000 // smaxqv v0.16b, p0, z0.b
+d.s , %le %long 0x040c3555 // smaxqv v21.16b, p5, z10.b
+d.s , %le %long 0x040c2db7 // smaxqv v23.16b, p3, z13.b
+d.s , %le %long 0x040c3fff // smaxqv v31.16b, p7, z31.b
+d.s , %le %long 0x044e2000 // sminqv v0.8h, p0, z0.h
+d.s , %le %long 0x044e3555 // sminqv v21.8h, p5, z10.h
+d.s , %le %long 0x044e2db7 // sminqv v23.8h, p3, z13.h
+d.s , %le %long 0x044e3fff // sminqv v31.8h, p7, z31.h
+d.s , %le %long 0x048e2000 // sminqv v0.4s, p0, z0.s
+d.s , %le %long 0x048e3555 // sminqv v21.4s, p5, z10.s
+d.s , %le %long 0x048e2db7 // sminqv v23.4s, p3, z13.s
+d.s , %le %long 0x048e3fff // sminqv v31.4s, p7, z31.s
+d.s , %le %long 0x04ce2000 // sminqv v0.2d, p0, z0.d
+d.s , %le %long 0x04ce3555 // sminqv v21.2d, p5, z10.d
+d.s , %le %long 0x04ce2db7 // sminqv v23.2d, p3, z13.d
+d.s , %le %long 0x04ce3fff // sminqv v31.2d, p7, z31.d
+d.s , %le %long 0x040e2000 // sminqv v0.16b, p0, z0.b
+d.s , %le %long 0x040e3555 // sminqv v21.16b, p5, z10.b
+d.s , %le %long 0x040e2db7 // sminqv v23.16b, p3, z13.b
+d.s , %le %long 0x040e3fff // sminqv v31.16b, p7, z31.b
+d.s , %le %long 0x45314000 // sqcvtn z0.h, { z0.s, z1.s }
+d.s , %le %long 0x45314155 // sqcvtn z21.h, { z10.s, z11.s }
+d.s , %le %long 0x45314197 // sqcvtn z23.h, { z12.s, z13.s }
+d.s , %le %long 0x453143df // sqcvtn z31.h, { z30.s, z31.s }
+d.s , %le %long 0x45315000 // sqcvtun z0.h, { z0.s, z1.s }
+d.s , %le %long 0x45315155 // sqcvtun z21.h, { z10.s, z11.s }
+d.s , %le %long 0x45315197 // sqcvtun z23.h, { z12.s, z13.s }
+d.s , %le %long 0x453153df // sqcvtun z31.h, { z30.s, z31.s }
+d.s , %le %long 0x45b02800 // sqrshrn z0.h, { z0.s, z1.s }, #0x10
+d.s , %le %long 0x45b52955 // sqrshrn z21.h, { z10.s, z11.s }, #0x0b
+d.s , %le %long 0x45b82997 // sqrshrn z23.h, { z12.s, z13.s }, #0x8
+d.s , %le %long 0x45bf2bdf // sqrshrn z31.h, { z30.s, z31.s }, #0x1
+d.s , %le %long 0x45b00800 // sqrshrun z0.h, { z0.s, z1.s }, #0x10
+d.s , %le %long 0x45b50955 // sqrshrun z21.h, { z10.s, z11.s }, #0x0b
+d.s , %le %long 0x45b80997 // sqrshrun z23.h, { z12.s, z13.s }, #0x8
+d.s , %le %long 0x45bf0bdf // sqrshrun z31.h, { z30.s, z31.s }, #0x1
+d.s , %le %long 0xa0200000 // st1b { z0.b, z1.b }, pn8, [x0, x0]
+d.s , %le %long 0xa0351554 // st1b { z20.b, z21.b }, pn13, [x10, x21]
+d.s , %le %long 0xa0280db6 // st1b { z22.b, z23.b }, pn11, [x13, x8]
+d.s , %le %long 0xa03f1ffe // st1b { z30.b, z31.b }, pn15, [sp, xzr]
+d.s , %le %long 0xa0600000 // st1b { z0.b, z1.b }, pn8, [x0]
+d.s , %le %long 0xa0651554 // st1b { z20.b, z21.b }, pn13, [x10, #0x0a, mul vl]
+d.s , %le %long 0xa0680db6 // st1b { z22.b, z23.b }, pn11, [x13, #-0x10, mul vl]
+d.s , %le %long 0xa06f1ffe // st1b { z30.b, z31.b }, pn15, [sp, #-0x2, mul vl]
+d.s , %le %long 0xa0208000 // st1b { z0.b - z3.b }, pn8, [x0, x0]
+d.s , %le %long 0xa0359554 // st1b { z20.b - z23.b }, pn13, [x10, x21]
+d.s , %le %long 0xa0288db4 // st1b { z20.b - z23.b }, pn11, [x13, x8]
+d.s , %le %long 0xa03f9ffc // st1b { z28.b - z31.b }, pn15, [sp, xzr]
+d.s , %le %long 0xa0608000 // st1b { z0.b - z3.b }, pn8, [x0]
+d.s , %le %long 0xa0659554 // st1b { z20.b - z23.b }, pn13, [x10, #0x14, mul vl]
+d.s , %le %long 0xa0688db4 // st1b { z20.b - z23.b }, pn11, [x13, #-0x20, mul vl]
+d.s , %le %long 0xa06f9ffc // st1b { z28.b - z31.b }, pn15, [sp, #-0x4, mul vl]
+d.s , %le %long 0xa0206000 // st1d { z0.d, z1.d }, pn8, [x0, x0, lsl  #3]
+d.s , %le %long 0xa0357554 // st1d { z20.d, z21.d }, pn13, [x10, x21, lsl  #3]
+d.s , %le %long 0xa0286db6 // st1d { z22.d, z23.d }, pn11, [x13, x8, lsl  #3]
+d.s , %le %long 0xa03f7ffe // st1d { z30.d, z31.d }, pn15, [sp, xzr, lsl  #3]
+d.s , %le %long 0xa0606000 // st1d { z0.d, z1.d }, pn8, [x0]
+d.s , %le %long 0xa0657554 // st1d { z20.d, z21.d }, pn13, [x10, #0x0a, mul vl]
+d.s , %le %long 0xa0686db6 // st1d { z22.d, z23.d }, pn11, [x13, #-0x10, mul vl]
+d.s , %le %long 0xa06f7ffe // st1d { z30.d, z31.d }, pn15, [sp, #-0x2, mul vl]
+d.s , %le %long 0xa020e000 // st1d { z0.d - z3.d }, pn8, [x0, x0, lsl  #3]
+d.s , %le %long 0xa035f554 // st1d { z20.d - z23.d }, pn13, [x10, x21, lsl  #3]
+d.s , %le %long 0xa028edb4 // st1d { z20.d - z23.d }, pn11, [x13, x8, lsl  #3]
+d.s , %le %long 0xa03ffffc // st1d { z28.d - z31.d }, pn15, [sp, xzr, lsl  #3]
+d.s , %le %long 0xa060e000 // st1d { z0.d - z3.d }, pn8, [x0]
+d.s , %le %long 0xa065f554 // st1d { z20.d - z23.d }, pn13, [x10, #0x14, mul vl]
+d.s , %le %long 0xa068edb4 // st1d { z20.d - z23.d }, pn11, [x13, #-0x20, mul vl]
+d.s , %le %long 0xa06ffffc // st1d { z28.d - z31.d }, pn15, [sp, #-0x4, mul vl]
+d.s , %le %long 0xe5c04000 // st1d { z0.q }, p0, [x0, x0, lsl  #3]
+d.s , %le %long 0xe5d55555 // st1d { z21.q }, p5, [x10, x21, lsl  #3]
+d.s , %le %long 0xe5c84db7 // st1d { z23.q }, p3, [x13, x8, lsl  #3]
+d.s , %le %long 0xe5c84db7 // st1d { z23.q }, p3, [x13, x8, lsl  #3]
+d.s , %le %long 0xe5c0e000 // st1d { z0.q }, p0, [x0]
+d.s , %le %long 0xe5c0e000 // st1d { z0.q }, p0, [x0]
+d.s , %le %long 0xe5c5f555 // st1d { z21.q }, p5, [x10, #0x5, mul vl]
+d.s , %le %long 0xe5c8edb7 // st1d { z23.q }, p3, [x13, #-0x8, mul vl]
+d.s , %le %long 0xe5cfffff // st1d { z31.q }, p7, [sp, #-0x1, mul vl]
+d.s , %le %long 0xe5cfffff // st1d { z31.q }, p7, [sp, #-0x1, mul vl]
+d.s , %le %long 0xa0202000 // st1h { z0.h, z1.h }, pn8, [x0, x0, lsl  #1]
+d.s , %le %long 0xa0353554 // st1h { z20.h, z21.h }, pn13, [x10, x21, lsl  #1]
+d.s , %le %long 0xa0282db6 // st1h { z22.h, z23.h }, pn11, [x13, x8, lsl  #1]
+d.s , %le %long 0xa03f3ffe // st1h { z30.h, z31.h }, pn15, [sp, xzr, lsl  #1]
+d.s , %le %long 0xa0602000 // st1h { z0.h, z1.h }, pn8, [x0]
+d.s , %le %long 0xa0653554 // st1h { z20.h, z21.h }, pn13, [x10, #0x0a, mul vl]
+d.s , %le %long 0xa0682db6 // st1h { z22.h, z23.h }, pn11, [x13, #-0x10, mul vl]
+d.s , %le %long 0xa06f3ffe // st1h { z30.h, z31.h }, pn15, [sp, #-0x2, mul vl]
+d.s , %le %long 0xa020a000 // st1h { z0.h - z3.h }, pn8, [x0, x0, lsl  #1]
+d.s , %le %long 0xa035b554 // st1h { z20.h - z23.h }, pn13, [x10, x21, lsl  #1]
+d.s , %le %long 0xa028adb4 // st1h { z20.h - z23.h }, pn11, [x13, x8, lsl  #1]
+d.s , %le %long 0xa03fbffc // st1h { z28.h - z31.h }, pn15, [sp, xzr, lsl  #1]
+d.s , %le %long 0xa060a000 // st1h { z0.h - z3.h }, pn8, [x0]
+d.s , %le %long 0xa065b554 // st1h { z20.h - z23.h }, pn13, [x10, #0x14, mul vl]
+d.s , %le %long 0xa068adb4 // st1h { z20.h - z23.h }, pn11, [x13, #-0x20, mul vl]
+d.s , %le %long 0xa06fbffc // st1h { z28.h - z31.h }, pn15, [sp, #-0x4, mul vl]
+d.s , %le %long 0xe4202000 // st1q { z0.q }, p0, [z0.d, x0]
+d.s , %le %long 0xe4353555 // st1q { z21.q }, p5, [z10.d, x21]
+d.s , %le %long 0xe4282db7 // st1q { z23.q }, p3, [z13.d, x8]
+d.s , %le %long 0xe43f3fff // st1q { z31.q }, p7, [z31.d]
+d.s , %le %long 0xa0204000 // st1w { z0.s, z1.s }, pn8, [x0, x0, lsl  #2]
+d.s , %le %long 0xa0355554 // st1w { z20.s, z21.s }, pn13, [x10, x21, lsl  #2]
+d.s , %le %long 0xa0284db6 // st1w { z22.s, z23.s }, pn11, [x13, x8, lsl  #2]
+d.s , %le %long 0xa03f5ffe // st1w { z30.s, z31.s }, pn15, [sp, xzr, lsl  #2]
+d.s , %le %long 0xa0604000 // st1w { z0.s, z1.s }, pn8, [x0]
+d.s , %le %long 0xa0655554 // st1w { z20.s, z21.s }, pn13, [x10, #0x0a, mul vl]
+d.s , %le %long 0xa0684db6 // st1w { z22.s, z23.s }, pn11, [x13, #-0x10, mul vl]
+d.s , %le %long 0xa06f5ffe // st1w { z30.s, z31.s }, pn15, [sp, #-0x2, mul vl]
+d.s , %le %long 0xa020c000 // st1w { z0.s - z3.s }, pn8, [x0, x0, lsl  #2]
+d.s , %le %long 0xa035d554 // st1w { z20.s - z23.s }, pn13, [x10, x21, lsl  #2]
+d.s , %le %long 0xa028cdb4 // st1w { z20.s - z23.s }, pn11, [x13, x8, lsl  #2]
+d.s , %le %long 0xa03fdffc // st1w { z28.s - z31.s }, pn15, [sp, xzr, lsl  #2]
+d.s , %le %long 0xa060c000 // st1w { z0.s - z3.s }, pn8, [x0]
+d.s , %le %long 0xa065d554 // st1w { z20.s - z23.s }, pn13, [x10, #0x14, mul vl]
+d.s , %le %long 0xa068cdb4 // st1w { z20.s - z23.s }, pn11, [x13, #-0x20, mul vl]
+d.s , %le %long 0xa06fdffc // st1w { z28.s - z31.s }, pn15, [sp, #-0x4, mul vl]
+d.s , %le %long 0xe5004000 // st1w { z0.q }, p0, [x0, x0, lsl  #2]
+d.s , %le %long 0xe5155555 // st1w { z21.q }, p5, [x10, x21, lsl  #2]
+d.s , %le %long 0xe5084db7 // st1w { z23.q }, p3, [x13, x8, lsl  #2]
+d.s , %le %long 0xe5084db7 // st1w { z23.q }, p3, [x13, x8, lsl  #2]
+d.s , %le %long 0xe500e000 // st1w { z0.q }, p0, [x0]
+d.s , %le %long 0xe500e000 // st1w { z0.q }, p0, [x0]
+d.s , %le %long 0xe505f555 // st1w { z21.q }, p5, [x10, #0x5, mul vl]
+d.s , %le %long 0xe508edb7 // st1w { z23.q }, p3, [x13, #-0x8, mul vl]
+d.s , %le %long 0xe50fffff // st1w { z31.q }, p7, [sp, #-0x1, mul vl]
+d.s , %le %long 0xe50fffff // st1w { z31.q }, p7, [sp, #-0x1, mul vl]
+d.s , %le %long 0xe4600000 // st2q { z0.q, z1.q }, p0, [x0, x0, lsl  #4]
+d.s , %le %long 0xe4751555 // st2q { z21.q, z22.q }, p5, [x10, x21, lsl  #4]
+d.s , %le %long 0xe4680db7 // st2q { z23.q, z24.q }, p3, [x13, x8, lsl  #4]
+d.s , %le %long 0xe4400000 // st2q { z0.q, z1.q }, p0, [x0]
+d.s , %le %long 0xe4451555 // st2q { z21.q, z22.q }, p5, [x10, #0x0a, mul vl]
+d.s , %le %long 0xe4480db7 // st2q { z23.q, z24.q }, p3, [x13, #-0x10, mul vl]
+d.s , %le %long 0xe44f1fff // st2q { z31.q, z0.q }, p7, [sp, #-0x2, mul vl]
+d.s , %le %long 0xe4a00000 // st3q { z0.q - z2.q }, p0, [x0, x0, lsl  #4]
+d.s , %le %long 0xe4b51555 // st3q { z21.q - z23.q }, p5, [x10, x21, lsl  #4]
+d.s , %le %long 0xe4a80db7 // st3q { z23.q - z25.q }, p3, [x13, x8, lsl  #4]
+d.s , %le %long 0xe4800000 // st3q { z0.q - z2.q }, p0, [x0]
+d.s , %le %long 0xe4851555 // st3q { z21.q - z23.q }, p5, [x10, #0x0f, mul vl]
+d.s , %le %long 0xe4880db7 // st3q { z23.q - z25.q }, p3, [x13, #-0x18, mul vl]
+d.s , %le %long 0xe48f1fff // st3q { z31.q, z0.q, z1.q }, p7, [sp, #-0x3, mul vl]
+d.s , %le %long 0xe4e00000 // st4q { z0.q - z3.q }, p0, [x0, x0, lsl  #4]
+d.s , %le %long 0xe4f51555 // st4q { z21.q - z24.q }, p5, [x10, x21, lsl  #4]
+d.s , %le %long 0xe4e80db7 // st4q { z23.q - z26.q }, p3, [x13, x8, lsl  #4]
+d.s , %le %long 0xe4c00000 // st4q { z0.q - z3.q }, p0, [x0]
+d.s , %le %long 0xe4c51555 // st4q { z21.q - z24.q }, p5, [x10, #0x14, mul vl]
+d.s , %le %long 0xe4c80db7 // st4q { z23.q - z26.q }, p3, [x13, #-0x20, mul vl]
+d.s , %le %long 0xe4cf1fff // st4q { z31.q, z0.q, z1.q, z2.q }, p7, [sp, #-0x4, mul vl]
+d.s , %le %long 0xa0200001 // stnt1b { z0.b, z1.b }, pn8, [x0, x0]
+d.s , %le %long 0xa0351555 // stnt1b { z20.b, z21.b }, pn13, [x10, x21]
+d.s , %le %long 0xa0280db7 // stnt1b { z22.b, z23.b }, pn11, [x13, x8]
+d.s , %le %long 0xa03f1fff // stnt1b { z30.b, z31.b }, pn15, [sp, xzr]
+d.s , %le %long 0xa0600001 // stnt1b { z0.b, z1.b }, pn8, [x0]
+d.s , %le %long 0xa0651555 // stnt1b { z20.b, z21.b }, pn13, [x10, #0x0a, mul vl]
+d.s , %le %long 0xa0680db7 // stnt1b { z22.b, z23.b }, pn11, [x13, #-0x10, mul vl]
+d.s , %le %long 0xa06f1fff // stnt1b { z30.b, z31.b }, pn15, [sp, #-0x2, mul vl]
+d.s , %le %long 0xa0208001 // stnt1b { z0.b - z3.b }, pn8, [x0, x0]
+d.s , %le %long 0xa0359555 // stnt1b { z20.b - z23.b }, pn13, [x10, x21]
+d.s , %le %long 0xa0288db5 // stnt1b { z20.b - z23.b }, pn11, [x13, x8]
+d.s , %le %long 0xa03f9ffd // stnt1b { z28.b - z31.b }, pn15, [sp, xzr]
+d.s , %le %long 0xa0608001 // stnt1b { z0.b - z3.b }, pn8, [x0]
+d.s , %le %long 0xa0659555 // stnt1b { z20.b - z23.b }, pn13, [x10, #0x14, mul vl]
+d.s , %le %long 0xa0688db5 // stnt1b { z20.b - z23.b }, pn11, [x13, #-0x20, mul vl]
+d.s , %le %long 0xa06f9ffd // stnt1b { z28.b - z31.b }, pn15, [sp, #-0x4, mul vl]
+d.s , %le %long 0xa0206001 // stnt1d { z0.d, z1.d }, pn8, [x0, x0, lsl  #3]
+d.s , %le %long 0xa0357555 // stnt1d { z20.d, z21.d }, pn13, [x10, x21, lsl  #3]
+d.s , %le %long 0xa0286db7 // stnt1d { z22.d, z23.d }, pn11, [x13, x8, lsl  #3]
+d.s , %le %long 0xa03f7fff // stnt1d { z30.d, z31.d }, pn15, [sp, xzr, lsl  #3]
+d.s , %le %long 0xa0606001 // stnt1d { z0.d, z1.d }, pn8, [x0]
+d.s , %le %long 0xa0657555 // stnt1d { z20.d, z21.d }, pn13, [x10, #0x0a, mul vl]
+d.s , %le %long 0xa0686db7 // stnt1d { z22.d, z23.d }, pn11, [x13, #-0x10, mul vl]
+d.s , %le %long 0xa06f7fff // stnt1d { z30.d, z31.d }, pn15, [sp, #-0x2, mul vl]
+d.s , %le %long 0xa020e001 // stnt1d { z0.d - z3.d }, pn8, [x0, x0, lsl  #3]
+d.s , %le %long 0xa035f555 // stnt1d { z20.d - z23.d }, pn13, [x10, x21, lsl  #3]
+d.s , %le %long 0xa028edb5 // stnt1d { z20.d - z23.d }, pn11, [x13, x8, lsl  #3]
+d.s , %le %long 0xa03ffffd // stnt1d { z28.d - z31.d }, pn15, [sp, xzr, lsl  #3]
+d.s , %le %long 0xa060e001 // stnt1d { z0.d - z3.d }, pn8, [x0]
+d.s , %le %long 0xa065f555 // stnt1d { z20.d - z23.d }, pn13, [x10, #0x14, mul vl]
+d.s , %le %long 0xa068edb5 // stnt1d { z20.d - z23.d }, pn11, [x13, #-0x20, mul vl]
+d.s , %le %long 0xa06ffffd // stnt1d { z28.d - z31.d }, pn15, [sp, #-0x4, mul vl]
+d.s , %le %long 0xa0202001 // stnt1h { z0.h, z1.h }, pn8, [x0, x0, lsl  #1]
+d.s , %le %long 0xa0353555 // stnt1h { z20.h, z21.h }, pn13, [x10, x21, lsl  #1]
+d.s , %le %long 0xa0282db7 // stnt1h { z22.h, z23.h }, pn11, [x13, x8, lsl  #1]
+d.s , %le %long 0xa03f3fff // stnt1h { z30.h, z31.h }, pn15, [sp, xzr, lsl  #1]
+d.s , %le %long 0xa0602001 // stnt1h { z0.h, z1.h }, pn8, [x0]
+d.s , %le %long 0xa0653555 // stnt1h { z20.h, z21.h }, pn13, [x10, #0x0a, mul vl]
+d.s , %le %long 0xa0682db7 // stnt1h { z22.h, z23.h }, pn11, [x13, #-0x10, mul vl]
+d.s , %le %long 0xa06f3fff // stnt1h { z30.h, z31.h }, pn15, [sp, #-0x2, mul vl]
+d.s , %le %long 0xa020a001 // stnt1h { z0.h - z3.h }, pn8, [x0, x0, lsl  #1]
+d.s , %le %long 0xa035b555 // stnt1h { z20.h - z23.h }, pn13, [x10, x21, lsl  #1]
+d.s , %le %long 0xa028adb5 // stnt1h { z20.h - z23.h }, pn11, [x13, x8, lsl  #1]
+d.s , %le %long 0xa03fbffd // stnt1h { z28.h - z31.h }, pn15, [sp, xzr, lsl  #1]
+d.s , %le %long 0xa060a001 // stnt1h { z0.h - z3.h }, pn8, [x0]
+d.s , %le %long 0xa065b555 // stnt1h { z20.h - z23.h }, pn13, [x10, #0x14, mul vl]
+d.s , %le %long 0xa068adb5 // stnt1h { z20.h - z23.h }, pn11, [x13, #-0x20, mul vl]
+d.s , %le %long 0xa06fbffd // stnt1h { z28.h - z31.h }, pn15, [sp, #-0x4, mul vl]
+d.s , %le %long 0xa0204001 // stnt1w { z0.s, z1.s }, pn8, [x0, x0, lsl  #2]
+d.s , %le %long 0xa0355555 // stnt1w { z20.s, z21.s }, pn13, [x10, x21, lsl  #2]
+d.s , %le %long 0xa0284db7 // stnt1w { z22.s, z23.s }, pn11, [x13, x8, lsl  #2]
+d.s , %le %long 0xa03f5fff // stnt1w { z30.s, z31.s }, pn15, [sp, xzr, lsl  #2]
+d.s , %le %long 0xa0604001 // stnt1w { z0.s, z1.s }, pn8, [x0]
+d.s , %le %long 0xa0655555 // stnt1w { z20.s, z21.s }, pn13, [x10, #0x0a, mul vl]
+d.s , %le %long 0xa0684db7 // stnt1w { z22.s, z23.s }, pn11, [x13, #-0x10, mul vl]
+d.s , %le %long 0xa06f5fff // stnt1w { z30.s, z31.s }, pn15, [sp, #-0x2, mul vl]
+d.s , %le %long 0xa020c001 // stnt1w { z0.s - z3.s }, pn8, [x0, x0, lsl  #2]
+d.s , %le %long 0xa035d555 // stnt1w { z20.s - z23.s }, pn13, [x10, x21, lsl  #2]
+d.s , %le %long 0xa028cdb5 // stnt1w { z20.s - z23.s }, pn11, [x13, x8, lsl  #2]
+d.s , %le %long 0xa03fdffd // stnt1w { z28.s - z31.s }, pn15, [sp, xzr, lsl  #2]
+d.s , %le %long 0xa060c001 // stnt1w { z0.s - z3.s }, pn8, [x0]
+d.s , %le %long 0xa065d555 // stnt1w { z20.s - z23.s }, pn13, [x10, #0x14, mul vl]
+d.s , %le %long 0xa068cdb5 // stnt1w { z20.s - z23.s }, pn11, [x13, #-0x20, mul vl]
+d.s , %le %long 0xa06fdffd // stnt1w { z28.s - z31.s }, pn15, [sp, #-0x4, mul vl]
+d.s , %le %long 0x4440f800 // tblq z0.h, { z0.h }, z0.h
+d.s , %le %long 0x4455f955 // tblq z21.h, { z10.h }, z21.h
+d.s , %le %long 0x4448f9b7 // tblq z23.h, { z13.h }, z8.h
+d.s , %le %long 0x445ffbff // tblq z31.h, { z31.h }, z31.h
+d.s , %le %long 0x4480f800 // tblq z0.s, { z0.s }, z0.s
+d.s , %le %long 0x4495f955 // tblq z21.s, { z10.s }, z21.s
+d.s , %le %long 0x4488f9b7 // tblq z23.s, { z13.s }, z8.s
+d.s , %le %long 0x449ffbff // tblq z31.s, { z31.s }, z31.s
+d.s , %le %long 0x44c0f800 // tblq z0.d, { z0.d }, z0.d
+d.s , %le %long 0x44d5f955 // tblq z21.d, { z10.d }, z21.d
+d.s , %le %long 0x44c8f9b7 // tblq z23.d, { z13.d }, z8.d
+d.s , %le %long 0x44dffbff // tblq z31.d, { z31.d }, z31.d
+d.s , %le %long 0x4400f800 // tblq z0.b, { z0.b }, z0.b
+d.s , %le %long 0x4415f955 // tblq z21.b, { z10.b }, z21.b
+d.s , %le %long 0x4408f9b7 // tblq z23.b, { z13.b }, z8.b
+d.s , %le %long 0x441ffbff // tblq z31.b, { z31.b }, z31.b
+d.s , %le %long 0x05603400 // tbxq z0.h, z0.h, z0.h
+d.s , %le %long 0x05753555 // tbxq z21.h, z10.h, z21.h
+d.s , %le %long 0x056835b7 // tbxq z23.h, z13.h, z8.h
+d.s , %le %long 0x057f37ff // tbxq z31.h, z31.h, z31.h
+d.s , %le %long 0x05a03400 // tbxq z0.s, z0.s, z0.s
+d.s , %le %long 0x05b53555 // tbxq z21.s, z10.s, z21.s
+d.s , %le %long 0x05a835b7 // tbxq z23.s, z13.s, z8.s
+d.s , %le %long 0x05bf37ff // tbxq z31.s, z31.s, z31.s
+d.s , %le %long 0x05e03400 // tbxq z0.d, z0.d, z0.d
+d.s , %le %long 0x05f53555 // tbxq z21.d, z10.d, z21.d
+d.s , %le %long 0x05e835b7 // tbxq z23.d, z13.d, z8.d
+d.s , %le %long 0x05ff37ff // tbxq z31.d, z31.d, z31.d
+d.s , %le %long 0x05203400 // tbxq z0.b, z0.b, z0.b
+d.s , %le %long 0x05353555 // tbxq z21.b, z10.b, z21.b
+d.s , %le %long 0x052835b7 // tbxq z23.b, z13.b, z8.b
+d.s , %le %long 0x053f37ff // tbxq z31.b, z31.b, z31.b
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x4488cdb7 // udot z23.s, z13.h, z0.h[1]
+d.s , %le %long 0x4480cc00 // udot z0.s, z0.h, z0.h[0]
+d.s , %le %long 0x4495cd55 // udot z21.s, z10.h, z5.h[2]
+d.s , %le %long 0x4488cdb7 // udot z23.s, z13.h, z0.h[1]
+d.s , %le %long 0x449fcfff // udot z31.s, z31.h, z7.h[3]
+d.s , %le %long 0x0420bff7 // movprfx z23, z31
+d.s , %le %long 0x4408cdb7 // udot z23.s, z13.h, z8.h
+d.s , %le %long 0x4400cc00 // udot z0.s, z0.h, z0.h
+d.s , %le %long 0x4415cd55 // udot z21.s, z10.h, z21.h
+d.s , %le %long 0x4408cdb7 // udot z23.s, z13.h, z8.h
+d.s , %le %long 0x441fcfff // udot z31.s, z31.h, z31.h
+d.s , %le %long 0x044d2000 // umaxqv v0.8h, p0, z0.h
+d.s , %le %long 0x044d3555 // umaxqv v21.8h, p5, z10.h
+d.s , %le %long 0x044d2db7 // umaxqv v23.8h, p3, z13.h
+d.s , %le %long 0x044d3fff // umaxqv v31.8h, p7, z31.h
+d.s , %le %long 0x048d2000 // umaxqv v0.4s, p0, z0.s
+d.s , %le %long 0x048d3555 // umaxqv v21.4s, p5, z10.s
+d.s , %le %long 0x048d2db7 // umaxqv v23.4s, p3, z13.s
+d.s , %le %long 0x048d3fff // umaxqv v31.4s, p7, z31.s
+d.s , %le %long 0x04cd2000 // umaxqv v0.2d, p0, z0.d
+d.s , %le %long 0x04cd3555 // umaxqv v21.2d, p5, z10.d
+d.s , %le %long 0x04cd2db7 // umaxqv v23.2d, p3, z13.d
+d.s , %le %long 0x04cd3fff // umaxqv v31.2d, p7, z31.d
+d.s , %le %long 0x040d2000 // umaxqv v0.16b, p0, z0.b
+d.s , %le %long 0x040d3555 // umaxqv v21.16b, p5, z10.b
+d.s , %le %long 0x040d2db7 // umaxqv v23.16b, p3, z13.b
+d.s , %le %long 0x040d3fff // umaxqv v31.16b, p7, z31.b
+d.s , %le %long 0x044f2000 // uminqv v0.8h, p0, z0.h
+d.s , %le %long 0x044f3555 // uminqv v21.8h, p5, z10.h
+d.s , %le %long 0x044f2db7 // uminqv v23.8h, p3, z13.h
+d.s , %le %long 0x044f3fff // uminqv v31.8h, p7, z31.h
+d.s , %le %long 0x048f2000 // uminqv v0.4s, p0, z0.s
+d.s , %le %long 0x048f3555 // uminqv v21.4s, p5, z10.s
+d.s , %le %long 0x048f2db7 // uminqv v23.4s, p3, z13.s
+d.s , %le %long 0x048f3fff // uminqv v31.4s, p7, z31.s
+d.s , %le %long 0x04cf2000 // uminqv v0.2d, p0, z0.d
+d.s , %le %long 0x04cf3555 // uminqv v21.2d, p5, z10.d
+d.s , %le %long 0x04cf2db7 // uminqv v23.2d, p3, z13.d
+d.s , %le %long 0x04cf3fff // uminqv v31.2d, p7, z31.d
+d.s , %le %long 0x040f2000 // uminqv v0.16b, p0, z0.b
+d.s , %le %long 0x040f3555 // uminqv v21.16b, p5, z10.b
+d.s , %le %long 0x040f2db7 // uminqv v23.16b, p3, z13.b
+d.s , %le %long 0x040f3fff // uminqv v31.16b, p7, z31.b
+d.s , %le %long 0x45314800 // uqcvtn z0.h, { z0.s, z1.s }
+d.s , %le %long 0x45314955 // uqcvtn z21.h, { z10.s, z11.s }
+d.s , %le %long 0x45314997 // uqcvtn z23.h, { z12.s, z13.s }
+d.s , %le %long 0x45314bdf // uqcvtn z31.h, { z30.s, z31.s }
+d.s , %le %long 0x45b03800 // uqrshrn z0.h, { z0.s, z1.s }, #0x10
+d.s , %le %long 0x45b53955 // uqrshrn z21.h, { z10.s, z11.s }, #0x0b
+d.s , %le %long 0x45b83997 // uqrshrn z23.h, { z12.s, z13.s }, #0x8
+d.s , %le %long 0x45bf3bdf // uqrshrn z31.h, { z30.s, z31.s }, #0x1
+d.s , %le %long 0x4440e800 // uzpq1 z0.h, z0.h, z0.h
+d.s , %le %long 0x4455e955 // uzpq1 z21.h, z10.h, z21.h
+d.s , %le %long 0x4448e9b7 // uzpq1 z23.h, z13.h, z8.h
+d.s , %le %long 0x445febff // uzpq1 z31.h, z31.h, z31.h
+d.s , %le %long 0x4480e800 // uzpq1 z0.s, z0.s, z0.s
+d.s , %le %long 0x4495e955 // uzpq1 z21.s, z10.s, z21.s
+d.s , %le %long 0x4488e9b7 // uzpq1 z23.s, z13.s, z8.s
+d.s , %le %long 0x449febff // uzpq1 z31.s, z31.s, z31.s
+d.s , %le %long 0x44c0e800 // uzpq1 z0.d, z0.d, z0.d
+d.s , %le %long 0x44d5e955 // uzpq1 z21.d, z10.d, z21.d
+d.s , %le %long 0x44c8e9b7 // uzpq1 z23.d, z13.d, z8.d
+d.s , %le %long 0x44dfebff // uzpq1 z31.d, z31.d, z31.d
+d.s , %le %long 0x4400e800 // uzpq1 z0.b, z0.b, z0.b
+d.s , %le %long 0x4415e955 // uzpq1 z21.b, z10.b, z21.b
+d.s , %le %long 0x4408e9b7 // uzpq1 z23.b, z13.b, z8.b
+d.s , %le %long 0x441febff // uzpq1 z31.b, z31.b, z31.b
+d.s , %le %long 0x4440ec00 // uzpq2 z0.h, z0.h, z0.h
+d.s , %le %long 0x4455ed55 // uzpq2 z21.h, z10.h, z21.h
+d.s , %le %long 0x4448edb7 // uzpq2 z23.h, z13.h, z8.h
+d.s , %le %long 0x445fefff // uzpq2 z31.h, z31.h, z31.h
+d.s , %le %long 0x4480ec00 // uzpq2 z0.s, z0.s, z0.s
+d.s , %le %long 0x4495ed55 // uzpq2 z21.s, z10.s, z21.s
+d.s , %le %long 0x4488edb7 // uzpq2 z23.s, z13.s, z8.s
+d.s , %le %long 0x449fefff // uzpq2 z31.s, z31.s, z31.s
+d.s , %le %long 0x44c0ec00 // uzpq2 z0.d, z0.d, z0.d
+d.s , %le %long 0x44d5ed55 // uzpq2 z21.d, z10.d, z21.d
+d.s , %le %long 0x44c8edb7 // uzpq2 z23.d, z13.d, z8.d
+d.s , %le %long 0x44dfefff // uzpq2 z31.d, z31.d, z31.d
+d.s , %le %long 0x4400ec00 // uzpq2 z0.b, z0.b, z0.b
+d.s , %le %long 0x4415ed55 // uzpq2 z21.b, z10.b, z21.b
+d.s , %le %long 0x4408edb7 // uzpq2 z23.b, z13.b, z8.b
+d.s , %le %long 0x441fefff // uzpq2 z31.b, z31.b, z31.b
+d.s , %le %long 0x25604010 // whilege pn8.h, x0, x0, vlx2
+d.s , %le %long 0x25754155 // whilege pn13.h, x10, x21, vlx2
+d.s , %le %long 0x256861b7 // whilege pn15.h, x13, x8, vlx4
+d.s , %le %long 0x257f63f7 // whilege pn15.h, xzr, xzr, vlx4
+d.s , %le %long 0x25605010 // whilege { p0.h, p1.h }, x0, x0
+d.s , %le %long 0x25755154 // whilege { p4.h, p5.h }, x10, x21
+d.s , %le %long 0x256851b6 // whilege { p6.h, p7.h }, x13, x8
+d.s , %le %long 0x257f53fe // whilege { p14.h, p15.h }, xzr, xzr
+d.s , %le %long 0x25a04010 // whilege pn8.s, x0, x0, vlx2
+d.s , %le %long 0x25b54155 // whilege pn13.s, x10, x21, vlx2
+d.s , %le %long 0x25a861b7 // whilege pn15.s, x13, x8, vlx4
+d.s , %le %long 0x25bf63f7 // whilege pn15.s, xzr, xzr, vlx4
+d.s , %le %long 0x25a05010 // whilege { p0.s, p1.s }, x0, x0
+d.s , %le %long 0x25b55154 // whilege { p4.s, p5.s }, x10, x21
+d.s , %le %long 0x25a851b6 // whilege { p6.s, p7.s }, x13, x8
+d.s , %le %long 0x25bf53fe // whilege { p14.s, p15.s }, xzr, xzr
+d.s , %le %long 0x25e04010 // whilege pn8.d, x0, x0, vlx2
+d.s , %le %long 0x25f54155 // whilege pn13.d, x10, x21, vlx2
+d.s , %le %long 0x25e861b7 // whilege pn15.d, x13, x8, vlx4
+d.s , %le %long 0x25ff63f7 // whilege pn15.d, xzr, xzr, vlx4
+d.s , %le %long 0x25e05010 // whilege { p0.d, p1.d }, x0, x0
+d.s , %le %long 0x25f55154 // whilege { p4.d, p5.d }, x10, x21
+d.s , %le %long 0x25e851b6 // whilege { p6.d, p7.d }, x13, x8
+d.s , %le %long 0x25ff53fe // whilege { p14.d, p15.d }, xzr, xzr
+d.s , %le %long 0x25204010 // whilege pn8.b, x0, x0, vlx2
+d.s , %le %long 0x25354155 // whilege pn13.b, x10, x21, vlx2
+d.s , %le %long 0x252861b7 // whilege pn15.b, x13, x8, vlx4
+d.s , %le %long 0x253f63f7 // whilege pn15.b, xzr, xzr, vlx4
+d.s , %le %long 0x25205010 // whilege { p0.b, p1.b }, x0, x0
+d.s , %le %long 0x25355154 // whilege { p4.b, p5.b }, x10, x21
+d.s , %le %long 0x252851b6 // whilege { p6.b, p7.b }, x13, x8
+d.s , %le %long 0x253f53fe // whilege { p14.b, p15.b }, xzr, xzr
+d.s , %le %long 0x25604018 // whilegt pn8.h, x0, x0, vlx2
+d.s , %le %long 0x2575415d // whilegt pn13.h, x10, x21, vlx2
+d.s , %le %long 0x256861bf // whilegt pn15.h, x13, x8, vlx4
+d.s , %le %long 0x257f63ff // whilegt pn15.h, xzr, xzr, vlx4
+d.s , %le %long 0x25605011 // whilegt { p0.h, p1.h }, x0, x0
+d.s , %le %long 0x25755155 // whilegt { p4.h, p5.h }, x10, x21
+d.s , %le %long 0x256851b7 // whilegt { p6.h, p7.h }, x13, x8
+d.s , %le %long 0x257f53ff // whilegt { p14.h, p15.h }, xzr, xzr
+d.s , %le %long 0x25a04018 // whilegt pn8.s, x0, x0, vlx2
+d.s , %le %long 0x25b5415d // whilegt pn13.s, x10, x21, vlx2
+d.s , %le %long 0x25a861bf // whilegt pn15.s, x13, x8, vlx4
+d.s , %le %long 0x25bf63ff // whilegt pn15.s, xzr, xzr, vlx4
+d.s , %le %long 0x25a05011 // whilegt { p0.s, p1.s }, x0, x0
+d.s , %le %long 0x25b55155 // whilegt { p4.s, p5.s }, x10, x21
+d.s , %le %long 0x25a851b7 // whilegt { p6.s, p7.s }, x13, x8
+d.s , %le %long 0x25bf53ff // whilegt { p14.s, p15.s }, xzr, xzr
+d.s , %le %long 0x25e04018 // whilegt pn8.d, x0, x0, vlx2
+d.s , %le %long 0x25f5415d // whilegt pn13.d, x10, x21, vlx2
+d.s , %le %long 0x25e861bf // whilegt pn15.d, x13, x8, vlx4
+d.s , %le %long 0x25ff63ff // whilegt pn15.d, xzr, xzr, vlx4
+d.s , %le %long 0x25e05011 // whilegt { p0.d, p1.d }, x0, x0
+d.s , %le %long 0x25f55155 // whilegt { p4.d, p5.d }, x10, x21
+d.s , %le %long 0x25e851b7 // whilegt { p6.d, p7.d }, x13, x8
+d.s , %le %long 0x25ff53ff // whilegt { p14.d, p15.d }, xzr, xzr
+d.s , %le %long 0x25204018 // whilegt pn8.b, x0, x0, vlx2
+d.s , %le %long 0x2535415d // whilegt pn13.b, x10, x21, vlx2
+d.s , %le %long 0x252861bf // whilegt pn15.b, x13, x8, vlx4
+d.s , %le %long 0x253f63ff // whilegt pn15.b, xzr, xzr, vlx4
+d.s , %le %long 0x25205011 // whilegt { p0.b, p1.b }, x0, x0
+d.s , %le %long 0x25355155 // whilegt { p4.b, p5.b }, x10, x21
+d.s , %le %long 0x252851b7 // whilegt { p6.b, p7.b }, x13, x8
+d.s , %le %long 0x253f53ff // whilegt { p14.b, p15.b }, xzr, xzr
+d.s , %le %long 0x25604818 // whilehi pn8.h, x0, x0, vlx2
+d.s , %le %long 0x2575495d // whilehi pn13.h, x10, x21, vlx2
+d.s , %le %long 0x256869bf // whilehi pn15.h, x13, x8, vlx4
+d.s , %le %long 0x257f6bff // whilehi pn15.h, xzr, xzr, vlx4
+d.s , %le %long 0x25605811 // whilehi { p0.h, p1.h }, x0, x0
+d.s , %le %long 0x25755955 // whilehi { p4.h, p5.h }, x10, x21
+d.s , %le %long 0x256859b7 // whilehi { p6.h, p7.h }, x13, x8
+d.s , %le %long 0x257f5bff // whilehi { p14.h, p15.h }, xzr, xzr
+d.s , %le %long 0x25a04818 // whilehi pn8.s, x0, x0, vlx2
+d.s , %le %long 0x25b5495d // whilehi pn13.s, x10, x21, vlx2
+d.s , %le %long 0x25a869bf // whilehi pn15.s, x13, x8, vlx4
+d.s , %le %long 0x25bf6bff // whilehi pn15.s, xzr, xzr, vlx4
+d.s , %le %long 0x25a05811 // whilehi { p0.s, p1.s }, x0, x0
+d.s , %le %long 0x25b55955 // whilehi { p4.s, p5.s }, x10, x21
+d.s , %le %long 0x25a859b7 // whilehi { p6.s, p7.s }, x13, x8
+d.s , %le %long 0x25bf5bff // whilehi { p14.s, p15.s }, xzr, xzr
+d.s , %le %long 0x25e04818 // whilehi pn8.d, x0, x0, vlx2
+d.s , %le %long 0x25f5495d // whilehi pn13.d, x10, x21, vlx2
+d.s , %le %long 0x25e869bf // whilehi pn15.d, x13, x8, vlx4
+d.s , %le %long 0x25ff6bff // whilehi pn15.d, xzr, xzr, vlx4
+d.s , %le %long 0x25e05811 // whilehi { p0.d, p1.d }, x0, x0
+d.s , %le %long 0x25f55955 // whilehi { p4.d, p5.d }, x10, x21
+d.s , %le %long 0x25e859b7 // whilehi { p6.d, p7.d }, x13, x8
+d.s , %le %long 0x25ff5bff // whilehi { p14.d, p15.d }, xzr, xzr
+d.s , %le %long 0x25204818 // whilehi pn8.b, x0, x0, vlx2
+d.s , %le %long 0x2535495d // whilehi pn13.b, x10, x21, vlx2
+d.s , %le %long 0x252869bf // whilehi pn15.b, x13, x8, vlx4
+d.s , %le %long 0x253f6bff // whilehi pn15.b, xzr, xzr, vlx4
+d.s , %le %long 0x25205811 // whilehi { p0.b, p1.b }, x0, x0
+d.s , %le %long 0x25355955 // whilehi { p4.b, p5.b }, x10, x21
+d.s , %le %long 0x252859b7 // whilehi { p6.b, p7.b }, x13, x8
+d.s , %le %long 0x253f5bff // whilehi { p14.b, p15.b }, xzr, xzr
+d.s , %le %long 0x25604810 // whilehs pn8.h, x0, x0, vlx2
+d.s , %le %long 0x25754955 // whilehs pn13.h, x10, x21, vlx2
+d.s , %le %long 0x256869b7 // whilehs pn15.h, x13, x8, vlx4
+d.s , %le %long 0x257f6bf7 // whilehs pn15.h, xzr, xzr, vlx4
+d.s , %le %long 0x25605810 // whilehs { p0.h, p1.h }, x0, x0
+d.s , %le %long 0x25755954 // whilehs { p4.h, p5.h }, x10, x21
+d.s , %le %long 0x256859b6 // whilehs { p6.h, p7.h }, x13, x8
+d.s , %le %long 0x257f5bfe // whilehs { p14.h, p15.h }, xzr, xzr
+d.s , %le %long 0x25a04810 // whilehs pn8.s, x0, x0, vlx2
+d.s , %le %long 0x25b54955 // whilehs pn13.s, x10, x21, vlx2
+d.s , %le %long 0x25a869b7 // whilehs pn15.s, x13, x8, vlx4
+d.s , %le %long 0x25bf6bf7 // whilehs pn15.s, xzr, xzr, vlx4
+d.s , %le %long 0x25a05810 // whilehs { p0.s, p1.s }, x0, x0
+d.s , %le %long 0x25b55954 // whilehs { p4.s, p5.s }, x10, x21
+d.s , %le %long 0x25a859b6 // whilehs { p6.s, p7.s }, x13, x8
+d.s , %le %long 0x25bf5bfe // whilehs { p14.s, p15.s }, xzr, xzr
+d.s , %le %long 0x25e04810 // whilehs pn8.d, x0, x0, vlx2
+d.s , %le %long 0x25f54955 // whilehs pn13.d, x10, x21, vlx2
+d.s , %le %long 0x25e869b7 // whilehs pn15.d, x13, x8, vlx4
+d.s , %le %long 0x25ff6bf7 // whilehs pn15.d, xzr, xzr, vlx4
+d.s , %le %long 0x25e05810 // whilehs { p0.d, p1.d }, x0, x0
+d.s , %le %long 0x25f55954 // whilehs { p4.d, p5.d }, x10, x21
+d.s , %le %long 0x25e859b6 // whilehs { p6.d, p7.d }, x13, x8
+d.s , %le %long 0x25ff5bfe // whilehs { p14.d, p15.d }, xzr, xzr
+d.s , %le %long 0x25204810 // whilehs pn8.b, x0, x0, vlx2
+d.s , %le %long 0x25354955 // whilehs pn13.b, x10, x21, vlx2
+d.s , %le %long 0x252869b7 // whilehs pn15.b, x13, x8, vlx4
+d.s , %le %long 0x253f6bf7 // whilehs pn15.b, xzr, xzr, vlx4
+d.s , %le %long 0x25205810 // whilehs { p0.b, p1.b }, x0, x0
+d.s , %le %long 0x25355954 // whilehs { p4.b, p5.b }, x10, x21
+d.s , %le %long 0x252859b6 // whilehs { p6.b, p7.b }, x13, x8
+d.s , %le %long 0x253f5bfe // whilehs { p14.b, p15.b }, xzr, xzr
+d.s , %le %long 0x25604418 // whilele pn8.h, x0, x0, vlx2
+d.s , %le %long 0x2575455d // whilele pn13.h, x10, x21, vlx2
+d.s , %le %long 0x256865bf // whilele pn15.h, x13, x8, vlx4
+d.s , %le %long 0x257f67ff // whilele pn15.h, xzr, xzr, vlx4
+d.s , %le %long 0x25605411 // whilele { p0.h, p1.h }, x0, x0
+d.s , %le %long 0x25755555 // whilele { p4.h, p5.h }, x10, x21
+d.s , %le %long 0x256855b7 // whilele { p6.h, p7.h }, x13, x8
+d.s , %le %long 0x257f57ff // whilele { p14.h, p15.h }, xzr, xzr
+d.s , %le %long 0x25a04418 // whilele pn8.s, x0, x0, vlx2
+d.s , %le %long 0x25b5455d // whilele pn13.s, x10, x21, vlx2
+d.s , %le %long 0x25a865bf // whilele pn15.s, x13, x8, vlx4
+d.s , %le %long 0x25bf67ff // whilele pn15.s, xzr, xzr, vlx4
+d.s , %le %long 0x25a05411 // whilele { p0.s, p1.s }, x0, x0
+d.s , %le %long 0x25b55555 // whilele { p4.s, p5.s }, x10, x21
+d.s , %le %long 0x25a855b7 // whilele { p6.s, p7.s }, x13, x8
+d.s , %le %long 0x25bf57ff // whilele { p14.s, p15.s }, xzr, xzr
+d.s , %le %long 0x25e04418 // whilele pn8.d, x0, x0, vlx2
+d.s , %le %long 0x25f5455d // whilele pn13.d, x10, x21, vlx2
+d.s , %le %long 0x25e865bf // whilele pn15.d, x13, x8, vlx4
+d.s , %le %long 0x25ff67ff // whilele pn15.d, xzr, xzr, vlx4
+d.s , %le %long 0x25e05411 // whilele { p0.d, p1.d }, x0, x0
+d.s , %le %long 0x25f55555 // whilele { p4.d, p5.d }, x10, x21
+d.s , %le %long 0x25e855b7 // whilele { p6.d, p7.d }, x13, x8
+d.s , %le %long 0x25ff57ff // whilele { p14.d, p15.d }, xzr, xzr
+d.s , %le %long 0x25204418 // whilele pn8.b, x0, x0, vlx2
+d.s , %le %long 0x2535455d // whilele pn13.b, x10, x21, vlx2
+d.s , %le %long 0x252865bf // whilele pn15.b, x13, x8, vlx4
+d.s , %le %long 0x253f67ff // whilele pn15.b, xzr, xzr, vlx4
+d.s , %le %long 0x25205411 // whilele { p0.b, p1.b }, x0, x0
+d.s , %le %long 0x25355555 // whilele { p4.b, p5.b }, x10, x21
+d.s , %le %long 0x252855b7 // whilele { p6.b, p7.b }, x13, x8
+d.s , %le %long 0x253f57ff // whilele { p14.b, p15.b }, xzr, xzr
+d.s , %le %long 0x25604c10 // whilelo pn8.h, x0, x0, vlx2
+d.s , %le %long 0x25754d55 // whilelo pn13.h, x10, x21, vlx2
+d.s , %le %long 0x25686db7 // whilelo pn15.h, x13, x8, vlx4
+d.s , %le %long 0x257f6ff7 // whilelo pn15.h, xzr, xzr, vlx4
+d.s , %le %long 0x25605c10 // whilelo { p0.h, p1.h }, x0, x0
+d.s , %le %long 0x25755d54 // whilelo { p4.h, p5.h }, x10, x21
+d.s , %le %long 0x25685db6 // whilelo { p6.h, p7.h }, x13, x8
+d.s , %le %long 0x257f5ffe // whilelo { p14.h, p15.h }, xzr, xzr
+d.s , %le %long 0x25a04c10 // whilelo pn8.s, x0, x0, vlx2
+d.s , %le %long 0x25b54d55 // whilelo pn13.s, x10, x21, vlx2
+d.s , %le %long 0x25a86db7 // whilelo pn15.s, x13, x8, vlx4
+d.s , %le %long 0x25bf6ff7 // whilelo pn15.s, xzr, xzr, vlx4
+d.s , %le %long 0x25a05c10 // whilelo { p0.s, p1.s }, x0, x0
+d.s , %le %long 0x25b55d54 // whilelo { p4.s, p5.s }, x10, x21
+d.s , %le %long 0x25a85db6 // whilelo { p6.s, p7.s }, x13, x8
+d.s , %le %long 0x25bf5ffe // whilelo { p14.s, p15.s }, xzr, xzr
+d.s , %le %long 0x25e04c10 // whilelo pn8.d, x0, x0, vlx2
+d.s , %le %long 0x25f54d55 // whilelo pn13.d, x10, x21, vlx2
+d.s , %le %long 0x25e86db7 // whilelo pn15.d, x13, x8, vlx4
+d.s , %le %long 0x25ff6ff7 // whilelo pn15.d, xzr, xzr, vlx4
+d.s , %le %long 0x25e05c10 // whilelo { p0.d, p1.d }, x0, x0
+d.s , %le %long 0x25f55d54 // whilelo { p4.d, p5.d }, x10, x21
+d.s , %le %long 0x25e85db6 // whilelo { p6.d, p7.d }, x13, x8
+d.s , %le %long 0x25ff5ffe // whilelo { p14.d, p15.d }, xzr, xzr
+d.s , %le %long 0x25204c10 // whilelo pn8.b, x0, x0, vlx2
+d.s , %le %long 0x25354d55 // whilelo pn13.b, x10, x21, vlx2
+d.s , %le %long 0x25286db7 // whilelo pn15.b, x13, x8, vlx4
+d.s , %le %long 0x253f6ff7 // whilelo pn15.b, xzr, xzr, vlx4
+d.s , %le %long 0x25205c10 // whilelo { p0.b, p1.b }, x0, x0
+d.s , %le %long 0x25355d54 // whilelo { p4.b, p5.b }, x10, x21
+d.s , %le %long 0x25285db6 // whilelo { p6.b, p7.b }, x13, x8
+d.s , %le %long 0x253f5ffe // whilelo { p14.b, p15.b }, xzr, xzr
+d.s , %le %long 0x25604c18 // whilels pn8.h, x0, x0, vlx2
+d.s , %le %long 0x25754d5d // whilels pn13.h, x10, x21, vlx2
+d.s , %le %long 0x25686dbf // whilels pn15.h, x13, x8, vlx4
+d.s , %le %long 0x257f6fff // whilels pn15.h, xzr, xzr, vlx4
+d.s , %le %long 0x25605c11 // whilels { p0.h, p1.h }, x0, x0
+d.s , %le %long 0x25755d55 // whilels { p4.h, p5.h }, x10, x21
+d.s , %le %long 0x25685db7 // whilels { p6.h, p7.h }, x13, x8
+d.s , %le %long 0x257f5fff // whilels { p14.h, p15.h }, xzr, xzr
+d.s , %le %long 0x25a04c18 // whilels pn8.s, x0, x0, vlx2
+d.s , %le %long 0x25b54d5d // whilels pn13.s, x10, x21, vlx2
+d.s , %le %long 0x25a86dbf // whilels pn15.s, x13, x8, vlx4
+d.s , %le %long 0x25bf6fff // whilels pn15.s, xzr, xzr, vlx4
+d.s , %le %long 0x25a05c11 // whilels { p0.s, p1.s }, x0, x0
+d.s , %le %long 0x25b55d55 // whilels { p4.s, p5.s }, x10, x21
+d.s , %le %long 0x25a85db7 // whilels { p6.s, p7.s }, x13, x8
+d.s , %le %long 0x25bf5fff // whilels { p14.s, p15.s }, xzr, xzr
+d.s , %le %long 0x25e04c18 // whilels pn8.d, x0, x0, vlx2
+d.s , %le %long 0x25f54d5d // whilels pn13.d, x10, x21, vlx2
+d.s , %le %long 0x25e86dbf // whilels pn15.d, x13, x8, vlx4
+d.s , %le %long 0x25ff6fff // whilels pn15.d, xzr, xzr, vlx4
+d.s , %le %long 0x25e05c11 // whilels { p0.d, p1.d }, x0, x0
+d.s , %le %long 0x25f55d55 // whilels { p4.d, p5.d }, x10, x21
+d.s , %le %long 0x25e85db7 // whilels { p6.d, p7.d }, x13, x8
+d.s , %le %long 0x25ff5fff // whilels { p14.d, p15.d }, xzr, xzr
+d.s , %le %long 0x25204c18 // whilels pn8.b, x0, x0, vlx2
+d.s , %le %long 0x25354d5d // whilels pn13.b, x10, x21, vlx2
+d.s , %le %long 0x25286dbf // whilels pn15.b, x13, x8, vlx4
+d.s , %le %long 0x253f6fff // whilels pn15.b, xzr, xzr, vlx4
+d.s , %le %long 0x25205c11 // whilels { p0.b, p1.b }, x0, x0
+d.s , %le %long 0x25355d55 // whilels { p4.b, p5.b }, x10, x21
+d.s , %le %long 0x25285db7 // whilels { p6.b, p7.b }, x13, x8
+d.s , %le %long 0x253f5fff // whilels { p14.b, p15.b }, xzr, xzr
+d.s , %le %long 0x25604410 // whilelt pn8.h, x0, x0, vlx2
+d.s , %le %long 0x25754555 // whilelt pn13.h, x10, x21, vlx2
+d.s , %le %long 0x256865b7 // whilelt pn15.h, x13, x8, vlx4
+d.s , %le %long 0x257f67f7 // whilelt pn15.h, xzr, xzr, vlx4
+d.s , %le %long 0x25605410 // whilelt { p0.h, p1.h }, x0, x0
+d.s , %le %long 0x25755554 // whilelt { p4.h, p5.h }, x10, x21
+d.s , %le %long 0x256855b6 // whilelt { p6.h, p7.h }, x13, x8
+d.s , %le %long 0x257f57fe // whilelt { p14.h, p15.h }, xzr, xzr
+d.s , %le %long 0x25a04410 // whilelt pn8.s, x0, x0, vlx2
+d.s , %le %long 0x25b54555 // whilelt pn13.s, x10, x21, vlx2
+d.s , %le %long 0x25a865b7 // whilelt pn15.s, x13, x8, vlx4
+d.s , %le %long 0x25bf67f7 // whilelt pn15.s, xzr, xzr, vlx4
+d.s , %le %long 0x25a05410 // whilelt { p0.s, p1.s }, x0, x0
+d.s , %le %long 0x25b55554 // whilelt { p4.s, p5.s }, x10, x21
+d.s , %le %long 0x25a855b6 // whilelt { p6.s, p7.s }, x13, x8
+d.s , %le %long 0x25bf57fe // whilelt { p14.s, p15.s }, xzr, xzr
+d.s , %le %long 0x25e04410 // whilelt pn8.d, x0, x0, vlx2
+d.s , %le %long 0x25f54555 // whilelt pn13.d, x10, x21, vlx2
+d.s , %le %long 0x25e865b7 // whilelt pn15.d, x13, x8, vlx4
+d.s , %le %long 0x25ff67f7 // whilelt pn15.d, xzr, xzr, vlx4
+d.s , %le %long 0x25e05410 // whilelt { p0.d, p1.d }, x0, x0
+d.s , %le %long 0x25f55554 // whilelt { p4.d, p5.d }, x10, x21
+d.s , %le %long 0x25e855b6 // whilelt { p6.d, p7.d }, x13, x8
+d.s , %le %long 0x25ff57fe // whilelt { p14.d, p15.d }, xzr, xzr
+d.s , %le %long 0x25204410 // whilelt pn8.b, x0, x0, vlx2
+d.s , %le %long 0x25354555 // whilelt pn13.b, x10, x21, vlx2
+d.s , %le %long 0x252865b7 // whilelt pn15.b, x13, x8, vlx4
+d.s , %le %long 0x253f67f7 // whilelt pn15.b, xzr, xzr, vlx4
+d.s , %le %long 0x25205410 // whilelt { p0.b, p1.b }, x0, x0
+d.s , %le %long 0x25355554 // whilelt { p4.b, p5.b }, x10, x21
+d.s , %le %long 0x252855b6 // whilelt { p6.b, p7.b }, x13, x8
+d.s , %le %long 0x253f57fe // whilelt { p14.b, p15.b }, xzr, xzr
+d.s , %le %long 0x4440e000 // zipq1 z0.h, z0.h, z0.h
+d.s , %le %long 0x4455e155 // zipq1 z21.h, z10.h, z21.h
+d.s , %le %long 0x4448e1b7 // zipq1 z23.h, z13.h, z8.h
+d.s , %le %long 0x445fe3ff // zipq1 z31.h, z31.h, z31.h
+d.s , %le %long 0x4480e000 // zipq1 z0.s, z0.s, z0.s
+d.s , %le %long 0x4495e155 // zipq1 z21.s, z10.s, z21.s
+d.s , %le %long 0x4488e1b7 // zipq1 z23.s, z13.s, z8.s
+d.s , %le %long 0x449fe3ff // zipq1 z31.s, z31.s, z31.s
+d.s , %le %long 0x44c0e000 // zipq1 z0.d, z0.d, z0.d
+d.s , %le %long 0x44d5e155 // zipq1 z21.d, z10.d, z21.d
+d.s , %le %long 0x44c8e1b7 // zipq1 z23.d, z13.d, z8.d
+d.s , %le %long 0x44dfe3ff // zipq1 z31.d, z31.d, z31.d
+d.s , %le %long 0x4400e000 // zipq1 z0.b, z0.b, z0.b
+d.s , %le %long 0x4415e155 // zipq1 z21.b, z10.b, z21.b
+d.s , %le %long 0x4408e1b7 // zipq1 z23.b, z13.b, z8.b
+d.s , %le %long 0x441fe3ff // zipq1 z31.b, z31.b, z31.b
+d.s , %le %long 0x4440e400 // zipq2 z0.h, z0.h, z0.h
+d.s , %le %long 0x4455e555 // zipq2 z21.h, z10.h, z21.h
+d.s , %le %long 0x4448e5b7 // zipq2 z23.h, z13.h, z8.h
+d.s , %le %long 0x445fe7ff // zipq2 z31.h, z31.h, z31.h
+d.s , %le %long 0x4480e400 // zipq2 z0.s, z0.s, z0.s
+d.s , %le %long 0x4495e555 // zipq2 z21.s, z10.s, z21.s
+d.s , %le %long 0x4488e5b7 // zipq2 z23.s, z13.s, z8.s
+d.s , %le %long 0x449fe7ff // zipq2 z31.s, z31.s, z31.s
+d.s , %le %long 0x44c0e400 // zipq2 z0.d, z0.d, z0.d
+d.s , %le %long 0x44d5e555 // zipq2 z21.d, z10.d, z21.d
+d.s , %le %long 0x44c8e5b7 // zipq2 z23.d, z13.d, z8.d
+d.s , %le %long 0x44dfe7ff // zipq2 z31.d, z31.d, z31.d
+d.s , %le %long 0x4400e400 // zipq2 z0.b, z0.b, z0.b
+d.s , %le %long 0x4415e555 // zipq2 z21.b, z10.b, z21.b
+d.s , %le %long 0x4408e5b7 // zipq2 z23.b, z13.b, z8.b
+d.s , %le %long 0x441fe7ff // zipq2 z31.b, z31.b, z31.b
