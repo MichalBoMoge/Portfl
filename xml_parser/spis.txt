@@ -1,0 +1,1686 @@
+AArch32-dbgdidr.xml  DBGDIDR
+AArch32-dbgdtrrxext.xml  DBGDTRRXext
+AArch32-dbgdscrint.xml  DBGDSCRint
+AArch32-dbgdccint.xml  DBGDCCINT
+AArch32-dbgdscrext.xml  DBGDSCRext
+AArch32-dbgdtrtxext.xml  DBGDTRTXext
+AArch32-dbgdtrrxint.xml  DBGDTRRXint
+AArch32-dbgdtrtxint.xml  DBGDTRTXint
+AArch32-dbgwfar.xml  DBGWFAR
+AArch32-dbgoseccr.xml  DBGOSECCR
+AArch32-dbgvcr.xml  DBGVCR
+AArch32-dbgbvrn.xml  DBGBVR<m>
+AArch32-dbgbcrn.xml  DBGBCR<m>
+AArch32-dbgwvrn.xml  DBGWVR<m>
+AArch32-dbgwcrn.xml  DBGWCR<m>
+AArch32-dbgdrar.xml  DBGDRAR
+AArch32-dbgoslar.xml  DBGOSLAR
+AArch32-dbgoslsr.xml  DBGOSLSR
+AArch32-dbgosdlr.xml  DBGOSDLR
+AArch32-dbgprcr.xml  DBGPRCR
+AArch32-dbgbxvrn.xml  DBGBXVR<m>
+AArch32-dbgdsar.xml  DBGDSAR
+AArch32-dbgdevid2.xml  DBGDEVID2
+AArch32-dbgdevid1.xml  DBGDEVID1
+AArch32-dbgdevid.xml  DBGDEVID
+AArch32-dbgclaimset.xml  DBGCLAIMSET
+AArch32-dbgclaimclr.xml  DBGCLAIMCLR
+AArch32-dbgauthstatus.xml  DBGAUTHSTATUS
+AArch32-jidr.xml  JIDR
+AArch32-joscr.xml  JOSCR
+AArch32-jmcr.xml  JMCR
+AArch32-midr.xml  MIDR
+AArch32-midr.xml  VPIDR
+AArch32-midr.xml  VPIDR_EL2
+AArch32-vpidr.xml  MIDR
+AArch32-vpidr.xml  VPIDR
+AArch32-vpidr.xml  VPIDR_EL2
+AArch32-ctr.xml  CTR
+AArch32-tcmtr.xml  TCMTR
+AArch32-tlbtr.xml  TLBTR
+AArch32-mpidr.xml  MPIDR
+AArch32-mpidr.xml  VMPIDR
+AArch32-mpidr.xml  VMPIDR_EL2
+AArch32-vmpidr.xml  MPIDR
+AArch32-vmpidr.xml  VMPIDR
+AArch32-vmpidr.xml  VMPIDR_EL2
+AArch32-revidr.xml  REVIDR
+AArch32-id_pfr0.xml  ID_PFR0
+AArch32-id_pfr1.xml  ID_PFR1
+AArch32-id_dfr0.xml  ID_DFR0
+AArch32-id_afr0.xml  ID_AFR0
+AArch32-id_mmfr0.xml  ID_MMFR0
+AArch32-id_mmfr1.xml  ID_MMFR1
+AArch32-id_mmfr2.xml  ID_MMFR2
+AArch32-id_mmfr3.xml  ID_MMFR3
+AArch32-id_isar0.xml  ID_ISAR0
+AArch32-id_isar1.xml  ID_ISAR1
+AArch32-id_isar2.xml  ID_ISAR2
+AArch32-id_isar3.xml  ID_ISAR3
+AArch32-id_isar4.xml  ID_ISAR4
+AArch32-id_isar5.xml  ID_ISAR5
+AArch32-id_mmfr4.xml  ID_MMFR4
+AArch32-id_isar6.xml  ID_ISAR6
+AArch32-id_pfr2.xml  ID_PFR2
+AArch32-id_dfr1.xml  ID_DFR1
+AArch32-id_mmfr5.xml  ID_MMFR5
+AArch32-sctlr.xml  SCTLR
+AArch32-sctlr.xml  SCTLR_NS
+AArch32-sctlr.xml  SCTLR_S
+AArch32-actlr.xml  ACTLR
+AArch32-actlr.xml  ACTLR_NS
+AArch32-actlr.xml  ACTLR_S
+AArch32-cpacr.xml  CPACR
+AArch32-actlr2.xml  ACTLR2
+AArch32-actlr2.xml  ACTLR2_NS
+AArch32-actlr2.xml  ACTLR2_S
+AArch32-scr.xml  SCR
+AArch32-sder.xml  SDER
+AArch32-nsacr.xml  NSACR
+AArch32-trfcr.xml  TRFCR
+AArch32-sdcr.xml  SDCR
+AArch32-ttbr0.xml  TTBR0
+AArch32-ttbr0.xml  TTBR0_NS
+AArch32-ttbr0.xml  TTBR0_S
+AArch32-ttbr1.xml  TTBR1
+AArch32-ttbr1.xml  TTBR1_NS
+AArch32-ttbr1.xml  TTBR1_S
+AArch32-ttbcr.xml  TTBCR
+AArch32-ttbcr.xml  TTBCR_NS
+AArch32-ttbcr.xml  TTBCR_S
+AArch32-ttbcr2.xml  TTBCR2
+AArch32-ttbcr2.xml  TTBCR2_NS
+AArch32-ttbcr2.xml  TTBCR2_S
+AArch32-dacr.xml  DACR
+AArch32-dacr.xml  DACR_NS
+AArch32-dacr.xml  DACR_S
+AArch32-icc_pmr.xml  ICC_PMR
+AArch32-icc_pmr.xml  ICV_PMR
+AArch32-icv_pmr.xml  ICC_PMR
+AArch32-icv_pmr.xml  ICV_PMR
+AArch32-dfsr.xml  DFSR
+AArch32-dfsr.xml  DFSR_NS
+AArch32-dfsr.xml  DFSR_S
+AArch32-ifsr.xml  IFSR
+AArch32-ifsr.xml  IFSR_NS
+AArch32-ifsr.xml  IFSR_S
+AArch32-adfsr.xml  ADFSR
+AArch32-adfsr.xml  ADFSR_NS
+AArch32-adfsr.xml  ADFSR_S
+AArch32-aifsr.xml  AIFSR
+AArch32-aifsr.xml  AIFSR_NS
+AArch32-aifsr.xml  AIFSR_S
+AArch32-erridr.xml  ERRIDR
+AArch32-errselr.xml  ERRSELR
+AArch32-erxfr.xml  ERXFR
+AArch32-erxctlr.xml  ERXCTLR
+AArch32-erxstatus.xml  ERXSTATUS
+AArch32-erxaddr.xml  ERXADDR
+AArch32-erxfr2.xml  ERXFR2
+AArch32-erxctlr2.xml  ERXCTLR2
+AArch32-erxaddr2.xml  ERXADDR2
+AArch32-erxmisc0.xml  ERXMISC0
+AArch32-erxmisc1.xml  ERXMISC1
+AArch32-erxmisc4.xml  ERXMISC4
+AArch32-erxmisc5.xml  ERXMISC5
+AArch32-erxmisc2.xml  ERXMISC2
+AArch32-erxmisc3.xml  ERXMISC3
+AArch32-erxmisc6.xml  ERXMISC6
+AArch32-erxmisc7.xml  ERXMISC7
+AArch32-dfar.xml  DFAR
+AArch32-dfar.xml  DFAR_NS
+AArch32-dfar.xml  DFAR_S
+AArch32-ifar.xml  IFAR
+AArch32-ifar.xml  IFAR_NS
+AArch32-ifar.xml  IFAR_S
+AArch32-icialluis.xml  ICIALLUIS
+AArch32-bpiallis.xml  BPIALLIS
+AArch32-cfprctx.xml  CFPRCTX
+AArch32-dvprctx.xml  DVPRCTX
+AArch32-cosprctx.xml  COSPRCTX
+AArch32-cpprctx.xml  CPPRCTX
+AArch32-par.xml  PAR
+AArch32-par.xml  PAR_NS
+AArch32-par.xml  PAR_S
+AArch32-iciallu.xml  ICIALLU
+AArch32-icimvau.xml  ICIMVAU
+AArch32-cp15isb.xml  CP15ISB
+AArch32-bpiall.xml  BPIALL
+AArch32-bpimva.xml  BPIMVA
+AArch32-dcimvac.xml  DCIMVAC
+AArch32-dcisw.xml  DCISW
+AArch32-ats1cpr.xml  ATS1CPR
+AArch32-ats1cpw.xml  ATS1CPW
+AArch32-ats1cur.xml  ATS1CUR
+AArch32-ats1cuw.xml  ATS1CUW
+AArch32-ats12nsopr.xml  ATS12NSOPR
+AArch32-ats12nsopw.xml  ATS12NSOPW
+AArch32-ats12nsour.xml  ATS12NSOUR
+AArch32-ats12nsouw.xml  ATS12NSOUW
+AArch32-ats1cprp.xml  ATS1CPRP
+AArch32-ats1cpwp.xml  ATS1CPWP
+AArch32-dccmvac.xml  DCCMVAC
+AArch32-dccsw.xml  DCCSW
+AArch32-cp15dsb.xml  CP15DSB
+AArch32-cp15dmb.xml  CP15DMB
+AArch32-dccmvau.xml  DCCMVAU
+AArch32-dccimvac.xml  DCCIMVAC
+AArch32-dccisw.xml  DCCISW
+AArch32-tlbiallis.xml  TLBIALLIS
+AArch32-tlbimvais.xml  TLBIMVAIS
+AArch32-tlbiasidis.xml  TLBIASIDIS
+AArch32-tlbimvaais.xml  TLBIMVAAIS
+AArch32-tlbimvalis.xml  TLBIMVALIS
+AArch32-tlbimvaalis.xml  TLBIMVAALIS
+AArch32-itlbiall.xml  ITLBIALL
+AArch32-itlbimva.xml  ITLBIMVA
+AArch32-itlbiasid.xml  ITLBIASID
+AArch32-dtlbiall.xml  DTLBIALL
+AArch32-dtlbimva.xml  DTLBIMVA
+AArch32-dtlbiasid.xml  DTLBIASID
+AArch32-tlbiall.xml  TLBIALL
+AArch32-tlbimva.xml  TLBIMVA
+AArch32-tlbiasid.xml  TLBIASID
+AArch32-tlbimvaa.xml  TLBIMVAA
+AArch32-tlbimval.xml  TLBIMVAL
+AArch32-tlbimvaal.xml  TLBIMVAAL
+AArch32-pmcr.xml  PMCR
+AArch32-pmcntenset.xml  PMCNTENSET
+AArch32-pmcntenclr.xml  PMCNTENCLR
+AArch32-pmovsr.xml  PMOVSR
+AArch32-pmswinc.xml  PMSWINC
+AArch32-pmselr.xml  PMSELR
+AArch32-pmceid0.xml  PMCEID0
+AArch32-pmceid1.xml  PMCEID1
+AArch32-pmccntr.xml  PMCCNTR
+AArch32-pmxevtyper.xml  PMCCFILTR
+AArch32-pmxevtyper.xml  PMEVTYPER
+AArch32-pmxevcntr.xml  PMEVCNTR
+AArch32-pmuserenr.xml  PMUSERENR
+AArch32-pmintenset.xml  PMINTENSET
+AArch32-pmintenclr.xml  PMINTENCLR
+AArch32-pmovsset.xml  PMOVSSET
+AArch32-pmceid2.xml  PMCEID2
+AArch32-pmceid3.xml  PMCEID3
+AArch32-pmmir.xml  PMMIR
+AArch32-mair0.xml  MAIR0
+AArch32-mair0.xml  MAIR0_NS
+AArch32-mair0.xml  MAIR0_S
+AArch32-mair0.xml  PRRR
+AArch32-mair0.xml  PRRR_NS
+AArch32-mair0.xml  PRRR_S
+AArch32-prrr.xml  MAIR0
+AArch32-prrr.xml  MAIR0_NS
+AArch32-prrr.xml  MAIR0_S
+AArch32-prrr.xml  PRRR
+AArch32-prrr.xml  PRRR_NS
+AArch32-prrr.xml  PRRR_S
+AArch32-mair1.xml  MAIR1
+AArch32-mair1.xml  MAIR1_NS
+AArch32-mair1.xml  MAIR1_S
+AArch32-mair1.xml  NMRR
+AArch32-mair1.xml  NMRR_NS
+AArch32-mair1.xml  NMRR_S
+AArch32-nmrr.xml  MAIR1
+AArch32-nmrr.xml  MAIR1_NS
+AArch32-nmrr.xml  MAIR1_S
+AArch32-nmrr.xml  NMRR
+AArch32-nmrr.xml  NMRR_NS
+AArch32-nmrr.xml  NMRR_S
+AArch32-amair0.xml  AMAIR0
+AArch32-amair0.xml  AMAIR0_NS
+AArch32-amair0.xml  AMAIR0_S
+AArch32-amair1.xml  AMAIR1
+AArch32-amair1.xml  AMAIR1_NS
+AArch32-amair1.xml  AMAIR1_S
+AArch32-vbar.xml  VBAR
+AArch32-vbar.xml  VBAR_NS
+AArch32-vbar.xml  VBAR_S
+AArch32-mvbar.xml  RVBAR
+AArch32-rvbar.xml  MVBAR
+AArch32-rvbar.xml  RVBAR
+AArch32-mvbar.xml  MVBAR
+AArch32-rmr.xml  RMR
+AArch32-isr.xml  ISR
+AArch32-disr.xml  DISR
+AArch32-disr.xml  VDISR
+AArch32-disr.xml  VDISR_EL2
+AArch32-vdisr.xml  DISR
+AArch32-vdisr.xml  VDISR
+AArch32-vdisr.xml  VDISR_EL2
+AArch32-icc_iar0.xml  ICC_IAR0
+AArch32-icc_iar0.xml  ICV_IAR0
+AArch32-icv_iar0.xml  ICC_IAR0
+AArch32-icv_iar0.xml  ICV_IAR0
+AArch32-icc_eoir0.xml  ICC_EOIR0
+AArch32-icc_eoir0.xml  ICV_EOIR0
+AArch32-icv_eoir0.xml  ICC_EOIR0
+AArch32-icv_eoir0.xml  ICV_EOIR0
+AArch32-icc_hppir0.xml  ICC_HPPIR0
+AArch32-icc_hppir0.xml  ICV_HPPIR0
+AArch32-icv_hppir0.xml  ICC_HPPIR0
+AArch32-icv_hppir0.xml  ICV_HPPIR0
+AArch32-icc_bpr0.xml  ICC_BPR0
+AArch32-icc_bpr0.xml  ICV_BPR0
+AArch32-icv_bpr0.xml  ICC_BPR0
+AArch32-icv_bpr0.xml  ICV_BPR0
+AArch32-icc_ap0rn.xml  ICC_AP0R<m>
+AArch32-icc_ap0rn.xml  ICC_AP0R<m>
+AArch32-icv_ap0rn.xml  ICC_AP0R<m>
+AArch32-icv_ap0rn.xml  ICC_AP0R<m>
+AArch32-icc_ap1rn.xml  ICC_AP1R<m>
+AArch32-icc_ap1rn.xml  ICC_AP1R<m>
+AArch32-icc_ap1rn.xml  ICC_AP1R<m>
+AArch32-icc_ap1rn.xml  ICC_AP1R<m>
+AArch32-icv_ap1rn.xml  ICC_AP1R<m>
+AArch32-icv_ap1rn.xml  ICC_AP1R<m>
+AArch32-icv_ap1rn.xml  ICC_AP1R<m>
+AArch32-icv_ap1rn.xml  ICC_AP1R<m>
+AArch32-icc_dir.xml  ICC_DIR
+AArch32-icc_dir.xml  ICV_DIR
+AArch32-icv_dir.xml  ICC_DIR
+AArch32-icv_dir.xml  ICV_DIR
+AArch32-icc_rpr.xml  ICC_RPR
+AArch32-icc_rpr.xml  ICV_RPR
+AArch32-icv_rpr.xml  ICC_RPR
+AArch32-icv_rpr.xml  ICV_RPR
+AArch32-icc_iar1.xml  ICC_IAR1
+AArch32-icc_iar1.xml  ICV_IAR1
+AArch32-icv_iar1.xml  ICC_IAR1
+AArch32-icv_iar1.xml  ICV_IAR1
+AArch32-icc_eoir1.xml  ICC_EOIR1
+AArch32-icc_eoir1.xml  ICV_EOIR1
+AArch32-icv_eoir1.xml  ICC_EOIR1
+AArch32-icv_eoir1.xml  ICV_EOIR1
+AArch32-icc_hppir1.xml  ICC_HPPIR1
+AArch32-icc_hppir1.xml  ICV_HPPIR1
+AArch32-icv_hppir1.xml  ICC_HPPIR1
+AArch32-icv_hppir1.xml  ICV_HPPIR1
+AArch32-icc_bpr1.xml  ICC_BPR1
+AArch32-icc_bpr1.xml  ICC_BPR1_NS
+AArch32-icc_bpr1.xml  ICC_BPR1_S
+AArch32-icc_bpr1.xml  ICV_BPR1
+AArch32-icv_bpr1.xml  ICC_BPR1
+AArch32-icv_bpr1.xml  ICC_BPR1_NS
+AArch32-icv_bpr1.xml  ICC_BPR1_S
+AArch32-icv_bpr1.xml  ICV_BPR1
+AArch32-icc_ctlr.xml  ICC_CTLR
+AArch32-icc_ctlr.xml  ICC_CTLR_NS
+AArch32-icc_ctlr.xml  ICC_CTLR_S
+AArch32-icc_ctlr.xml  ICV_CTLR
+AArch32-icv_ctlr.xml  ICC_CTLR
+AArch32-icv_ctlr.xml  ICC_CTLR_NS
+AArch32-icv_ctlr.xml  ICC_CTLR_S
+AArch32-icv_ctlr.xml  ICV_CTLR
+AArch32-icc_sre.xml  ICC_SRE
+AArch32-icc_sre.xml  ICC_SRE_NS
+AArch32-icc_sre.xml  ICC_SRE_S
+AArch32-icc_igrpen0.xml  ICC_IGRPEN0
+AArch32-icc_igrpen0.xml  ICV_IGRPEN0
+AArch32-icv_igrpen0.xml  ICC_IGRPEN0
+AArch32-icv_igrpen0.xml  ICV_IGRPEN0
+AArch32-icc_igrpen1.xml  ICC_IGRPEN1
+AArch32-icc_igrpen1.xml  ICC_IGRPEN1_NS
+AArch32-icc_igrpen1.xml  ICC_IGRPEN1_S
+AArch32-icc_igrpen1.xml  ICV_IGRPEN1
+AArch32-icv_igrpen1.xml  ICC_IGRPEN1
+AArch32-icv_igrpen1.xml  ICC_IGRPEN1_NS
+AArch32-icv_igrpen1.xml  ICC_IGRPEN1_S
+AArch32-icv_igrpen1.xml  ICV_IGRPEN1
+AArch32-fcseidr.xml  FCSEIDR
+AArch32-contextidr.xml  CONTEXTIDR
+AArch32-contextidr.xml  CONTEXTIDR_NS
+AArch32-contextidr.xml  CONTEXTIDR_S
+AArch32-tpidrurw.xml  TPIDRURW
+AArch32-tpidrurw.xml  TPIDRURW_NS
+AArch32-tpidrurw.xml  TPIDRURW_S
+AArch32-tpidruro.xml  TPIDRURO
+AArch32-tpidruro.xml  TPIDRURO_NS
+AArch32-tpidruro.xml  TPIDRURO_S
+AArch32-tpidrprw.xml  TPIDRPRW
+AArch32-tpidrprw.xml  TPIDRPRW_NS
+AArch32-tpidrprw.xml  TPIDRPRW_S
+AArch32-amcr.xml  AMCR
+AArch32-amcfgr.xml  AMCFGR
+AArch32-amcgcr.xml  AMCGCR
+AArch32-amuserenr.xml  AMUSERENR
+AArch32-amcntenclr0.xml  AMCNTENCLR0
+AArch32-amcntenset0.xml  AMCNTENSET0
+AArch32-amcntenclr1.xml  AMCNTENCLR1
+AArch32-amcntenset1.xml  AMCNTENSET1
+AArch32-amevtyper0n.xml  AMEVTYPER0<m>
+AArch32-amevtyper1n.xml  AMEVTYPER1<m>
+AArch32-cntfrq.xml  CNTFRQ
+AArch32-cntkctl.xml  CNTKCTL
+AArch32-cnthp_tval.xml  CNTP_TVAL
+AArch32-cnthps_tval.xml  CNTP_TVAL
+AArch32-cntp_tval.xml  CNTP_TVAL
+AArch32-cnthp_ctl.xml  CNTHPS_CTL_EL2
+AArch32-cnthp_ctl.xml  CNTHP_CTL_EL2
+AArch32-cnthp_ctl.xml  CNTP_CTL
+AArch32-cnthp_ctl.xml  CNTP_CTL_NS
+AArch32-cnthp_ctl.xml  CNTP_CTL_S
+AArch32-cnthps_ctl.xml  CNTHPS_CTL_EL2
+AArch32-cnthps_ctl.xml  CNTHP_CTL_EL2
+AArch32-cnthps_ctl.xml  CNTP_CTL
+AArch32-cnthps_ctl.xml  CNTP_CTL_NS
+AArch32-cnthps_ctl.xml  CNTP_CTL_S
+AArch32-cntp_ctl.xml  CNTHPS_CTL_EL2
+AArch32-cntp_ctl.xml  CNTHP_CTL_EL2
+AArch32-cntp_ctl.xml  CNTP_CTL
+AArch32-cntp_ctl.xml  CNTP_CTL_NS
+AArch32-cntp_ctl.xml  CNTP_CTL_S
+AArch32-cnthv_tval.xml  CNTV_TVAL
+AArch32-cnthvs_tval.xml  CNTV_TVAL
+AArch32-cntv_tval.xml  CNTV_TVAL
+AArch32-cnthv_ctl.xml  CNTHVS_CTL_EL2
+AArch32-cnthv_ctl.xml  CNTHV_CTL_EL2
+AArch32-cnthv_ctl.xml  CNTV_CTL
+AArch32-cnthvs_ctl.xml  CNTHVS_CTL_EL2
+AArch32-cnthvs_ctl.xml  CNTHV_CTL_EL2
+AArch32-cnthvs_ctl.xml  CNTV_CTL
+AArch32-cntv_ctl.xml  CNTHVS_CTL_EL2
+AArch32-cntv_ctl.xml  CNTHV_CTL_EL2
+AArch32-cntv_ctl.xml  CNTV_CTL
+AArch32-pmevcntrn.xml  PMEVCNTR<m>
+AArch32-pmccfiltr.xml  PMCCFILTR
+AArch32-pmevtypern.xml  PMEVTYPER<m>
+AArch32-ccsidr.xml  CCSIDR
+AArch32-clidr.xml  CLIDR
+AArch32-ccsidr2.xml  CCSIDR2
+AArch32-aidr.xml  AIDR
+AArch32-csselr.xml  CSSELR
+AArch32-csselr.xml  CSSELR_NS
+AArch32-csselr.xml  CSSELR_S
+AArch32-dspsr.xml  DSPSR
+AArch32-dlr.xml  DLR
+AArch32-dspsr2.xml  DSPSR2
+AArch32-vpidr.xml  MIDR
+AArch32-vpidr.xml  VPIDR
+AArch32-vmpidr.xml  MPIDR
+AArch32-vmpidr.xml  VMPIDR
+AArch32-hsctlr.xml  HSCTLR
+AArch32-hactlr.xml  HACTLR
+AArch32-hactlr2.xml  HACTLR2
+AArch32-hcr.xml  HCR
+AArch32-hdcr.xml  HDCR
+AArch32-hcptr.xml  HCPTR
+AArch32-hstr.xml  HSTR
+AArch32-hcr2.xml  HCR2
+AArch32-hacr.xml  HACR
+AArch32-htrfcr.xml  HTRFCR
+AArch32-htcr.xml  HTCR
+AArch32-vtcr.xml  VTCR
+AArch32-hadfsr.xml  HADFSR
+AArch32-haifsr.xml  HAIFSR
+AArch32-hsr.xml  HSR
+AArch32-vdfsr.xml  VDFSR
+AArch32-hdfar.xml  HDFAR
+AArch32-hifar.xml  HIFAR
+AArch32-hpfar.xml  HPFAR
+AArch32-ats1hr.xml  ATS1HR
+AArch32-ats1hw.xml  ATS1HW
+AArch32-tlbiipas2is.xml  TLBIIPAS2IS
+AArch32-tlbiipas2lis.xml  TLBIIPAS2LIS
+AArch32-tlbiallhis.xml  TLBIALLHIS
+AArch32-tlbimvahis.xml  TLBIMVAHIS
+AArch32-tlbiallnsnhis.xml  TLBIALLNSNHIS
+AArch32-tlbimvalhis.xml  TLBIMVALHIS
+AArch32-tlbiipas2.xml  TLBIIPAS2
+AArch32-tlbiipas2l.xml  TLBIIPAS2L
+AArch32-tlbiallh.xml  TLBIALLH
+AArch32-tlbimvah.xml  TLBIMVAH
+AArch32-tlbiallnsnh.xml  TLBIALLNSNH
+AArch32-tlbimvalh.xml  TLBIMVALH
+AArch32-hmair0.xml  HMAIR0
+AArch32-hmair1.xml  HMAIR1
+AArch32-hamair0.xml  HAMAIR0
+AArch32-hamair1.xml  HAMAIR1
+AArch32-hvbar.xml  HVBAR
+AArch32-hrmr.xml  HRMR
+AArch32-vdisr.xml  VDISR
+AArch32-ich_ap0rn.xml  ICH_AP0R<m>
+AArch32-ich_ap1rn.xml  ICH_AP1R<m>
+AArch32-icc_hsre.xml  ICC_HSRE
+AArch32-ich_hcr.xml  ICH_HCR
+AArch32-ich_vtr.xml  ICH_VTR
+AArch32-ich_misr.xml  ICH_MISR
+AArch32-ich_eisr.xml  ICH_EISR
+AArch32-ich_elrsr.xml  ICH_ELRSR
+AArch32-ich_vmcr.xml  ICH_VMCR
+AArch32-ich_lrn.xml  ICH_LR<m>
+AArch32-ich_lrcn.xml  ICH_LRC<m>
+AArch32-htpidr.xml  HTPIDR
+AArch32-cnthctl.xml  CNTHCTL
+AArch32-cnthp_tval.xml  CNTHP_TVAL
+AArch32-cnthp_ctl.xml  CNTHP_CTL
+AArch32-icc_mctlr.xml  ICC_MCTLR
+AArch32-icc_msre.xml  ICC_MSRE
+AArch32-icc_mgrpen1.xml  ICC_MGRPEN1
+AArch32-dbgdrar.xml  DBGDRAR
+AArch32-dbgdsar.xml  DBGDSAR
+AArch32-ttbr0.xml  TTBR0
+AArch32-ttbr0.xml  TTBR0_NS
+AArch32-ttbr0.xml  TTBR0_S
+AArch32-par.xml  PAR
+AArch32-par.xml  PAR_NS
+AArch32-par.xml  PAR_S
+AArch32-pmccntr.xml  PMCCNTR
+AArch32-icc_sgi1r.xml  ICC_SGI1R
+AArch32-cntpct.xml  CNTPCT
+AArch32-ttbr1.xml  TTBR1
+AArch32-ttbr1.xml  TTBR1_NS
+AArch32-ttbr1.xml  TTBR1_S
+AArch32-icc_asgi1r.xml  ICC_ASGI1R
+AArch32-cntvct.xml  CNTVCT
+AArch32-icc_sgi0r.xml  ICC_SGI0R
+AArch32-cnthp_cval.xml  CNTHPS_CVAL_EL2
+AArch32-cnthp_cval.xml  CNTHP_CVAL_EL2
+AArch32-cnthp_cval.xml  CNTP_CVAL
+AArch32-cnthp_cval.xml  CNTP_CVAL_NS
+AArch32-cnthp_cval.xml  CNTP_CVAL_S
+AArch32-cnthps_cval.xml  CNTHPS_CVAL_EL2
+AArch32-cnthps_cval.xml  CNTHP_CVAL_EL2
+AArch32-cnthps_cval.xml  CNTP_CVAL
+AArch32-cnthps_cval.xml  CNTP_CVAL_NS
+AArch32-cnthps_cval.xml  CNTP_CVAL_S
+AArch32-cntp_cval.xml  CNTHPS_CVAL_EL2
+AArch32-cntp_cval.xml  CNTHP_CVAL_EL2
+AArch32-cntp_cval.xml  CNTP_CVAL
+AArch32-cntp_cval.xml  CNTP_CVAL_NS
+AArch32-cntp_cval.xml  CNTP_CVAL_S
+AArch32-cnthv_cval.xml  CNTHVS_CVAL_EL2
+AArch32-cnthv_cval.xml  CNTHV_CVAL_EL2
+AArch32-cnthv_cval.xml  CNTV_CVAL
+AArch32-cnthvs_cval.xml  CNTHVS_CVAL_EL2
+AArch32-cnthvs_cval.xml  CNTHV_CVAL_EL2
+AArch32-cnthvs_cval.xml  CNTV_CVAL
+AArch32-cntv_cval.xml  CNTHVS_CVAL_EL2
+AArch32-cntv_cval.xml  CNTHV_CVAL_EL2
+AArch32-cntv_cval.xml  CNTV_CVAL
+AArch32-httbr.xml  HTTBR
+AArch32-cntvoff.xml  CNTVOFF
+AArch32-vttbr.xml  VTTBR
+AArch32-cnthp_cval.xml  CNTHP_CVAL
+AArch32-amevcntr0n.xml  AMEVCNTR0<m>
+AArch32-amevcntr1n.xml  AMEVCNTR1<m>
+AArch32-cntpctss.xml  CNTPCTSS
+AArch32-cntvctss.xml  CNTVCTSS
+AArch32-elr_hyp.xml  ELR_hyp
+AArch32-spsr_fiq.xml  SPSR_fiq
+AArch32-spsr_irq.xml  SPSR_irq
+AArch32-spsr_svc.xml  SPSR_svc
+AArch32-spsr_abt.xml  SPSR_abt
+AArch32-spsr_und.xml  SPSR_und
+AArch32-spsr_mon.xml  SPSR_mon
+AArch32-spsr_hyp.xml  SPSR_hyp
+AArch32-fpsid.xml  FPSID
+AArch32-fpscr.xml  FPSCR
+AArch32-mvfr2.xml  MVFR2
+AArch32-mvfr1.xml  MVFR1
+AArch32-mvfr0.xml  MVFR0
+AArch32-fpexc.xml  FPEXC
+AArch64-at-s1e1r.xml  AT S1E1R
+AArch64-at-s1e1w.xml  AT S1E1W
+AArch64-at-s1e0r.xml  AT S1E0R
+AArch64-at-s1e0w.xml  AT S1E0W
+AArch64-at-s1e1rp.xml  AT S1E1RP
+AArch64-at-s1e1wp.xml  AT S1E1WP
+AArch64-at-s1e1a.xml  AT S1E1A
+AArch64-at-s1e2r.xml  AT S1E2R
+AArch64-at-s1e2w.xml  AT S1E2W
+AArch64-at-s12e1r.xml  AT S12E1R
+AArch64-at-s12e1w.xml  AT S12E1W
+AArch64-at-s12e0r.xml  AT S12E0R
+AArch64-at-s12e0w.xml  AT S12E0W
+AArch64-at-s1e2a.xml  AT S1E2A
+AArch64-at-s1e3r.xml  AT S1E3R
+AArch64-at-s1e3w.xml  AT S1E3W
+AArch64-at-s1e3a.xml  AT S1E3A
+AArch64-brb-iall.xml  BRB IALL
+AArch64-brb-inj.xml  BRB INJ
+AArch64-cfp-rctx.xml  CFP RCTX
+AArch64-cpp-rctx.xml  CPP RCTX
+AArch64-dc-ivac.xml  DC IVAC
+AArch64-dc-isw.xml  DC ISW
+AArch64-dc-igvac.xml  DC IGVAC
+AArch64-dc-igsw.xml  DC IGSW
+AArch64-dc-igdvac.xml  DC IGDVAC
+AArch64-dc-igdsw.xml  DC IGDSW
+AArch64-dc-csw.xml  DC CSW
+AArch64-dc-cgsw.xml  DC CGSW
+AArch64-dc-cgdsw.xml  DC CGDSW
+AArch64-dc-cisw.xml  DC CISW
+AArch64-dc-cigsw.xml  DC CIGSW
+AArch64-dc-cigdsw.xml  DC CIGDSW
+AArch64-dc-zva.xml  DC ZVA
+AArch64-dc-gva.xml  DC GVA
+AArch64-dc-gzva.xml  DC GZVA
+AArch64-dc-cvac.xml  DC CVAC
+AArch64-dc-cgvac.xml  DC CGVAC
+AArch64-dc-cgdvac.xml  DC CGDVAC
+AArch64-dc-cvau.xml  DC CVAU
+AArch64-dc-cvap.xml  DC CVAP
+AArch64-dc-cgvap.xml  DC CGVAP
+AArch64-dc-cgdvap.xml  DC CGDVAP
+AArch64-dc-cvadp.xml  DC CVADP
+AArch64-dc-cgvadp.xml  DC CGVADP
+AArch64-dc-cgdvadp.xml  DC CGDVADP
+AArch64-dc-civac.xml  DC CIVAC
+AArch64-dc-cigvac.xml  DC CIGVAC
+AArch64-dc-cigdvac.xml  DC CIGDVAC
+AArch64-dc-cipae.xml  DC CIPAE
+AArch64-dc-cigdpae.xml  DC CIGDPAE
+AArch64-dc-cipapa.xml  DC CIPAPA
+AArch64-dc-cigdpapa.xml  DC CIGDPAPA
+AArch64-dvp-rctx.xml  DVP RCTX
+AArch64-ic-ialluis.xml  IC IALLUIS
+AArch64-ic-iallu.xml  IC IALLU
+AArch64-ic-ivau.xml  IC IVAU
+AArch64-osdtrrx_el1.xml  OSDTRRX_EL1
+AArch64-mdccint_el1.xml  MDCCINT_EL1
+AArch64-mdscr_el1.xml  MDSCR_EL1
+AArch64-osdtrtx_el1.xml  OSDTRTX_EL1
+AArch64-mdselr_el1.xml  MDSELR_EL1
+AArch64-oseccr_el1.xml  OSECCR_EL1
+AArch64-dbgbvrn_el1.xml  DBGBVR<m>_EL1
+AArch64-dbgbvrn_el1.xml  DBGBVR<m>_EL1
+AArch64-dbgbcrn_el1.xml  DBGBCR<m>_EL1
+AArch64-dbgbcrn_el1.xml  DBGBCR<m>_EL1
+AArch64-dbgwvrn_el1.xml  DBGWVR<m>_EL1
+AArch64-dbgwvrn_el1.xml  DBGWVR<m>_EL1
+AArch64-dbgwcrn_el1.xml  DBGWCR<m>_EL1
+AArch64-dbgwcrn_el1.xml  DBGWCR<m>_EL1
+AArch64-mdrar_el1.xml  MDRAR_EL1
+AArch64-oslar_el1.xml  OSLAR_EL1
+AArch64-oslsr_el1.xml  OSLSR_EL1
+AArch64-osdlr_el1.xml  OSDLR_EL1
+AArch64-dbgprcr_el1.xml  DBGPRCR_EL1
+AArch64-dbgclaimset_el1.xml  DBGCLAIMSET_EL1
+AArch64-dbgclaimclr_el1.xml  DBGCLAIMCLR_EL1
+AArch64-dbgauthstatus_el1.xml  DBGAUTHSTATUS_EL1
+AArch64-spmcgcrn_el1.xml  SPMCGCR<m>_EL1
+AArch64-spmaccessr_el1.xml  SPMACCESSR_EL1
+AArch64-spmaccessr_el1.xml  SPMACCESSR_EL2
+AArch64-spmaccessr_el2.xml  SPMACCESSR_EL1
+AArch64-spmaccessr_el2.xml  SPMACCESSR_EL2
+AArch64-spmiidr_el1.xml  SPMIIDR_EL1
+AArch64-spmdevarch_el1.xml  SPMDEVARCH_EL1
+AArch64-spmdevaff_el1.xml  SPMDEVAFF_EL1
+AArch64-spmcfgr_el1.xml  SPMCFGR_EL1
+AArch64-spmintenset_el1.xml  SPMINTENSET_EL1
+AArch64-spmintenclr_el1.xml  SPMINTENCLR_EL1
+AArch64-pmccntsvr_el1.xml  PMCCNTSVR_EL1
+AArch64-pmevcntsvrn_el1.xml  PMEVCNTSVR<m>_EL1
+AArch64-pmicntsvr_el1.xml  PMICNTSVR_EL1
+AArch64-trctraceidr.xml  TRCTRACEIDR
+AArch64-trcvictlr.xml  TRCVICTLR
+AArch64-trcidr8.xml  TRCIDR8
+AArch64-trcimspec0.xml  TRCIMSPEC0
+AArch64-trcprgctlr.xml  TRCPRGCTLR
+AArch64-trcqctlr.xml  TRCQCTLR
+AArch64-trcviiectlr.xml  TRCVIIECTLR
+AArch64-trcidr9.xml  TRCIDR9
+AArch64-trciteedcr.xml  TRCITEEDCR
+AArch64-trcvissctlr.xml  TRCVISSCTLR
+AArch64-trcidr10.xml  TRCIDR10
+AArch64-trcstatr.xml  TRCSTATR
+AArch64-trcvipcssctlr.xml  TRCVIPCSSCTLR
+AArch64-trcidr11.xml  TRCIDR11
+AArch64-trcseqevrn.xml  TRCSEQEVR<m>
+AArch64-trccntrldvrn.xml  TRCCNTRLDVR<m>
+AArch64-trcconfigr.xml  TRCCONFIGR
+AArch64-trcidr12.xml  TRCIDR12
+AArch64-trcidr13.xml  TRCIDR13
+AArch64-trcauxctlr.xml  TRCAUXCTLR
+AArch64-trcseqrstevr.xml  TRCSEQRSTEVR
+AArch64-trcseqstr.xml  TRCSEQSTR
+AArch64-trccntctlrn.xml  TRCCNTCTLR<m>
+AArch64-trcimspecn.xml  TRCIMSPEC<m>
+AArch64-trceventctl0r.xml  TRCEVENTCTL0R
+AArch64-trcidr0.xml  TRCIDR0
+AArch64-trceventctl1r.xml  TRCEVENTCTL1R
+AArch64-trcidr1.xml  TRCIDR1
+AArch64-trcrsr.xml  TRCRSR
+AArch64-trcidr2.xml  TRCIDR2
+AArch64-trcstallctlr.xml  TRCSTALLCTLR
+AArch64-trcidr3.xml  TRCIDR3
+AArch64-trcextinselrn.xml  TRCEXTINSELR<m>
+AArch64-trccntvrn.xml  TRCCNTVR<m>
+AArch64-trctsctlr.xml  TRCTSCTLR
+AArch64-trcidr4.xml  TRCIDR4
+AArch64-trcsyncpr.xml  TRCSYNCPR
+AArch64-trcidr5.xml  TRCIDR5
+AArch64-trcccctlr.xml  TRCCCCTLR
+AArch64-trcidr6.xml  TRCIDR6
+AArch64-trcbbctlr.xml  TRCBBCTLR
+AArch64-trcidr7.xml  TRCIDR7
+AArch64-trcoslsr.xml  TRCOSLSR
+AArch64-trcssccrn.xml  TRCSSCCR<m>
+AArch64-trcsspcicrn.xml  TRCSSPCICR<m>
+AArch64-trcsscsrn.xml  TRCSSCSR<m>
+AArch64-trcrsctlrn.xml  TRCRSCTLR<m>
+AArch64-trcacvrn.xml  TRCACVR<m>
+AArch64-trcacatrn.xml  TRCACATR<m>
+AArch64-trccidcctlr0.xml  TRCCIDCCTLR0
+AArch64-trccidcctlr1.xml  TRCCIDCCTLR1
+AArch64-trcvmidcctlr0.xml  TRCVMIDCCTLR0
+AArch64-trcvmidcctlr1.xml  TRCVMIDCCTLR1
+AArch64-trccidcvrn.xml  TRCCIDCVR<m>
+AArch64-trcvmidcvrn.xml  TRCVMIDCVR<m>
+AArch64-trcdevid.xml  TRCDEVID
+AArch64-trcclaimset.xml  TRCCLAIMSET
+AArch64-trcclaimclr.xml  TRCCLAIMCLR
+AArch64-trcauthstatus.xml  TRCAUTHSTATUS
+AArch64-trcdevarch.xml  TRCDEVARCH
+AArch64-brbinfn_el1.xml  BRBINF<m>_EL1
+AArch64-brbsrcn_el1.xml  BRBSRC<m>_EL1
+AArch64-brbtgtn_el1.xml  BRBTGT<m>_EL1
+AArch64-brbcr_el1.xml  BRBCR_EL1
+AArch64-brbcr_el1.xml  BRBCR_EL2
+AArch64-brbcr_el2.xml  BRBCR_EL1
+AArch64-brbcr_el2.xml  BRBCR_EL2
+AArch64-brbfcr_el1.xml  BRBFCR_EL1
+AArch64-brbts_el1.xml  BRBTS_EL1
+AArch64-brbinfinj_el1.xml  BRBINFINJ_EL1
+AArch64-brbsrcinj_el1.xml  BRBSRCINJ_EL1
+AArch64-brbtgtinj_el1.xml  BRBTGTINJ_EL1
+AArch64-brbidr0_el1.xml  BRBIDR0_EL1
+AArch64-mdccsr_el0.xml  MDCCSR_EL0
+AArch64-dbgdtr_el0.xml  DBGDTR_EL0
+AArch64-dbgdtrrx_el0.xml  DBGDTRRX_EL0
+AArch64-dbgdtrtx_el0.xml  DBGDTRTX_EL0
+AArch64-spmcr_el0.xml  SPMCR_EL0
+AArch64-spmcntenset_el0.xml  SPMCNTENSET_EL0
+AArch64-spmcntenclr_el0.xml  SPMCNTENCLR_EL0
+AArch64-spmovsclr_el0.xml  SPMOVSCLR_EL0
+AArch64-spmselr_el0.xml  SPMSELR_EL0
+AArch64-spmovsset_el0.xml  SPMOVSSET_EL0
+AArch64-spmevcntrn_el0.xml  SPMEVCNTR<m>_EL0
+AArch64-spmevtypern_el0.xml  SPMEVTYPER<m>_EL0
+AArch64-spmevfiltrn_el0.xml  SPMEVFILTR<m>_EL0
+AArch64-spmevfilt2rn_el0.xml  SPMEVFILT2R<m>_EL0
+AArch64-dbgvcr32_el2.xml  DBGVCR32_EL2
+AArch64-brbcr_el2.xml  BRBCR_EL2
+AArch64-spmaccessr_el2.xml  SPMACCESSR_EL2
+AArch64-brbcr_el1.xml  BRBCR_EL1
+AArch64-spmaccessr_el1.xml  SPMACCESSR_EL1
+AArch64-spmaccessr_el3.xml  SPMACCESSR_EL3
+AArch64-spmrootcr_el3.xml  SPMROOTCR_EL3
+AArch64-spmscr_el1.xml  SPMSCR_EL1
+AArch64-midr_el1.xml  MIDR_EL1
+AArch64-midr_el1.xml  VPIDR_EL2
+AArch64-vpidr_el2.xml  MIDR_EL1
+AArch64-vpidr_el2.xml  VPIDR_EL2
+AArch64-mpidr_el1.xml  MPIDR_EL1
+AArch64-mpidr_el1.xml  VMPIDR_EL2
+AArch64-vmpidr_el2.xml  MPIDR_EL1
+AArch64-vmpidr_el2.xml  VMPIDR_EL2
+AArch64-revidr_el1.xml  REVIDR_EL1
+AArch64-id_pfr0_el1.xml  ID_PFR0_EL1
+AArch64-id_pfr1_el1.xml  ID_PFR1_EL1
+AArch64-id_dfr0_el1.xml  ID_DFR0_EL1
+AArch64-id_afr0_el1.xml  ID_AFR0_EL1
+AArch64-id_mmfr0_el1.xml  ID_MMFR0_EL1
+AArch64-id_mmfr1_el1.xml  ID_MMFR1_EL1
+AArch64-id_mmfr2_el1.xml  ID_MMFR2_EL1
+AArch64-id_mmfr3_el1.xml  ID_MMFR3_EL1
+AArch64-id_isar0_el1.xml  ID_ISAR0_EL1
+AArch64-id_isar1_el1.xml  ID_ISAR1_EL1
+AArch64-id_isar2_el1.xml  ID_ISAR2_EL1
+AArch64-id_isar3_el1.xml  ID_ISAR3_EL1
+AArch64-id_isar4_el1.xml  ID_ISAR4_EL1
+AArch64-id_isar5_el1.xml  ID_ISAR5_EL1
+AArch64-id_mmfr4_el1.xml  ID_MMFR4_EL1
+AArch64-id_isar6_el1.xml  ID_ISAR6_EL1
+AArch64-mvfr0_el1.xml  MVFR0_EL1
+AArch64-mvfr1_el1.xml  MVFR1_EL1
+AArch64-mvfr2_el1.xml  MVFR2_EL1
+AArch64-id_pfr2_el1.xml  ID_PFR2_EL1
+AArch64-id_dfr1_el1.xml  ID_DFR1_EL1
+AArch64-id_mmfr5_el1.xml  ID_MMFR5_EL1
+AArch64-id_aa64pfr0_el1.xml  ID_AA64PFR0_EL1
+AArch64-id_aa64pfr1_el1.xml  ID_AA64PFR1_EL1
+AArch64-id_aa64pfr2_el1.xml  ID_AA64PFR2_EL1
+AArch64-id_aa64zfr0_el1.xml  ID_AA64ZFR0_EL1
+AArch64-id_aa64smfr0_el1.xml  ID_AA64SMFR0_EL1
+AArch64-id_aa64dfr0_el1.xml  ID_AA64DFR0_EL1
+AArch64-id_aa64dfr1_el1.xml  ID_AA64DFR1_EL1
+AArch64-id_aa64afr0_el1.xml  ID_AA64AFR0_EL1
+AArch64-id_aa64afr1_el1.xml  ID_AA64AFR1_EL1
+AArch64-id_aa64isar0_el1.xml  ID_AA64ISAR0_EL1
+AArch64-id_aa64isar1_el1.xml  ID_AA64ISAR1_EL1
+AArch64-id_aa64isar2_el1.xml  ID_AA64ISAR2_EL1
+AArch64-id_aa64mmfr0_el1.xml  ID_AA64MMFR0_EL1
+AArch64-id_aa64mmfr1_el1.xml  ID_AA64MMFR1_EL1
+AArch64-id_aa64mmfr2_el1.xml  ID_AA64MMFR2_EL1
+AArch64-id_aa64mmfr3_el1.xml  ID_AA64MMFR3_EL1
+AArch64-id_aa64mmfr4_el1.xml  ID_AA64MMFR4_EL1
+AArch64-sctlr_el1.xml  SCTLR_EL1
+AArch64-sctlr_el1.xml  SCTLR_EL2
+AArch64-sctlr_el2.xml  SCTLR_EL1
+AArch64-sctlr_el2.xml  SCTLR_EL2
+AArch64-actlr_el1.xml  ACTLR_EL1
+AArch64-cpacr_el1.xml  CPACR_EL1
+AArch64-cpacr_el1.xml  CPTR_EL2
+AArch64-cptr_el2.xml  CPACR_EL1
+AArch64-cptr_el2.xml  CPTR_EL2
+AArch64-sctlr2_el1.xml  SCTLR2_EL1
+AArch64-sctlr2_el1.xml  SCTLR2_EL2
+AArch64-sctlr2_el2.xml  SCTLR2_EL1
+AArch64-sctlr2_el2.xml  SCTLR2_EL2
+AArch64-rgsr_el1.xml  RGSR_EL1
+AArch64-gcr_el1.xml  GCR_EL1
+AArch64-zcr_el1.xml  ZCR_EL1
+AArch64-zcr_el1.xml  ZCR_EL2
+AArch64-zcr_el2.xml  ZCR_EL1
+AArch64-zcr_el2.xml  ZCR_EL2
+AArch64-trfcr_el1.xml  TRFCR_EL1
+AArch64-trfcr_el1.xml  TRFCR_EL2
+AArch64-trfcr_el2.xml  TRFCR_EL1
+AArch64-trfcr_el2.xml  TRFCR_EL2
+AArch64-trcitecr_el1.xml  TRCITECR_EL1
+AArch64-trcitecr_el1.xml  TRCITECR_EL2
+AArch64-trcitecr_el2.xml  TRCITECR_EL1
+AArch64-trcitecr_el2.xml  TRCITECR_EL2
+AArch64-smpri_el1.xml  SMPRI_EL1
+AArch64-smcr_el1.xml  SMCR_EL1
+AArch64-smcr_el1.xml  SMCR_EL2
+AArch64-smcr_el2.xml  SMCR_EL1
+AArch64-smcr_el2.xml  SMCR_EL2
+AArch64-ttbr0_el1.xml  TTBR0_EL1
+AArch64-ttbr0_el1.xml  TTBR0_EL2
+AArch64-ttbr0_el2.xml  TTBR0_EL1
+AArch64-ttbr0_el2.xml  TTBR0_EL2
+AArch64-ttbr1_el1.xml  TTBR1_EL1
+AArch64-ttbr1_el1.xml  TTBR1_EL2
+AArch64-ttbr1_el2.xml  TTBR1_EL1
+AArch64-ttbr1_el2.xml  TTBR1_EL2
+AArch64-tcr_el1.xml  TCR_EL1
+AArch64-tcr_el1.xml  TCR_EL2
+AArch64-tcr_el2.xml  TCR_EL1
+AArch64-tcr_el2.xml  TCR_EL2
+AArch64-tcr2_el1.xml  TCR2_EL1
+AArch64-tcr2_el1.xml  TCR2_EL2
+AArch64-tcr2_el2.xml  TCR2_EL1
+AArch64-tcr2_el2.xml  TCR2_EL2
+AArch64-apiakeylo_el1.xml  APIAKeyLo_EL1
+AArch64-apiakeyhi_el1.xml  APIAKeyHi_EL1
+AArch64-apibkeylo_el1.xml  APIBKeyLo_EL1
+AArch64-apibkeyhi_el1.xml  APIBKeyHi_EL1
+AArch64-apdakeylo_el1.xml  APDAKeyLo_EL1
+AArch64-apdakeyhi_el1.xml  APDAKeyHi_EL1
+AArch64-apdbkeylo_el1.xml  APDBKeyLo_EL1
+AArch64-apdbkeyhi_el1.xml  APDBKeyHi_EL1
+AArch64-apgakeylo_el1.xml  APGAKeyLo_EL1
+AArch64-apgakeyhi_el1.xml  APGAKeyHi_EL1
+AArch64-gcscr_el1.xml  GCSCR_EL1
+AArch64-gcscr_el1.xml  GCSCR_EL2
+AArch64-gcscr_el2.xml  GCSCR_EL1
+AArch64-gcscr_el2.xml  GCSCR_EL2
+AArch64-gcspr_el1.xml  GCSPR_EL1
+AArch64-gcspr_el1.xml  GCSPR_EL2
+AArch64-gcspr_el2.xml  GCSPR_EL1
+AArch64-gcspr_el2.xml  GCSPR_EL2
+AArch64-gcscre0_el1.xml  GCSCRE0_EL1
+AArch64-spsr_el1.xml  SPSR_EL1
+AArch64-spsr_el1.xml  SPSR_EL2
+AArch64-spsr_el2.xml  SPSR_EL1
+AArch64-spsr_el2.xml  SPSR_EL2
+AArch64-elr_el1.xml  ELR_EL1
+AArch64-elr_el1.xml  ELR_EL2
+AArch64-elr_el2.xml  ELR_EL1
+AArch64-elr_el2.xml  ELR_EL2
+AArch64-sp_el0.xml  SP_EL0
+AArch64-spsel.xml  SPSel
+AArch64-currentel.xml  CurrentEL
+AArch64-pan.xml  PAN
+AArch64-uao.xml  UAO
+AArch64-allint.xml  ALLINT
+AArch64-pm.xml  PM
+AArch64-icc_pmr_el1.xml  ICC_PMR_EL1
+AArch64-icc_pmr_el1.xml  ICV_PMR_EL1
+AArch64-icv_pmr_el1.xml  ICC_PMR_EL1
+AArch64-icv_pmr_el1.xml  ICV_PMR_EL1
+AArch64-afsr0_el1.xml  AFSR0_EL1
+AArch64-afsr0_el1.xml  AFSR0_EL2
+AArch64-afsr0_el2.xml  AFSR0_EL1
+AArch64-afsr0_el2.xml  AFSR0_EL2
+AArch64-afsr1_el1.xml  AFSR1_EL1
+AArch64-afsr1_el1.xml  AFSR1_EL2
+AArch64-afsr1_el2.xml  AFSR1_EL1
+AArch64-afsr1_el2.xml  AFSR1_EL2
+AArch64-esr_el1.xml  ESR_EL1
+AArch64-esr_el1.xml  ESR_EL2
+AArch64-esr_el2.xml  ESR_EL1
+AArch64-esr_el2.xml  ESR_EL2
+AArch64-erridr_el1.xml  ERRIDR_EL1
+AArch64-errselr_el1.xml  ERRSELR_EL1
+AArch64-erxgsr_el1.xml  ERXGSR_EL1
+AArch64-erxfr_el1.xml  ERXFR_EL1
+AArch64-erxctlr_el1.xml  ERXCTLR_EL1
+AArch64-erxstatus_el1.xml  ERXSTATUS_EL1
+AArch64-erxaddr_el1.xml  ERXADDR_EL1
+AArch64-erxpfgf_el1.xml  ERXPFGF_EL1
+AArch64-erxpfgctl_el1.xml  ERXPFGCTL_EL1
+AArch64-erxpfgcdn_el1.xml  ERXPFGCDN_EL1
+AArch64-erxmisc0_el1.xml  ERXMISC0_EL1
+AArch64-erxmisc1_el1.xml  ERXMISC1_EL1
+AArch64-erxmisc2_el1.xml  ERXMISC2_EL1
+AArch64-erxmisc3_el1.xml  ERXMISC3_EL1
+AArch64-tfsr_el1.xml  TFSR_EL1
+AArch64-tfsr_el1.xml  TFSR_EL2
+AArch64-tfsr_el2.xml  TFSR_EL1
+AArch64-tfsr_el2.xml  TFSR_EL2
+AArch64-tfsre0_el1.xml  TFSRE0_EL1
+AArch64-far_el1.xml  FAR_EL1
+AArch64-far_el1.xml  FAR_EL2
+AArch64-far_el2.xml  FAR_EL1
+AArch64-far_el2.xml  FAR_EL2
+AArch64-pfar_el1.xml  PFAR_EL1
+AArch64-pfar_el1.xml  PFAR_EL2
+AArch64-par_el1.xml  PAR_EL1
+AArch64-pmscr_el1.xml  PMSCR_EL1
+AArch64-pmscr_el1.xml  PMSCR_EL2
+AArch64-pmscr_el2.xml  PMSCR_EL1
+AArch64-pmscr_el2.xml  PMSCR_EL2
+AArch64-pmsnevfr_el1.xml  PMSNEVFR_EL1
+AArch64-pmsicr_el1.xml  PMSICR_EL1
+AArch64-pmsirr_el1.xml  PMSIRR_EL1
+AArch64-pmsfcr_el1.xml  PMSFCR_EL1
+AArch64-pmsevfr_el1.xml  PMSEVFR_EL1
+AArch64-pmslatfr_el1.xml  PMSLATFR_EL1
+AArch64-pmsidr_el1.xml  PMSIDR_EL1
+AArch64-pmblimitr_el1.xml  PMBLIMITR_EL1
+AArch64-pmbptr_el1.xml  PMBPTR_EL1
+AArch64-pmbsr_el1.xml  PMBSR_EL1
+AArch64-pmsdsfr_el1.xml  PMSDSFR_EL1
+AArch64-pmbidr_el1.xml  PMBIDR_EL1
+AArch64-trblimitr_el1.xml  TRBLIMITR_EL1
+AArch64-trbptr_el1.xml  TRBPTR_EL1
+AArch64-trbbaser_el1.xml  TRBBASER_EL1
+AArch64-trbsr_el1.xml  TRBSR_EL1
+AArch64-trbmar_el1.xml  TRBMAR_EL1
+AArch64-trbmpam_el1.xml  TRBMPAM_EL1
+AArch64-trbtrg_el1.xml  TRBTRG_EL1
+AArch64-trbidr_el1.xml  TRBIDR_EL1
+AArch64-pmsscr_el1.xml  PMSSCR_EL1
+AArch64-pmintenset_el1.xml  PMINTENSET_EL1
+AArch64-pmintenclr_el1.xml  PMINTENCLR_EL1
+AArch64-pmuacr_el1.xml  PMUACR_EL1
+AArch64-pmecr_el1.xml  PMECR_EL1
+AArch64-pmmir_el1.xml  PMMIR_EL1
+AArch64-pmiar_el1.xml  PMIAR_EL1
+AArch64-mair_el1.xml  MAIR_EL1
+AArch64-mair_el1.xml  MAIR_EL2
+AArch64-mair_el2.xml  MAIR_EL1
+AArch64-mair_el2.xml  MAIR_EL2
+AArch64-mair2_el1.xml  MAIR2_EL1
+AArch64-mair2_el1.xml  MAIR2_EL2
+AArch64-mair2_el2.xml  MAIR2_EL1
+AArch64-mair2_el2.xml  MAIR2_EL2
+AArch64-pire0_el1.xml  PIRE0_EL1
+AArch64-pire0_el1.xml  PIRE0_EL2
+AArch64-pire0_el2.xml  PIRE0_EL1
+AArch64-pire0_el2.xml  PIRE0_EL2
+AArch64-pir_el1.xml  PIR_EL1
+AArch64-pir_el1.xml  PIR_EL2
+AArch64-pir_el2.xml  PIR_EL1
+AArch64-pir_el2.xml  PIR_EL2
+AArch64-por_el1.xml  POR_EL1
+AArch64-por_el1.xml  POR_EL2
+AArch64-por_el2.xml  POR_EL1
+AArch64-por_el2.xml  POR_EL2
+AArch64-s2por_el1.xml  S2POR_EL1
+AArch64-amair_el1.xml  AMAIR_EL1
+AArch64-amair_el1.xml  AMAIR_EL2
+AArch64-amair_el2.xml  AMAIR_EL1
+AArch64-amair_el2.xml  AMAIR_EL2
+AArch64-amair2_el1.xml  AMAIR2_EL1
+AArch64-amair2_el1.xml  AMAIR2_EL2
+AArch64-amair2_el2.xml  AMAIR2_EL1
+AArch64-amair2_el2.xml  AMAIR2_EL2
+AArch64-lorsa_el1.xml  LORSA_EL1
+AArch64-lorea_el1.xml  LOREA_EL1
+AArch64-lorn_el1.xml  LORN_EL1
+AArch64-lorc_el1.xml  LORC_EL1
+AArch64-mpamidr_el1.xml  MPAMIDR_EL1
+AArch64-lorid_el1.xml  LORID_EL1
+AArch64-mpam1_el1.xml  MPAM1_EL1
+AArch64-mpam1_el1.xml  MPAM2_EL2
+AArch64-mpam2_el2.xml  MPAM1_EL1
+AArch64-mpam2_el2.xml  MPAM2_EL2
+AArch64-mpam0_el1.xml  MPAM0_EL1
+AArch64-mpamsm_el1.xml  MPAMSM_EL1
+AArch64-vbar_el1.xml  VBAR_EL1
+AArch64-vbar_el1.xml  VBAR_EL2
+AArch64-vbar_el2.xml  VBAR_EL1
+AArch64-vbar_el2.xml  VBAR_EL2
+AArch64-rvbar_el1.xml  RVBAR_EL1
+AArch64-rmr_el1.xml  RMR_EL1
+AArch64-isr_el1.xml  ISR_EL1
+AArch64-disr_el1.xml  DISR_EL1
+AArch64-disr_el1.xml  VDISR_EL2
+AArch64-vdisr_el2.xml  DISR_EL1
+AArch64-vdisr_el2.xml  VDISR_EL2
+AArch64-icc_iar0_el1.xml  ICC_IAR0_EL1
+AArch64-icc_iar0_el1.xml  ICV_IAR0_EL1
+AArch64-icv_iar0_el1.xml  ICC_IAR0_EL1
+AArch64-icv_iar0_el1.xml  ICV_IAR0_EL1
+AArch64-icc_eoir0_el1.xml  ICC_EOIR0_EL1
+AArch64-icc_eoir0_el1.xml  ICV_EOIR0_EL1
+AArch64-icv_eoir0_el1.xml  ICC_EOIR0_EL1
+AArch64-icv_eoir0_el1.xml  ICV_EOIR0_EL1
+AArch64-icc_hppir0_el1.xml  ICC_HPPIR0_EL1
+AArch64-icc_hppir0_el1.xml  ICV_HPPIR0_EL1
+AArch64-icv_hppir0_el1.xml  ICC_HPPIR0_EL1
+AArch64-icv_hppir0_el1.xml  ICV_HPPIR0_EL1
+AArch64-icc_bpr0_el1.xml  ICC_BPR0_EL1
+AArch64-icc_bpr0_el1.xml  ICV_BPR0_EL1
+AArch64-icv_bpr0_el1.xml  ICC_BPR0_EL1
+AArch64-icv_bpr0_el1.xml  ICV_BPR0_EL1
+AArch64-icc_ap0rn_el1.xml  ICC_AP0R<m>_EL1
+AArch64-icc_ap0rn_el1.xml  ICC_AP0R<m>_EL1
+AArch64-icv_ap0rn_el1.xml  ICC_AP0R<m>_EL1
+AArch64-icv_ap0rn_el1.xml  ICC_AP0R<m>_EL1
+AArch64-icc_ap1rn_el1.xml  ICC_AP1R<m>_EL1
+AArch64-icc_ap1rn_el1.xml  ICC_AP1R<m>_EL1
+AArch64-icc_ap1rn_el1.xml  ICC_AP1R<m>_EL1
+AArch64-icc_ap1rn_el1.xml  ICC_AP1R<m>_EL1
+AArch64-icv_ap1rn_el1.xml  ICC_AP1R<m>_EL1
+AArch64-icv_ap1rn_el1.xml  ICC_AP1R<m>_EL1
+AArch64-icv_ap1rn_el1.xml  ICC_AP1R<m>_EL1
+AArch64-icv_ap1rn_el1.xml  ICC_AP1R<m>_EL1
+AArch64-icc_nmiar1_el1.xml  ICC_NMIAR1_EL1
+AArch64-icc_nmiar1_el1.xml  ICV_NMIAR1_EL1
+AArch64-icv_nmiar1_el1.xml  ICC_NMIAR1_EL1
+AArch64-icv_nmiar1_el1.xml  ICV_NMIAR1_EL1
+AArch64-icc_dir_el1.xml  ICC_DIR_EL1
+AArch64-icc_dir_el1.xml  ICV_DIR_EL1
+AArch64-icv_dir_el1.xml  ICC_DIR_EL1
+AArch64-icv_dir_el1.xml  ICV_DIR_EL1
+AArch64-icc_rpr_el1.xml  ICC_RPR_EL1
+AArch64-icc_rpr_el1.xml  ICV_RPR_EL1
+AArch64-icv_rpr_el1.xml  ICC_RPR_EL1
+AArch64-icv_rpr_el1.xml  ICV_RPR_EL1
+AArch64-icc_sgi1r_el1.xml  ICC_SGI1R_EL1
+AArch64-icc_asgi1r_el1.xml  ICC_ASGI1R_EL1
+AArch64-icc_sgi0r_el1.xml  ICC_SGI0R_EL1
+AArch64-icc_iar1_el1.xml  ICC_IAR1_EL1
+AArch64-icc_iar1_el1.xml  ICV_IAR1_EL1
+AArch64-icv_iar1_el1.xml  ICC_IAR1_EL1
+AArch64-icv_iar1_el1.xml  ICV_IAR1_EL1
+AArch64-icc_eoir1_el1.xml  ICC_EOIR1_EL1
+AArch64-icc_eoir1_el1.xml  ICV_EOIR1_EL1
+AArch64-icv_eoir1_el1.xml  ICC_EOIR1_EL1
+AArch64-icv_eoir1_el1.xml  ICV_EOIR1_EL1
+AArch64-icc_hppir1_el1.xml  ICC_HPPIR1_EL1
+AArch64-icc_hppir1_el1.xml  ICV_HPPIR1_EL1
+AArch64-icv_hppir1_el1.xml  ICC_HPPIR1_EL1
+AArch64-icv_hppir1_el1.xml  ICV_HPPIR1_EL1
+AArch64-icc_bpr1_el1.xml  ICC_BPR1_EL1
+AArch64-icc_bpr1_el1.xml  ICC_BPR1_EL1_NS
+AArch64-icc_bpr1_el1.xml  ICC_BPR1_EL1_S
+AArch64-icc_bpr1_el1.xml  ICV_BPR1_EL1
+AArch64-icv_bpr1_el1.xml  ICC_BPR1_EL1
+AArch64-icv_bpr1_el1.xml  ICC_BPR1_EL1_NS
+AArch64-icv_bpr1_el1.xml  ICC_BPR1_EL1_S
+AArch64-icv_bpr1_el1.xml  ICV_BPR1_EL1
+AArch64-icc_ctlr_el1.xml  ICC_CTLR_EL1
+AArch64-icc_ctlr_el1.xml  ICC_CTLR_EL1_NS
+AArch64-icc_ctlr_el1.xml  ICC_CTLR_EL1_S
+AArch64-icc_ctlr_el1.xml  ICV_CTLR_EL1
+AArch64-icv_ctlr_el1.xml  ICC_CTLR_EL1
+AArch64-icv_ctlr_el1.xml  ICC_CTLR_EL1_NS
+AArch64-icv_ctlr_el1.xml  ICC_CTLR_EL1_S
+AArch64-icv_ctlr_el1.xml  ICV_CTLR_EL1
+AArch64-icc_sre_el1.xml  ICC_SRE_EL1
+AArch64-icc_sre_el1.xml  ICC_SRE_EL1_NS
+AArch64-icc_sre_el1.xml  ICC_SRE_EL1_S
+AArch64-icc_igrpen0_el1.xml  ICC_IGRPEN0_EL1
+AArch64-icc_igrpen0_el1.xml  ICV_IGRPEN0_EL1
+AArch64-icv_igrpen0_el1.xml  ICC_IGRPEN0_EL1
+AArch64-icv_igrpen0_el1.xml  ICV_IGRPEN0_EL1
+AArch64-icc_igrpen1_el1.xml  ICC_IGRPEN1_EL1
+AArch64-icc_igrpen1_el1.xml  ICC_IGRPEN1_EL1_NS
+AArch64-icc_igrpen1_el1.xml  ICC_IGRPEN1_EL1_S
+AArch64-icc_igrpen1_el1.xml  ICV_IGRPEN1_EL1
+AArch64-icv_igrpen1_el1.xml  ICC_IGRPEN1_EL1
+AArch64-icv_igrpen1_el1.xml  ICC_IGRPEN1_EL1_NS
+AArch64-icv_igrpen1_el1.xml  ICC_IGRPEN1_EL1_S
+AArch64-icv_igrpen1_el1.xml  ICV_IGRPEN1_EL1
+AArch64-contextidr_el1.xml  CONTEXTIDR_EL1
+AArch64-contextidr_el1.xml  CONTEXTIDR_EL2
+AArch64-contextidr_el2.xml  CONTEXTIDR_EL1
+AArch64-contextidr_el2.xml  CONTEXTIDR_EL2
+AArch64-rcwsmask_el1.xml  RCWSMASK_EL1
+AArch64-tpidr_el1.xml  TPIDR_EL1
+AArch64-accdata_el1.xml  ACCDATA_EL1
+AArch64-rcwmask_el1.xml  RCWMASK_EL1
+AArch64-scxtnum_el1.xml  SCXTNUM_EL1
+AArch64-scxtnum_el1.xml  SCXTNUM_EL2
+AArch64-scxtnum_el2.xml  SCXTNUM_EL1
+AArch64-scxtnum_el2.xml  SCXTNUM_EL2
+AArch64-cnthctl_el2.xml  CNTHCTL_EL2
+AArch64-cnthctl_el2.xml  CNTKCTL_EL1
+AArch64-cntkctl_el1.xml  CNTHCTL_EL2
+AArch64-cntkctl_el1.xml  CNTKCTL_EL1
+AArch64-ccsidr_el1.xml  CCSIDR_EL1
+AArch64-clidr_el1.xml  CLIDR_EL1
+AArch64-ccsidr2_el1.xml  CCSIDR2_EL1
+AArch64-gmid_el1.xml  GMID_EL1
+AArch64-smidr_el1.xml  SMIDR_EL1
+AArch64-aidr_el1.xml  AIDR_EL1
+AArch64-csselr_el1.xml  CSSELR_EL1
+AArch64-ctr_el0.xml  CTR_EL0
+AArch64-dczid_el0.xml  DCZID_EL0
+AArch64-rndr.xml  RNDR
+AArch64-rndrrs.xml  RNDRRS
+AArch64-gcspr_el0.xml  GCSPR_EL0
+AArch64-nzcv.xml  NZCV
+AArch64-daif.xml  DAIF
+AArch64-svcr.xml  SVCR
+AArch64-dit.xml  DIT
+AArch64-ssbs.xml  SSBS
+AArch64-tco.xml  TCO
+AArch64-fpcr.xml  FPCR
+AArch64-fpsr.xml  FPSR
+AArch64-dspsr_el0.xml  DSPSR_EL0
+AArch64-dlr_el0.xml  DLR_EL0
+AArch64-pmicntr_el0.xml  PMICNTR_EL0
+AArch64-pmicfiltr_el0.xml  PMICFILTR_EL0
+AArch64-pmcr_el0.xml  PMCR_EL0
+AArch64-pmcntenset_el0.xml  PMCNTENSET_EL0
+AArch64-pmcntenclr_el0.xml  PMCNTENCLR_EL0
+AArch64-pmovsclr_el0.xml  PMOVSCLR_EL0
+AArch64-pmswinc_el0.xml  PMSWINC_EL0
+AArch64-pmselr_el0.xml  PMSELR_EL0
+AArch64-pmceid0_el0.xml  PMCEID0_EL0
+AArch64-pmceid1_el0.xml  PMCEID1_EL0
+AArch64-pmccntr_el0.xml  PMCCNTR_EL0
+AArch64-pmxevtyper_el0.xml  PMCCFILTR_EL0
+AArch64-pmxevtyper_el0.xml  PMEVTYPER_EL0
+AArch64-pmxevcntr_el0.xml  PMEVCNTR_EL0
+AArch64-pmzr_el0.xml  PMZR_EL0
+AArch64-pmuserenr_el0.xml  PMUSERENR_EL0
+AArch64-pmovsset_el0.xml  PMOVSSET_EL0
+AArch64-por_el0.xml  POR_EL0
+AArch64-tpidr_el0.xml  TPIDR_EL0
+AArch64-tpidrro_el0.xml  TPIDRRO_EL0
+AArch64-tpidr2_el0.xml  TPIDR2_EL0
+AArch64-scxtnum_el0.xml  SCXTNUM_EL0
+AArch64-amcr_el0.xml  AMCR_EL0
+AArch64-amcfgr_el0.xml  AMCFGR_EL0
+AArch64-amcgcr_el0.xml  AMCGCR_EL0
+AArch64-amuserenr_el0.xml  AMUSERENR_EL0
+AArch64-amcntenclr0_el0.xml  AMCNTENCLR0_EL0
+AArch64-amcntenset0_el0.xml  AMCNTENSET0_EL0
+AArch64-amcg1idr_el0.xml  AMCG1IDR_EL0
+AArch64-amcntenclr1_el0.xml  AMCNTENCLR1_EL0
+AArch64-amcntenset1_el0.xml  AMCNTENSET1_EL0
+AArch64-amevcntr0n_el0.xml  AMEVCNTR0<m>_EL0
+AArch64-amevtyper0n_el0.xml  AMEVTYPER0<m>_EL0
+AArch64-amevcntr1n_el0.xml  AMEVCNTR1<m>_EL0
+AArch64-amevtyper1n_el0.xml  AMEVTYPER1<m>_EL0
+AArch64-cntfrq_el0.xml  CNTFRQ_EL0
+AArch64-cntpct_el0.xml  CNTPCT_EL0
+AArch64-cntvct_el0.xml  CNTVCT_EL0
+AArch64-cntpctss_el0.xml  CNTPCTSS_EL0
+AArch64-cntvctss_el0.xml  CNTVCTSS_EL0
+AArch64-cnthp_tval_el2.xml  CNTP_TVAL_EL0
+AArch64-cnthps_tval_el2.xml  CNTP_TVAL_EL0
+AArch64-cntp_tval_el0.xml  CNTP_TVAL_EL0
+AArch64-cnthp_ctl_el2.xml  CNTHPS_CTL_EL2
+AArch64-cnthp_ctl_el2.xml  CNTHP_CTL_EL2
+AArch64-cnthp_ctl_el2.xml  CNTP_CTL_EL0
+AArch64-cnthps_ctl_el2.xml  CNTHPS_CTL_EL2
+AArch64-cnthps_ctl_el2.xml  CNTHP_CTL_EL2
+AArch64-cnthps_ctl_el2.xml  CNTP_CTL_EL0
+AArch64-cntp_ctl_el0.xml  CNTHPS_CTL_EL2
+AArch64-cntp_ctl_el0.xml  CNTHP_CTL_EL2
+AArch64-cntp_ctl_el0.xml  CNTP_CTL_EL0
+AArch64-cnthp_cval_el2.xml  CNTHPS_CVAL_EL2
+AArch64-cnthp_cval_el2.xml  CNTHP_CVAL_EL2
+AArch64-cnthp_cval_el2.xml  CNTP_CVAL_EL0
+AArch64-cnthps_cval_el2.xml  CNTHPS_CVAL_EL2
+AArch64-cnthps_cval_el2.xml  CNTHP_CVAL_EL2
+AArch64-cnthps_cval_el2.xml  CNTP_CVAL_EL0
+AArch64-cntp_cval_el0.xml  CNTHPS_CVAL_EL2
+AArch64-cntp_cval_el0.xml  CNTHP_CVAL_EL2
+AArch64-cntp_cval_el0.xml  CNTP_CVAL_EL0
+AArch64-cnthv_tval_el2.xml  CNTV_TVAL_EL0
+AArch64-cnthvs_tval_el2.xml  CNTV_TVAL_EL0
+AArch64-cntv_tval_el0.xml  CNTV_TVAL_EL0
+AArch64-cnthv_ctl_el2.xml  CNTHVS_CTL_EL2
+AArch64-cnthv_ctl_el2.xml  CNTHV_CTL_EL2
+AArch64-cnthv_ctl_el2.xml  CNTV_CTL_EL0
+AArch64-cnthvs_ctl_el2.xml  CNTHVS_CTL_EL2
+AArch64-cnthvs_ctl_el2.xml  CNTHV_CTL_EL2
+AArch64-cnthvs_ctl_el2.xml  CNTV_CTL_EL0
+AArch64-cntv_ctl_el0.xml  CNTHVS_CTL_EL2
+AArch64-cntv_ctl_el0.xml  CNTHV_CTL_EL2
+AArch64-cntv_ctl_el0.xml  CNTV_CTL_EL0
+AArch64-cnthv_cval_el2.xml  CNTHVS_CVAL_EL2
+AArch64-cnthv_cval_el2.xml  CNTHV_CVAL_EL2
+AArch64-cnthv_cval_el2.xml  CNTV_CVAL_EL0
+AArch64-cnthvs_cval_el2.xml  CNTHVS_CVAL_EL2
+AArch64-cnthvs_cval_el2.xml  CNTHV_CVAL_EL2
+AArch64-cnthvs_cval_el2.xml  CNTV_CVAL_EL0
+AArch64-cntv_cval_el0.xml  CNTHVS_CVAL_EL2
+AArch64-cntv_cval_el0.xml  CNTHV_CVAL_EL2
+AArch64-cntv_cval_el0.xml  CNTV_CVAL_EL0
+AArch64-pmevcntrn_el0.xml  PMEVCNTR<m>_EL0
+AArch64-pmccfiltr_el0.xml  PMCCFILTR_EL0
+AArch64-pmevtypern_el0.xml  PMEVTYPER<m>_EL0
+AArch64-vpidr_el2.xml  MIDR_EL1
+AArch64-vpidr_el2.xml  VPIDR_EL2
+AArch64-vmpidr_el2.xml  MPIDR_EL1
+AArch64-vmpidr_el2.xml  VMPIDR_EL2
+AArch64-sctlr_el2.xml  SCTLR_EL2
+AArch64-actlr_el2.xml  ACTLR_EL2
+AArch64-sctlr2_el2.xml  SCTLR2_EL2
+AArch64-hcr_el2.xml  HCR_EL2
+AArch64-mdcr_el2.xml  MDCR_EL2
+AArch64-cptr_el2.xml  CPTR_EL2
+AArch64-hstr_el2.xml  HSTR_EL2
+AArch64-hfgrtr_el2.xml  HFGRTR_EL2
+AArch64-hfgwtr_el2.xml  HFGWTR_EL2
+AArch64-hfgitr_el2.xml  HFGITR_EL2
+AArch64-hacr_el2.xml  HACR_EL2
+AArch64-zcr_el2.xml  ZCR_EL2
+AArch64-trfcr_el2.xml  TRFCR_EL2
+AArch64-hcrx_el2.xml  HCRX_EL2
+AArch64-trcitecr_el2.xml  TRCITECR_EL2
+AArch64-smprimap_el2.xml  SMPRIMAP_EL2
+AArch64-smcr_el2.xml  SMCR_EL2
+AArch64-sder32_el2.xml  SDER32_EL2
+AArch64-ttbr0_el2.xml  TTBR0_EL2
+AArch64-ttbr1_el2.xml  TTBR1_EL2
+AArch64-tcr_el2.xml  TCR_EL2
+AArch64-tcr2_el2.xml  TCR2_EL2
+AArch64-vttbr_el2.xml  VTTBR_EL2
+AArch64-vtcr_el2.xml  VTCR_EL2
+AArch64-vncr_el2.xml  VNCR_EL2
+AArch64-gcscr_el2.xml  GCSCR_EL2
+AArch64-gcspr_el2.xml  GCSPR_EL2
+AArch64-vsttbr_el2.xml  VSTTBR_EL2
+AArch64-vstcr_el2.xml  VSTCR_EL2
+AArch64-dacr32_el2.xml  DACR32_EL2
+AArch64-hdfgrtr2_el2.xml  HDFGRTR2_EL2
+AArch64-hdfgwtr2_el2.xml  HDFGWTR2_EL2
+AArch64-hfgrtr2_el2.xml  HFGRTR2_EL2
+AArch64-hfgwtr2_el2.xml  HFGWTR2_EL2
+AArch64-hdfgrtr_el2.xml  HDFGRTR_EL2
+AArch64-hdfgwtr_el2.xml  HDFGWTR_EL2
+AArch64-hafgrtr_el2.xml  HAFGRTR_EL2
+AArch64-hfgitr2_el2.xml  HFGITR2_EL2
+AArch64-spsr_el1.xml  SPSR_EL1
+AArch64-spsr_el1.xml  SPSR_EL2
+AArch64-spsr_el2.xml  SPSR_EL1
+AArch64-spsr_el2.xml  SPSR_EL2
+AArch64-elr_el1.xml  ELR_EL1
+AArch64-elr_el1.xml  ELR_EL2
+AArch64-elr_el2.xml  ELR_EL1
+AArch64-elr_el2.xml  ELR_EL2
+AArch64-sp_el1.xml  SP_EL1
+AArch64-spsr_irq.xml  SPSR_irq
+AArch64-spsr_abt.xml  SPSR_abt
+AArch64-spsr_und.xml  SPSR_und
+AArch64-spsr_fiq.xml  SPSR_fiq
+AArch64-ifsr32_el2.xml  IFSR32_EL2
+AArch64-afsr0_el2.xml  AFSR0_EL2
+AArch64-afsr1_el2.xml  AFSR1_EL2
+AArch64-esr_el1.xml  ESR_EL1
+AArch64-esr_el1.xml  ESR_EL2
+AArch64-esr_el2.xml  ESR_EL1
+AArch64-esr_el2.xml  ESR_EL2
+AArch64-vsesr_el2.xml  VSESR_EL2
+AArch64-fpexc32_el2.xml  FPEXC32_EL2
+AArch64-tfsr_el1.xml  TFSR_EL1
+AArch64-tfsr_el1.xml  TFSR_EL2
+AArch64-tfsr_el2.xml  TFSR_EL1
+AArch64-tfsr_el2.xml  TFSR_EL2
+AArch64-far_el1.xml  FAR_EL1
+AArch64-far_el1.xml  FAR_EL2
+AArch64-far_el2.xml  FAR_EL1
+AArch64-far_el2.xml  FAR_EL2
+AArch64-hpfar_el2.xml  HPFAR_EL2
+AArch64-pfar_el2.xml  PFAR_EL2
+AArch64-pmscr_el2.xml  PMSCR_EL2
+AArch64-mair2_el2.xml  MAIR2_EL2
+AArch64-mair_el2.xml  MAIR_EL2
+AArch64-pire0_el2.xml  PIRE0_EL2
+AArch64-pir_el2.xml  PIR_EL2
+AArch64-por_el2.xml  POR_EL2
+AArch64-s2pir_el2.xml  S2PIR_EL2
+AArch64-amair_el2.xml  AMAIR_EL2
+AArch64-amair2_el2.xml  AMAIR2_EL2
+AArch64-mpamhcr_el2.xml  MPAMHCR_EL2
+AArch64-mpamvpmv_el2.xml  MPAMVPMV_EL2
+AArch64-mpam2_el2.xml  MPAM2_EL2
+AArch64-mpamvpm0_el2.xml  MPAMVPM0_EL2
+AArch64-mpamvpm1_el2.xml  MPAMVPM1_EL2
+AArch64-mpamvpm2_el2.xml  MPAMVPM2_EL2
+AArch64-mpamvpm3_el2.xml  MPAMVPM3_EL2
+AArch64-mpamvpm4_el2.xml  MPAMVPM4_EL2
+AArch64-mpamvpm5_el2.xml  MPAMVPM5_EL2
+AArch64-mpamvpm6_el2.xml  MPAMVPM6_EL2
+AArch64-mpamvpm7_el2.xml  MPAMVPM7_EL2
+AArch64-mecid_p0_el2.xml  MECID_P0_EL2
+AArch64-mecid_a0_el2.xml  MECID_A0_EL2
+AArch64-mecid_p1_el2.xml  MECID_P1_EL2
+AArch64-mecid_a1_el2.xml  MECID_A1_EL2
+AArch64-mecidr_el2.xml  MECIDR_EL2
+AArch64-vmecid_p_el2.xml  VMECID_P_EL2
+AArch64-vmecid_a_el2.xml  VMECID_A_EL2
+AArch64-vbar_el2.xml  VBAR_EL2
+AArch64-rvbar_el2.xml  RVBAR_EL2
+AArch64-rmr_el2.xml  RMR_EL2
+AArch64-vdisr_el2.xml  VDISR_EL2
+AArch64-ich_ap0rn_el2.xml  ICH_AP0R<m>_EL2
+AArch64-ich_ap1rn_el2.xml  ICH_AP1R<m>_EL2
+AArch64-icc_sre_el2.xml  ICC_SRE_EL2
+AArch64-ich_hcr_el2.xml  ICH_HCR_EL2
+AArch64-ich_vtr_el2.xml  ICH_VTR_EL2
+AArch64-ich_misr_el2.xml  ICH_MISR_EL2
+AArch64-ich_eisr_el2.xml  ICH_EISR_EL2
+AArch64-ich_elrsr_el2.xml  ICH_ELRSR_EL2
+AArch64-ich_vmcr_el2.xml  ICH_VMCR_EL2
+AArch64-ich_lrn_el2.xml  ICH_LR<m>_EL2
+AArch64-contextidr_el2.xml  CONTEXTIDR_EL2
+AArch64-tpidr_el2.xml  TPIDR_EL2
+AArch64-scxtnum_el2.xml  SCXTNUM_EL2
+AArch64-amevcntvoff0n_el2.xml  AMEVCNTVOFF0<m>_EL2
+AArch64-amevcntvoff1n_el2.xml  AMEVCNTVOFF1<m>_EL2
+AArch64-cntvoff_el2.xml  CNTVOFF_EL2
+AArch64-cntpoff_el2.xml  CNTPOFF_EL2
+AArch64-cnthctl_el2.xml  CNTHCTL_EL2
+AArch64-cnthp_tval_el2.xml  CNTHP_TVAL_EL2
+AArch64-cnthp_ctl_el2.xml  CNTHP_CTL_EL2
+AArch64-cnthp_cval_el2.xml  CNTHP_CVAL_EL2
+AArch64-cnthv_tval_el2.xml  CNTHV_TVAL_EL2
+AArch64-cnthv_ctl_el2.xml  CNTHV_CTL_EL2
+AArch64-cnthv_cval_el2.xml  CNTHV_CVAL_EL2
+AArch64-cnthvs_tval_el2.xml  CNTHVS_TVAL_EL2
+AArch64-cnthvs_ctl_el2.xml  CNTHVS_CTL_EL2
+AArch64-cnthvs_cval_el2.xml  CNTHVS_CVAL_EL2
+AArch64-cnthps_tval_el2.xml  CNTHPS_TVAL_EL2
+AArch64-cnthps_ctl_el2.xml  CNTHPS_CTL_EL2
+AArch64-cnthps_cval_el2.xml  CNTHPS_CVAL_EL2
+AArch64-sctlr_el1.xml  SCTLR_EL1
+AArch64-cpacr_el1.xml  CPACR_EL1
+AArch64-sctlr2_el1.xml  SCTLR2_EL1
+AArch64-zcr_el1.xml  ZCR_EL1
+AArch64-trfcr_el1.xml  TRFCR_EL1
+AArch64-trcitecr_el1.xml  TRCITECR_EL1
+AArch64-smcr_el1.xml  SMCR_EL1
+AArch64-ttbr0_el1.xml  TTBR0_EL1
+AArch64-ttbr1_el1.xml  TTBR1_EL1
+AArch64-tcr_el1.xml  TCR_EL1
+AArch64-tcr2_el1.xml  TCR2_EL1
+AArch64-gcscr_el1.xml  GCSCR_EL1
+AArch64-gcspr_el1.xml  GCSPR_EL1
+AArch64-spsr_el1.xml  SPSR_EL1
+AArch64-elr_el1.xml  ELR_EL1
+AArch64-afsr0_el1.xml  AFSR0_EL1
+AArch64-afsr1_el1.xml  AFSR1_EL1
+AArch64-esr_el1.xml  ESR_EL1
+AArch64-tfsr_el1.xml  TFSR_EL1
+AArch64-far_el1.xml  FAR_EL1
+AArch64-pfar_el1.xml  PFAR_EL1
+AArch64-pmscr_el1.xml  PMSCR_EL1
+AArch64-mair_el1.xml  MAIR_EL1
+AArch64-mair2_el1.xml  MAIR2_EL1
+AArch64-pire0_el1.xml  PIRE0_EL1
+AArch64-pir_el1.xml  PIR_EL1
+AArch64-por_el1.xml  POR_EL1
+AArch64-amair_el1.xml  AMAIR_EL1
+AArch64-amair2_el1.xml  AMAIR2_EL1
+AArch64-mpam1_el1.xml  MPAM1_EL1
+AArch64-vbar_el1.xml  VBAR_EL1
+AArch64-contextidr_el1.xml  CONTEXTIDR_EL1
+AArch64-scxtnum_el1.xml  SCXTNUM_EL1
+AArch64-cntkctl_el1.xml  CNTKCTL_EL1
+AArch64-cntp_tval_el0.xml  CNTP_TVAL_EL02
+AArch64-cntp_ctl_el0.xml  CNTP_CTL_EL0
+AArch64-cntp_cval_el0.xml  CNTP_CVAL_EL0
+AArch64-cntv_tval_el0.xml  CNTV_TVAL_EL02
+AArch64-cntv_ctl_el0.xml  CNTV_CTL_EL0
+AArch64-cntv_cval_el0.xml  CNTV_CVAL_EL0
+AArch64-sctlr_el3.xml  SCTLR_EL3
+AArch64-actlr_el3.xml  ACTLR_EL3
+AArch64-sctlr2_el3.xml  SCTLR2_EL3
+AArch64-scr_el3.xml  SCR_EL3
+AArch64-sder32_el3.xml  SDER32_EL3
+AArch64-cptr_el3.xml  CPTR_EL3
+AArch64-zcr_el3.xml  ZCR_EL3
+AArch64-smcr_el3.xml  SMCR_EL3
+AArch64-mdcr_el3.xml  MDCR_EL3
+AArch64-ttbr0_el3.xml  TTBR0_EL3
+AArch64-tcr_el3.xml  TCR_EL3
+AArch64-gptbr_el3.xml  GPTBR_EL3
+AArch64-gpccr_el3.xml  GPCCR_EL3
+AArch64-gcscr_el3.xml  GCSCR_EL3
+AArch64-gcspr_el3.xml  GCSPR_EL3
+AArch64-spsr_el3.xml  SPSR_EL3
+AArch64-elr_el3.xml  ELR_EL3
+AArch64-sp_el2.xml  SP_EL2
+AArch64-afsr0_el3.xml  AFSR0_EL3
+AArch64-afsr1_el3.xml  AFSR1_EL3
+AArch64-esr_el3.xml  ESR_EL3
+AArch64-tfsr_el3.xml  TFSR_EL3
+AArch64-far_el3.xml  FAR_EL3
+AArch64-mfar_el3.xml  MFAR_EL3
+AArch64-mair2_el3.xml  MAIR2_EL3
+AArch64-mair_el3.xml  MAIR_EL3
+AArch64-pir_el3.xml  PIR_EL3
+AArch64-por_el3.xml  POR_EL3
+AArch64-amair_el3.xml  AMAIR_EL3
+AArch64-amair2_el3.xml  AMAIR2_EL3
+AArch64-mpam3_el3.xml  MPAM3_EL3
+AArch64-mecid_rl_a_el3.xml  MECID_RL_A_EL3
+AArch64-vbar_el3.xml  VBAR_EL3
+AArch64-rvbar_el3.xml  RVBAR_EL3
+AArch64-rmr_el3.xml  RMR_EL3
+AArch64-icc_ctlr_el3.xml  ICC_CTLR_EL3
+AArch64-icc_sre_el3.xml  ICC_SRE_EL3
+AArch64-icc_igrpen1_el3.xml  ICC_IGRPEN1_EL3
+AArch64-tpidr_el3.xml  TPIDR_EL3
+AArch64-scxtnum_el3.xml  SCXTNUM_EL3
+AArch64-cntps_tval_el1.xml  CNTPS_TVAL_EL1
+AArch64-cntps_ctl_el1.xml  CNTPS_CTL_EL1
+AArch64-cntps_cval_el1.xml  CNTPS_CVAL_EL1
+AArch64-s3_op1_cn_cm_op2.xml  S3_<op1>_C<Cn>_C<Cm>_<op2>
+AArch64-ttbr0_el1.xml  TTBR0_EL1
+AArch64-ttbr0_el2.xml  TTBR0_EL1
+AArch64-ttbr1_el1.xml  TTBR1_EL1
+AArch64-ttbr1_el2.xml  TTBR1_EL1
+AArch64-par_el1.xml  PAR_EL1
+AArch64-rcwsmask_el1.xml  RCWSMASK_EL1
+AArch64-rcwmask_el1.xml  RCWMASK_EL1
+AArch64-ttbr0_el2.xml  TTBR0_EL2
+AArch64-ttbr1_el2.xml  TTBR1_EL2
+AArch64-vttbr_el2.xml  VTTBR_EL2
+AArch64-ttbr0_el1.xml  TTBR0_EL12
+AArch64-ttbr1_el1.xml  TTBR1_EL12
+AArch64-s3_op1_cn_cm_op2.xml  S3_<op1>_C<Cn>_C<Cm>_<op2>
+AArch64-tlbi-vmalle1os.xml  TLBI VMALLE1OS
+AArch64-tlbi-vae1os.xml  TLBI VAE1OS
+AArch64-tlbi-aside1os.xml  TLBI ASIDE1OS
+AArch64-tlbi-vaae1os.xml  TLBI VAAE1OS
+AArch64-tlbi-vale1os.xml  TLBI VALE1OS
+AArch64-tlbi-vaale1os.xml  TLBI VAALE1OS
+AArch64-tlbi-rvae1is.xml  TLBI RVAE1IS
+AArch64-tlbi-rvaae1is.xml  TLBI RVAAE1IS
+AArch64-tlbi-rvale1is.xml  TLBI RVALE1IS
+AArch64-tlbi-rvaale1is.xml  TLBI RVAALE1IS
+AArch64-tlbi-vmalle1is.xml  TLBI VMALLE1IS
+AArch64-tlbi-vae1is.xml  TLBI VAE1IS
+AArch64-tlbi-aside1is.xml  TLBI ASIDE1IS
+AArch64-tlbi-vaae1is.xml  TLBI VAAE1IS
+AArch64-tlbi-vale1is.xml  TLBI VALE1IS
+AArch64-tlbi-vaale1is.xml  TLBI VAALE1IS
+AArch64-tlbi-rvae1os.xml  TLBI RVAE1OS
+AArch64-tlbi-rvaae1os.xml  TLBI RVAAE1OS
+AArch64-tlbi-rvale1os.xml  TLBI RVALE1OS
+AArch64-tlbi-rvaale1os.xml  TLBI RVAALE1OS
+AArch64-tlbi-rvae1.xml  TLBI RVAE1
+AArch64-tlbi-rvaae1.xml  TLBI RVAAE1
+AArch64-tlbi-rvale1.xml  TLBI RVALE1
+AArch64-tlbi-rvaale1.xml  TLBI RVAALE1
+AArch64-tlbi-vmalle1.xml  TLBI VMALLE1
+AArch64-tlbi-vae1.xml  TLBI VAE1
+AArch64-tlbi-aside1.xml  TLBI ASIDE1
+AArch64-tlbi-vaae1.xml  TLBI VAAE1
+AArch64-tlbi-vale1.xml  TLBI VALE1
+AArch64-tlbi-vaale1.xml  TLBI VAALE1
+AArch64-tlbi-vmalle1os.xml  TLBI VMALLE1OSNXS
+AArch64-tlbi-vae1os.xml  TLBI VAE1OSNXS
+AArch64-tlbi-aside1os.xml  TLBI ASIDE1OSNXS
+AArch64-tlbi-vaae1os.xml  TLBI VAAE1OSNXS
+AArch64-tlbi-vale1os.xml  TLBI VALE1OSNXS
+AArch64-tlbi-vaale1os.xml  TLBI VAALE1OSNXS
+AArch64-tlbi-rvae1is.xml  TLBI RVAE1ISNXS
+AArch64-tlbi-rvaae1is.xml  TLBI RVAAE1ISNXS
+AArch64-tlbi-rvale1is.xml  TLBI RVALE1ISNXS
+AArch64-tlbi-rvaale1is.xml  TLBI RVAALE1ISNXS
+AArch64-tlbi-vmalle1is.xml  TLBI VMALLE1ISNXS
+AArch64-tlbi-vae1is.xml  TLBI VAE1ISNXS
+AArch64-tlbi-aside1is.xml  TLBI ASIDE1ISNXS
+AArch64-tlbi-vaae1is.xml  TLBI VAAE1ISNXS
+AArch64-tlbi-vale1is.xml  TLBI VALE1ISNXS
+AArch64-tlbi-vaale1is.xml  TLBI VAALE1ISNXS
+AArch64-tlbi-rvae1os.xml  TLBI RVAE1OSNXS
+AArch64-tlbi-rvaae1os.xml  TLBI RVAAE1OSNXS
+AArch64-tlbi-rvale1os.xml  TLBI RVALE1OSNXS
+AArch64-tlbi-rvaale1os.xml  TLBI RVAALE1OSNXS
+AArch64-tlbi-rvae1.xml  TLBI RVAE1NXS
+AArch64-tlbi-rvaae1.xml  TLBI RVAAE1NXS
+AArch64-tlbi-rvale1.xml  TLBI RVALE1NXS
+AArch64-tlbi-rvaale1.xml  TLBI RVAALE1NXS
+AArch64-tlbi-vmalle1.xml  TLBI VMALLE1NXS
+AArch64-tlbi-vae1.xml  TLBI VAE1NXS
+AArch64-tlbi-aside1.xml  TLBI ASIDE1NXS
+AArch64-tlbi-vaae1.xml  TLBI VAAE1NXS
+AArch64-tlbi-vale1.xml  TLBI VALE1NXS
+AArch64-tlbi-vaale1.xml  TLBI VAALE1NXS
+AArch64-tlbi-ipas2e1is.xml  TLBI IPAS2E1IS
+AArch64-tlbi-ripas2e1is.xml  TLBI RIPAS2E1IS
+AArch64-tlbi-ipas2le1is.xml  TLBI IPAS2LE1IS
+AArch64-tlbi-ripas2le1is.xml  TLBI RIPAS2LE1IS
+AArch64-tlbi-alle2os.xml  TLBI ALLE2OS
+AArch64-tlbi-vae2os.xml  TLBI VAE2OS
+AArch64-tlbi-alle1os.xml  TLBI ALLE1OS
+AArch64-tlbi-vale2os.xml  TLBI VALE2OS
+AArch64-tlbi-vmalls12e1os.xml  TLBI VMALLS12E1OS
+AArch64-tlbi-rvae2is.xml  TLBI RVAE2IS
+AArch64-tlbi-rvale2is.xml  TLBI RVALE2IS
+AArch64-tlbi-alle2is.xml  TLBI ALLE2IS
+AArch64-tlbi-vae2is.xml  TLBI VAE2IS
+AArch64-tlbi-alle1is.xml  TLBI ALLE1IS
+AArch64-tlbi-vale2is.xml  TLBI VALE2IS
+AArch64-tlbi-vmalls12e1is.xml  TLBI VMALLS12E1IS
+AArch64-tlbi-ipas2e1os.xml  TLBI IPAS2E1OS
+AArch64-tlbi-ipas2e1.xml  TLBI IPAS2E1
+AArch64-tlbi-ripas2e1.xml  TLBI RIPAS2E1
+AArch64-tlbi-ripas2e1os.xml  TLBI RIPAS2E1OS
+AArch64-tlbi-ipas2le1os.xml  TLBI IPAS2LE1OS
+AArch64-tlbi-ipas2le1.xml  TLBI IPAS2LE1
+AArch64-tlbi-ripas2le1.xml  TLBI RIPAS2LE1
+AArch64-tlbi-ripas2le1os.xml  TLBI RIPAS2LE1OS
+AArch64-tlbi-rvae2os.xml  TLBI RVAE2OS
+AArch64-tlbi-rvale2os.xml  TLBI RVALE2OS
+AArch64-tlbi-rvae2.xml  TLBI RVAE2
+AArch64-tlbi-rvale2.xml  TLBI RVALE2
+AArch64-tlbi-alle2.xml  TLBI ALLE2
+AArch64-tlbi-vae2.xml  TLBI VAE2
+AArch64-tlbi-alle1.xml  TLBI ALLE1
+AArch64-tlbi-vale2.xml  TLBI VALE2
+AArch64-tlbi-vmalls12e1.xml  TLBI VMALLS12E1
+AArch64-tlbi-ipas2e1is.xml  TLBI IPAS2E1ISNXS
+AArch64-tlbi-ripas2e1is.xml  TLBI RIPAS2E1ISNXS
+AArch64-tlbi-ipas2le1is.xml  TLBI IPAS2LE1ISNXS
+AArch64-tlbi-ripas2le1is.xml  TLBI RIPAS2LE1ISNXS
+AArch64-tlbi-alle2os.xml  TLBI ALLE2OSNXS
+AArch64-tlbi-vae2os.xml  TLBI VAE2OSNXS
+AArch64-tlbi-alle1os.xml  TLBI ALLE1OSNXS
+AArch64-tlbi-vale2os.xml  TLBI VALE2OSNXS
+AArch64-tlbi-vmalls12e1os.xml  TLBI VMALLS12E1OSNXS
+AArch64-tlbi-rvae2is.xml  TLBI RVAE2ISNXS
+AArch64-tlbi-rvale2is.xml  TLBI RVALE2ISNXS
+AArch64-tlbi-alle2is.xml  TLBI ALLE2ISNXS
+AArch64-tlbi-vae2is.xml  TLBI VAE2ISNXS
+AArch64-tlbi-alle1is.xml  TLBI ALLE1ISNXS
+AArch64-tlbi-vale2is.xml  TLBI VALE2ISNXS
+AArch64-tlbi-vmalls12e1is.xml  TLBI VMALLS12E1ISNXS
+AArch64-tlbi-ipas2e1os.xml  TLBI IPAS2E1OSNXS
+AArch64-tlbi-ipas2e1.xml  TLBI IPAS2E1NXS
+AArch64-tlbi-ripas2e1.xml  TLBI RIPAS2E1NXS
+AArch64-tlbi-ripas2e1os.xml  TLBI RIPAS2E1OSNXS
+AArch64-tlbi-ipas2le1os.xml  TLBI IPAS2LE1OSNXS
+AArch64-tlbi-ipas2le1.xml  TLBI IPAS2LE1NXS
+AArch64-tlbi-ripas2le1.xml  TLBI RIPAS2LE1NXS
+AArch64-tlbi-ripas2le1os.xml  TLBI RIPAS2LE1OSNXS
+AArch64-tlbi-rvae2os.xml  TLBI RVAE2OSNXS
+AArch64-tlbi-rvale2os.xml  TLBI RVALE2OSNXS
+AArch64-tlbi-rvae2.xml  TLBI RVAE2NXS
+AArch64-tlbi-rvale2.xml  TLBI RVALE2NXS
+AArch64-tlbi-alle2.xml  TLBI ALLE2NXS
+AArch64-tlbi-vae2.xml  TLBI VAE2NXS
+AArch64-tlbi-alle1.xml  TLBI ALLE1NXS
+AArch64-tlbi-vale2.xml  TLBI VALE2NXS
+AArch64-tlbi-vmalls12e1.xml  TLBI VMALLS12E1NXS
+AArch64-tlbi-alle3os.xml  TLBI ALLE3OS
+AArch64-tlbi-vae3os.xml  TLBI VAE3OS
+AArch64-tlbi-paallos.xml  TLBI PAALLOS
+AArch64-tlbi-vale3os.xml  TLBI VALE3OS
+AArch64-tlbi-rvae3is.xml  TLBI RVAE3IS
+AArch64-tlbi-rvale3is.xml  TLBI RVALE3IS
+AArch64-tlbi-alle3is.xml  TLBI ALLE3IS
+AArch64-tlbi-vae3is.xml  TLBI VAE3IS
+AArch64-tlbi-vale3is.xml  TLBI VALE3IS
+AArch64-tlbi-rpaos.xml  TLBI RPAOS
+AArch64-tlbi-rpalos.xml  TLBI RPALOS
+AArch64-tlbi-rvae3os.xml  TLBI RVAE3OS
+AArch64-tlbi-rvale3os.xml  TLBI RVALE3OS
+AArch64-tlbi-rvae3.xml  TLBI RVAE3
+AArch64-tlbi-rvale3.xml  TLBI RVALE3
+AArch64-tlbi-alle3.xml  TLBI ALLE3
+AArch64-tlbi-vae3.xml  TLBI VAE3
+AArch64-tlbi-paall.xml  TLBI PAALL
+AArch64-tlbi-vale3.xml  TLBI VALE3
+AArch64-tlbi-alle3os.xml  TLBI ALLE3OSNXS
+AArch64-tlbi-vae3os.xml  TLBI VAE3OSNXS
+AArch64-tlbi-vale3os.xml  TLBI VALE3OSNXS
+AArch64-tlbi-rvae3is.xml  TLBI RVAE3ISNXS
+AArch64-tlbi-rvale3is.xml  TLBI RVALE3ISNXS
+AArch64-tlbi-alle3is.xml  TLBI ALLE3ISNXS
+AArch64-tlbi-vae3is.xml  TLBI VAE3ISNXS
+AArch64-tlbi-vale3is.xml  TLBI VALE3ISNXS
+AArch64-tlbi-rvae3os.xml  TLBI RVAE3OSNXS
+AArch64-tlbi-rvale3os.xml  TLBI RVALE3OSNXS
+AArch64-tlbi-rvae3.xml  TLBI RVAE3NXS
+AArch64-tlbi-rvale3.xml  TLBI RVALE3NXS
+AArch64-tlbi-alle3.xml  TLBI ALLE3NXS
+AArch64-tlbi-vae3.xml  TLBI VAE3NXS
+AArch64-tlbi-vale3.xml  TLBI VALE3NXS
+AArch64-tlbip-vae1os.xml  TLBIP VAE1OS
+AArch64-tlbip-vaae1os.xml  TLBIP VAAE1OS
+AArch64-tlbip-vale1os.xml  TLBIP VALE1OS
+AArch64-tlbip-vaale1os.xml  TLBIP VAALE1OS
+AArch64-tlbip-rvae1is.xml  TLBIP RVAE1IS
+AArch64-tlbip-rvaae1is.xml  TLBIP RVAAE1IS
+AArch64-tlbip-rvale1is.xml  TLBIP RVALE1IS
+AArch64-tlbip-rvaale1is.xml  TLBIP RVAALE1IS
+AArch64-tlbip-vae1is.xml  TLBIP VAE1IS
+AArch64-tlbip-vaae1is.xml  TLBIP VAAE1IS
+AArch64-tlbip-vale1is.xml  TLBIP VALE1IS
+AArch64-tlbip-vaale1is.xml  TLBIP VAALE1IS
+AArch64-tlbip-rvae1os.xml  TLBIP RVAE1OS
+AArch64-tlbip-rvaae1os.xml  TLBIP RVAAE1OS
+AArch64-tlbip-rvale1os.xml  TLBIP RVALE1OS
+AArch64-tlbip-rvaale1os.xml  TLBIP RVAALE1OS
+AArch64-tlbip-rvae1.xml  TLBIP RVAE1
+AArch64-tlbip-rvaae1.xml  TLBIP RVAAE1
+AArch64-tlbip-rvale1.xml  TLBIP RVALE1
+AArch64-tlbip-rvaale1.xml  TLBIP RVAALE1
+AArch64-tlbip-vae1.xml  TLBIP VAE1
+AArch64-tlbip-vaae1.xml  TLBIP VAAE1
+AArch64-tlbip-vale1.xml  TLBIP VALE1
+AArch64-tlbip-vaale1.xml  TLBIP VAALE1
+AArch64-tlbip-vae1os.xml  TLBIP VAE1OSNXS
+AArch64-tlbip-vaae1os.xml  TLBIP VAAE1OSNXS
+AArch64-tlbip-vale1os.xml  TLBIP VALE1OSNXS
+AArch64-tlbip-vaale1os.xml  TLBIP VAALE1OSNXS
+AArch64-tlbip-rvae1is.xml  TLBIP RVAE1ISNXS
+AArch64-tlbip-rvaae1is.xml  TLBIP RVAAE1ISNXS
+AArch64-tlbip-rvale1is.xml  TLBIP RVALE1ISNXS
+AArch64-tlbip-rvaale1is.xml  TLBIP RVAALE1ISNXS
+AArch64-tlbip-vae1is.xml  TLBIP VAE1ISNXS
+AArch64-tlbip-vaae1is.xml  TLBIP VAAE1ISNXS
+AArch64-tlbip-vale1is.xml  TLBIP VALE1ISNXS
+AArch64-tlbip-vaale1is.xml  TLBIP VAALE1ISNXS
+AArch64-tlbip-rvae1os.xml  TLBIP RVAE1OSNXS
+AArch64-tlbip-rvaae1os.xml  TLBIP RVAAE1OSNXS
+AArch64-tlbip-rvale1os.xml  TLBIP RVALE1OSNXS
+AArch64-tlbip-rvaale1os.xml  TLBIP RVAALE1OSNXS
+AArch64-tlbip-rvae1.xml  TLBIP RVAE1NXS
+AArch64-tlbip-rvaae1.xml  TLBIP RVAAE1NXS
+AArch64-tlbip-rvale1.xml  TLBIP RVALE1NXS
+AArch64-tlbip-rvaale1.xml  TLBIP RVAALE1NXS
+AArch64-tlbip-vae1.xml  TLBIP VAE1NXS
+AArch64-tlbip-vaae1.xml  TLBIP VAAE1NXS
+AArch64-tlbip-vale1.xml  TLBIP VALE1NXS
+AArch64-tlbip-vaale1.xml  TLBIP VAALE1NXS
+AArch64-tlbip-ipas2e1is.xml  TLBIP IPAS2E1IS
+AArch64-tlbip-ripas2e1is.xml  TLBIP RIPAS2E1IS
+AArch64-tlbip-ipas2le1is.xml  TLBIP IPAS2LE1IS
+AArch64-tlbip-ripas2le1is.xml  TLBIP RIPAS2LE1IS
+AArch64-tlbip-vae2os.xml  TLBIP VAE2OS
+AArch64-tlbip-vale2os.xml  TLBIP VALE2OS
+AArch64-tlbip-rvae2is.xml  TLBIP RVAE2IS
+AArch64-tlbip-rvale2is.xml  TLBIP RVALE2IS
+AArch64-tlbip-vae2is.xml  TLBIP VAE2IS
+AArch64-tlbip-vale2is.xml  TLBIP VALE2IS
+AArch64-tlbip-ipas2e1os.xml  TLBIP IPAS2E1OS
+AArch64-tlbip-ipas2e1.xml  TLBIP IPAS2E1
+AArch64-tlbip-ripas2e1.xml  TLBIP RIPAS2E1
+AArch64-tlbip-ripas2e1os.xml  TLBIP RIPAS2E1OS
+AArch64-tlbip-ipas2le1os.xml  TLBIP IPAS2LE1OS
+AArch64-tlbip-ipas2le1.xml  TLBIP IPAS2LE1
+AArch64-tlbip-ripas2le1.xml  TLBIP RIPAS2LE1
+AArch64-tlbip-ripas2le1os.xml  TLBIP RIPAS2LE1OS
+AArch64-tlbip-rvae2os.xml  TLBIP RVAE2OS
+AArch64-tlbip-rvale2os.xml  TLBIP RVALE2OS
+AArch64-tlbip-rvae2.xml  TLBIP RVAE2
+AArch64-tlbip-rvale2.xml  TLBIP RVALE2
+AArch64-tlbip-vae2.xml  TLBIP VAE2
+AArch64-tlbip-vale2.xml  TLBIP VALE2
+AArch64-tlbip-ipas2e1is.xml  TLBIP IPAS2E1ISNXS
+AArch64-tlbip-ripas2e1is.xml  TLBIP RIPAS2E1ISNXS
+AArch64-tlbip-ipas2le1is.xml  TLBIP IPAS2LE1ISNXS
+AArch64-tlbip-ripas2le1is.xml  TLBIP RIPAS2LE1ISNXS
+AArch64-tlbip-vae2os.xml  TLBIP VAE2OSNXS
+AArch64-tlbip-vale2os.xml  TLBIP VALE2OSNXS
+AArch64-tlbip-rvae2is.xml  TLBIP RVAE2ISNXS
+AArch64-tlbip-rvale2is.xml  TLBIP RVALE2ISNXS
+AArch64-tlbip-vae2is.xml  TLBIP VAE2ISNXS
+AArch64-tlbip-vale2is.xml  TLBIP VALE2ISNXS
+AArch64-tlbip-ipas2e1os.xml  TLBIP IPAS2E1OSNXS
+AArch64-tlbip-ipas2e1.xml  TLBIP IPAS2E1NXS
+AArch64-tlbip-ripas2e1.xml  TLBIP RIPAS2E1NXS
+AArch64-tlbip-ripas2e1os.xml  TLBIP RIPAS2E1OSNXS
+AArch64-tlbip-ipas2le1os.xml  TLBIP IPAS2LE1OSNXS
+AArch64-tlbip-ipas2le1.xml  TLBIP IPAS2LE1NXS
+AArch64-tlbip-ripas2le1.xml  TLBIP RIPAS2LE1NXS
+AArch64-tlbip-ripas2le1os.xml  TLBIP RIPAS2LE1OSNXS
+AArch64-tlbip-rvae2os.xml  TLBIP RVAE2OSNXS
+AArch64-tlbip-rvale2os.xml  TLBIP RVALE2OSNXS
+AArch64-tlbip-rvae2.xml  TLBIP RVAE2NXS
+AArch64-tlbip-rvale2.xml  TLBIP RVALE2NXS
+AArch64-tlbip-vae2.xml  TLBIP VAE2NXS
+AArch64-tlbip-vale2.xml  TLBIP VALE2NXS
+AArch64-tlbip-vae3os.xml  TLBIP VAE3OS
+AArch64-tlbip-vale3os.xml  TLBIP VALE3OS
+AArch64-tlbip-rvae3is.xml  TLBIP RVAE3IS
+AArch64-tlbip-rvale3is.xml  TLBIP RVALE3IS
+AArch64-tlbip-vae3is.xml  TLBIP VAE3IS
+AArch64-tlbip-vale3is.xml  TLBIP VALE3IS
+AArch64-tlbip-rvae3os.xml  TLBIP RVAE3OS
+AArch64-tlbip-rvale3os.xml  TLBIP RVALE3OS
+AArch64-tlbip-rvae3.xml  TLBIP RVAE3
+AArch64-tlbip-rvale3.xml  TLBIP RVALE3
+AArch64-tlbip-vae3.xml  TLBIP VAE3
+AArch64-tlbip-vale3.xml  TLBIP VALE3
+AArch64-tlbip-vae3os.xml  TLBIP VAE3OSNXS
+AArch64-tlbip-vale3os.xml  TLBIP VALE3OSNXS
+AArch64-tlbip-rvae3is.xml  TLBIP RVAE3ISNXS
+AArch64-tlbip-rvale3is.xml  TLBIP RVALE3ISNXS
+AArch64-tlbip-vae3is.xml  TLBIP VAE3ISNXS
+AArch64-tlbip-vale3is.xml  TLBIP VALE3ISNXS
+AArch64-tlbip-rvae3os.xml  TLBIP RVAE3OSNXS
+AArch64-tlbip-rvale3os.xml  TLBIP RVALE3OSNXS
+AArch64-tlbip-rvae3.xml  TLBIP RVAE3NXS
+AArch64-tlbip-rvale3.xml  TLBIP RVALE3NXS
+AArch64-tlbip-vae3.xml  TLBIP VAE3NXS
+AArch64-tlbip-vale3.xml  TLBIP VALE3NXS
