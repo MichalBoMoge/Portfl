@@ -1,0 +1,2112 @@
+[{
+  "_id": {
+    "$oid": "6570f97658737d17272427e5"
+  },
+  "rodzaj": 1,
+  "nazwa": "Baklazan",
+  "kalorie": 282,
+  "weglowodany": 60.1,
+  "bialko": 7.9,
+  "tluszcz": 1.7
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427e6"
+  },
+  "rodzaj": 1,
+  "nazwa": "Bocwina",
+  "kalorie": 17,
+  "weglowodany": 5.5,
+  "bialko": 2.1,
+  "tluszcz": 0.5
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427e7"
+  },
+  "rodzaj": 1,
+  "nazwa": "Bob",
+  "kalorie": 66,
+  "weglowodany": 14,
+  "bialko": 7.1,
+  "tluszcz": 0.4
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427e8"
+  },
+  "rodzaj": 1,
+  "nazwa": "Brokuly",
+  "kalorie": 27,
+  "weglowodany": 5.2,
+  "bialko": 3,
+  "tluszcz": 0.4
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427e9"
+  },
+  "rodzaj": 1,
+  "nazwa": "Brukselka",
+  "kalorie": 37,
+  "weglowodany": 8.7,
+  "bialko": 4.7,
+  "tluszcz": 0.5
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427ea"
+  },
+  "rodzaj": 1,
+  "nazwa": "Burak",
+  "kalorie": 38,
+  "weglowodany": 9.5,
+  "bialko": 1.8,
+  "tluszcz": 0.1
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427eb"
+  },
+  "rodzaj": 1,
+  "nazwa": "Cebula",
+  "kalorie": 30,
+  "weglowodany": 6.9,
+  "bialko": 1.4,
+  "tluszcz": 0.4
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427ec"
+  },
+  "rodzaj": 1,
+  "nazwa": "Chrzan",
+  "kalorie": 67,
+  "weglowodany": 18.1,
+  "bialko": 4.5,
+  "tluszcz": 0.6
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427ed"
+  },
+  "rodzaj": 1,
+  "nazwa": "Cukinia",
+  "kalorie": 15,
+  "weglowodany": 3.2,
+  "bialko": 1.2,
+  "tluszcz": 0.1
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427ee"
+  },
+  "rodzaj": 1,
+  "nazwa": "Cykoria",
+  "kalorie": 21,
+  "weglowodany": 4.1,
+  "bialko": 1.7,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427ef"
+  },
+  "rodzaj": 1,
+  "nazwa": "Czosnek",
+  "kalorie": 146,
+  "weglowodany": 32.6,
+  "bialko": 6.4,
+  "tluszcz": 0.5
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427f0"
+  },
+  "rodzaj": 1,
+  "nazwa": "Cwikla",
+  "kalorie": 41,
+  "weglowodany": 10.2,
+  "bialko": 1.6,
+  "tluszcz": 0.1
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427f1"
+  },
+  "rodzaj": 1,
+  "nazwa": "Dynia",
+  "kalorie": 28,
+  "weglowodany": 7.7,
+  "bialko": 1.3,
+  "tluszcz": 0.3
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427f2"
+  },
+  "rodzaj": 1,
+  "nazwa": "Fasola biala, suche nasiona",
+  "kalorie": 288,
+  "weglowodany": 61.6,
+  "bialko": 21.4,
+  "tluszcz": 1.6
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427f3"
+  },
+  "rodzaj": 1,
+  "nazwa": "Fasola cieta konserwowa",
+  "kalorie": 16,
+  "weglowodany": 4.5,
+  "bialko": 1.5,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427f4"
+  },
+  "rodzaj": 1,
+  "nazwa": "Fasola szparagowa",
+  "kalorie": 27,
+  "weglowodany": 7.6,
+  "bialko": 2.4,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427f5"
+  },
+  "rodzaj": 1,
+  "nazwa": "Fasolka flageolet konserwowa",
+  "kalorie": 61,
+  "weglowodany": 15,
+  "bialko": 6.3,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427f6"
+  },
+  "rodzaj": 1,
+  "nazwa": "Fasolka szparagowa",
+  "kalorie": 27,
+  "weglowodany": 7.6,
+  "bialko": 2.4,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427f7"
+  },
+  "rodzaj": 1,
+  "nazwa": "Groch, suche nasiona",
+  "kalorie": 293,
+  "weglowodany": 60.2,
+  "bialko": 23.8,
+  "tluszcz": 1.4
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427f8"
+  },
+  "rodzaj": 1,
+  "nazwa": "Groszek zielony",
+  "kalorie": 75,
+  "weglowodany": 17,
+  "bialko": 6.7,
+  "tluszcz": 0.4
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427f9"
+  },
+  "rodzaj": 1,
+  "nazwa": "Groszek zielony konserwowy",
+  "kalorie": 63,
+  "weglowodany": 15.8,
+  "bialko": 4.9,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427fa"
+  },
+  "rodzaj": 1,
+  "nazwa": "Groszek zielony mrozony",
+  "kalorie": 72,
+  "weglowodany": 16.3,
+  "bialko": 6.4,
+  "tluszcz": 0.4
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427fb"
+  },
+  "rodzaj": 1,
+  "nazwa": "Jarmuz",
+  "kalorie": 29,
+  "weglowodany": 6.1,
+  "bialko": 3.3,
+  "tluszcz": 0.7
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427fc"
+  },
+  "rodzaj": 1,
+  "nazwa": "Kalafior",
+  "kalorie": 22,
+  "weglowodany": 5,
+  "bialko": 2.4,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427fd"
+  },
+  "rodzaj": 1,
+  "nazwa": "Kalarepa",
+  "kalorie": 29,
+  "weglowodany": 6.5,
+  "bialko": 2.2,
+  "tluszcz": 0.3
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427fe"
+  },
+  "rodzaj": 1,
+  "nazwa": "Kapusta biala",
+  "kalorie": 29,
+  "weglowodany": 7.4,
+  "bialko": 1.7,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d17272427ff"
+  },
+  "rodzaj": 1,
+  "nazwa": "Kapusta czerwona",
+  "kalorie": 27,
+  "weglowodany": 6.7,
+  "bialko": 1.9,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242800"
+  },
+  "rodzaj": 1,
+  "nazwa": "Kapusta kwaszona",
+  "kalorie": 12,
+  "weglowodany": 3.4,
+  "bialko": 1.1,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242801"
+  },
+  "rodzaj": 1,
+  "nazwa": "Kapusta pekinska",
+  "kalorie": 12,
+  "weglowodany": 3.2,
+  "bialko": 1.2,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242802"
+  },
+  "rodzaj": 1,
+  "nazwa": "Kapusta wloska",
+  "kalorie": 38,
+  "weglowodany": 7.8,
+  "bialko": 3.3,
+  "tluszcz": 0.4
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242803"
+  },
+  "rodzaj": 1,
+  "nazwa": "Koper",
+  "kalorie": 26,
+  "weglowodany": 6.1,
+  "bialko": 2.8,
+  "tluszcz": 0.4
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242804"
+  },
+  "rodzaj": 1,
+  "nazwa": "Kukurydza konserwowa",
+  "kalorie": 110,
+  "weglowodany": 23.4,
+  "bialko": 3.7,
+  "tluszcz": 1.5
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242805"
+  },
+  "rodzaj": 1,
+  "nazwa": "Kukurydza, kolby",
+  "kalorie": 102,
+  "weglowodany": 23.6,
+  "bialko": 2.9,
+  "tluszcz": 1.2
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242806"
+  },
+  "rodzaj": 1,
+  "nazwa": "Marchew",
+  "kalorie": 27,
+  "weglowodany": 8.7,
+  "bialko": 1,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242807"
+  },
+  "rodzaj": 1,
+  "nazwa": "Ogorek",
+  "kalorie": 15,
+  "weglowodany": 2.9,
+  "bialko": 0.7,
+  "tluszcz": 0.1
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242808"
+  },
+  "rodzaj": 1,
+  "nazwa": "Papryka czerwona",
+  "kalorie": 35,
+  "weglowodany": 6.9,
+  "bialko": 1.2,
+  "tluszcz": 0.3
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242809"
+  },
+  "rodzaj": 1,
+  "nazwa": "Pasternak",
+  "kalorie": 80,
+  "weglowodany": 18,
+  "bialko": 1.2,
+  "tluszcz": 0.3
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d172724280a"
+  },
+  "rodzaj": 1,
+  "nazwa": "Pedy bambusa",
+  "kalorie": 34,
+  "weglowodany": 5.2,
+  "bialko": 2.6,
+  "tluszcz": 0.3
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d172724280b"
+  },
+  "rodzaj": 1,
+  "nazwa": "Pieczarka suszona",
+  "kalorie": 331,
+  "weglowodany": 49.3,
+  "bialko": 19.1,
+  "tluszcz": 2.1
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d172724280c"
+  },
+  "rodzaj": 1,
+  "nazwa": "Pieczarka swieza",
+  "kalorie": 24,
+  "weglowodany": 2.5,
+  "bialko": 2.6,
+  "tluszcz": 0.4
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d172724280d"
+  },
+  "rodzaj": 1,
+  "nazwa": "Pietruszka korzen",
+  "kalorie": 83,
+  "weglowodany": 17.1,
+  "bialko": 2.6,
+  "tluszcz": 0.5
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d172724280e"
+  },
+  "rodzaj": 1,
+  "nazwa": "Pietruszka liscie",
+  "kalorie": 60,
+  "weglowodany": 9,
+  "bialko": 3.7,
+  "tluszcz": 1
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d172724280f"
+  },
+  "rodzaj": 1,
+  "nazwa": "Pomidor",
+  "kalorie": 29,
+  "weglowodany": 5.2,
+  "bialko": 0.9,
+  "tluszcz": 0.5
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242810"
+  },
+  "rodzaj": 1,
+  "nazwa": "Por",
+  "kalorie": 47,
+  "weglowodany": 9.9,
+  "bialko": 1.7,
+  "tluszcz": 0.1
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242811"
+  },
+  "rodzaj": 1,
+  "nazwa": "Rabarbar",
+  "kalorie": 18,
+  "weglowodany": 3.8,
+  "bialko": 0.5,
+  "tluszcz": 0.1
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242812"
+  },
+  "rodzaj": 1,
+  "nazwa": "Rzezucha",
+  "kalorie": 15,
+  "weglowodany": 1.3,
+  "bialko": 2.3,
+  "tluszcz": 0.1
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242813"
+  },
+  "rodzaj": 1,
+  "nazwa": "Rzodkiewka",
+  "kalorie": 21,
+  "weglowodany": 3.6,
+  "bialko": 0.8,
+  "tluszcz": 0.4
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242814"
+  },
+  "rodzaj": 1,
+  "nazwa": "Salata",
+  "kalorie": 20,
+  "weglowodany": 2.9,
+  "bialko": 1.4,
+  "tluszcz": 0.3
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242815"
+  },
+  "rodzaj": 1,
+  "nazwa": "Seler korzen",
+  "kalorie": 61,
+  "weglowodany": 13.6,
+  "bialko": 1.3,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242816"
+  },
+  "rodzaj": 1,
+  "nazwa": "Soczewica, suche ziarno",
+  "kalorie": 347,
+  "weglowodany": 59.5,
+  "bialko": 25,
+  "tluszcz": 1
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242817"
+  },
+  "rodzaj": 1,
+  "nazwa": "Soja, suche ziarno",
+  "kalorie": 442,
+  "weglowodany": 34.8,
+  "bialko": 34.9,
+  "tluszcz": 18.1
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242818"
+  },
+  "rodzaj": 1,
+  "nazwa": "Szczaw",
+  "kalorie": 39,
+  "weglowodany": 3.9,
+  "bialko": 1.1,
+  "tluszcz": 0.8
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d1727242819"
+  },
+  "rodzaj": 1,
+  "nazwa": "Szczypiorek",
+  "kalorie": 39,
+  "weglowodany": 3.9,
+  "bialko": 4.1,
+  "tluszcz": 0.8
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d172724281a"
+  },
+  "rodzaj": 1,
+  "nazwa": "Szparagi",
+  "kalorie": 24,
+  "weglowodany": 3.7,
+  "bialko": 1.9,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d172724281b"
+  },
+  "rodzaj": 1,
+  "nazwa": "Ziemniaki pozne",
+  "kalorie": 85,
+  "weglowodany": 20.5,
+  "bialko": 1.9,
+  "tluszcz": 0.1
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d172724281c"
+  },
+  "rodzaj": 1,
+  "nazwa": "Ziemniaki wczesne",
+  "kalorie": 69,
+  "weglowodany": 16.3,
+  "bialko": 1.8,
+  "tluszcz": 0.1
+},
+{
+  "_id": {
+    "$oid": "6570f97658737d172724281d"
+  },
+  "rodzaj": 1,
+  "nazwa": "Szpinak",
+  "kalorie": 26,
+  "weglowodany": 3,
+  "bialko": 2.6,
+  "tluszcz": 0.4
+},
+{
+  "_id": {
+    "$oid": "65717569ed6e384dae514175"
+  },
+  "rodzaj": 3,
+  "nazwa": "Mak niebieski",
+  "kalorie": 478,
+  "weglowodany": 24.7,
+  "bialko": 20.1,
+  "tluszcz": 42.9
+},
+{
+  "_id": {
+    "$oid": "65717569ed6e384dae514176"
+  },
+  "rodzaj": 3,
+  "nazwa": "Migdaly",
+  "kalorie": 572,
+  "weglowodany": 20.5,
+  "bialko": 20,
+  "tluszcz": 52
+},
+{
+  "_id": {
+    "$oid": "65717569ed6e384dae514177"
+  },
+  "rodzaj": 3,
+  "nazwa": "Orzechy arachidowe",
+  "kalorie": 595,
+  "weglowodany": 19.2,
+  "bialko": 25.7,
+  "tluszcz": 46.1
+},
+{
+  "_id": {
+    "$oid": "65717569ed6e384dae514178"
+  },
+  "rodzaj": 3,
+  "nazwa": "Orzechy laskowe",
+  "kalorie": 695,
+  "weglowodany": 11,
+  "bialko": 14.4,
+  "tluszcz": 65.9
+},
+{
+  "_id": {
+    "$oid": "65717569ed6e384dae514179"
+  },
+  "rodzaj": 3,
+  "nazwa": "Orzechy nerkowca",
+  "kalorie": 638,
+  "weglowodany": 24,
+  "bialko": 17,
+  "tluszcz": 54
+},
+{
+  "_id": {
+    "$oid": "65717569ed6e384dae51417a"
+  },
+  "rodzaj": 3,
+  "nazwa": "Orzechy pistacjowe",
+  "kalorie": 618,
+  "weglowodany": 17.5,
+  "bialko": 20.8,
+  "tluszcz": 51.6
+},
+{
+  "_id": {
+    "$oid": "65717569ed6e384dae51417b"
+  },
+  "rodzaj": 3,
+  "nazwa": "Orzechy wloskie",
+  "kalorie": 679,
+  "weglowodany": 18,
+  "bialko": 16,
+  "tluszcz": 60.3
+},
+{
+  "_id": {
+    "$oid": "65717569ed6e384dae51417c"
+  },
+  "rodzaj": 3,
+  "nazwa": "Orzeszki ziemne",
+  "kalorie": 634,
+  "weglowodany": 13.3,
+  "bialko": 26,
+  "tluszcz": 53
+},
+{
+  "_id": {
+    "$oid": "65717569ed6e384dae51417d"
+  },
+  "rodzaj": 3,
+  "nazwa": "Pestki dyni",
+  "kalorie": 596,
+  "weglowodany": 15,
+  "bialko": 29,
+  "tluszcz": 46.7
+},
+{
+  "_id": {
+    "$oid": "65717569ed6e384dae51417e"
+  },
+  "rodzaj": 3,
+  "nazwa": "Wiorki kokosowe",
+  "kalorie": 606,
+  "weglowodany": 27,
+  "bialko": 5.6,
+  "tluszcz": 63.2
+},
+{
+  "_id": {
+    "$oid": "65717569ed6e384dae51417f"
+  },
+  "rodzaj": 3,
+  "nazwa": "Ziarna slonecznika/ pestki slonecznika",
+  "kalorie": 580,
+  "weglowodany": 12.3,
+  "bialko": 22.5,
+  "tluszcz": 49
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fbf"
+  },
+  "rodzaj": 2,
+  "nazwa": "Ananas",
+  "kalorie": 54,
+  "weglowodany": 13.6,
+  "bialko": 0.4,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fc0"
+  },
+  "rodzaj": 2,
+  "nazwa": "Arbuz",
+  "kalorie": 157,
+  "weglowodany": 38.6,
+  "bialko": 0.2,
+  "tluszcz": 0.1
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fc1"
+  },
+  "rodzaj": 2,
+  "nazwa": "Awokado",
+  "kalorie": 36,
+  "weglowodany": 8.4,
+  "bialko": 0.6,
+  "tluszcz": 0.1
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fc2"
+  },
+  "rodzaj": 2,
+  "nazwa": "Banan",
+  "kalorie": 244,
+  "weglowodany": 0.9,
+  "bialko": 15.1,
+  "tluszcz": 20.2
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fc3"
+  },
+  "rodzaj": 2,
+  "nazwa": "Brzoskwinia",
+  "kalorie": 46,
+  "weglowodany": 11.9,
+  "bialko": 1,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fc4"
+  },
+  "rodzaj": 2,
+  "nazwa": "Cytryna",
+  "kalorie": 36,
+  "weglowodany": 9.5,
+  "bialko": 0.8,
+  "tluszcz": 0.3
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fc5"
+  },
+  "rodzaj": 2,
+  "nazwa": "Czarne jagody",
+  "kalorie": 45,
+  "weglowodany": 12.2,
+  "bialko": 0.8,
+  "tluszcz": 0.6
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fc6"
+  },
+  "rodzaj": 2,
+  "nazwa": "Czeresnie",
+  "kalorie": 61,
+  "weglowodany": 14.6,
+  "bialko": 1,
+  "tluszcz": 0.3
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fc7"
+  },
+  "rodzaj": 2,
+  "nazwa": "Daktyle suszone",
+  "kalorie": 277,
+  "weglowodany": 74,
+  "bialko": 2,
+  "tluszcz": 0.4
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fc8"
+  },
+  "rodzaj": 2,
+  "nazwa": "Figi suszone",
+  "kalorie": 290,
+  "weglowodany": 78,
+  "bialko": 3.6,
+  "tluszcz": 1.2
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fc9"
+  },
+  "rodzaj": 2,
+  "nazwa": "Grejpfrut",
+  "kalorie": 36,
+  "weglowodany": 9.8,
+  "bialko": 0.6,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fca"
+  },
+  "rodzaj": 2,
+  "nazwa": "Gruszka",
+  "kalorie": 54,
+  "weglowodany": 14.4,
+  "bialko": 0.6,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fcb"
+  },
+  "rodzaj": 2,
+  "nazwa": "Jablka suszone",
+  "kalorie": 238,
+  "weglowodany": 62.3,
+  "bialko": 2.1,
+  "tluszcz": 2.1
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fcc"
+  },
+  "rodzaj": 2,
+  "nazwa": "Jablko",
+  "kalorie": 46,
+  "weglowodany": 12.1,
+  "bialko": 0.4,
+  "tluszcz": 0.4
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fcd"
+  },
+  "rodzaj": 2,
+  "nazwa": "Kiwi",
+  "kalorie": 56,
+  "weglowodany": 13.9,
+  "bialko": 0.9,
+  "tluszcz": 0.5
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fce"
+  },
+  "rodzaj": 2,
+  "nazwa": "Maliny",
+  "kalorie": 29,
+  "weglowodany": 12,
+  "bialko": 1.3,
+  "tluszcz": 0.3
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fcf"
+  },
+  "rodzaj": 2,
+  "nazwa": "Mandarynki",
+  "kalorie": 42,
+  "weglowodany": 11.2,
+  "bialko": 0.6,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fd0"
+  },
+  "rodzaj": 2,
+  "nazwa": "Morela",
+  "kalorie": 47,
+  "weglowodany": 11.9,
+  "bialko": 0.9,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fd1"
+  },
+  "rodzaj": 2,
+  "nazwa": "Morele suszone",
+  "kalorie": 284,
+  "weglowodany": 72.2,
+  "bialko": 5.4,
+  "tluszcz": 1.2
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fd2"
+  },
+  "rodzaj": 2,
+  "nazwa": "Nektarynka",
+  "kalorie": 48,
+  "weglowodany": 11.8,
+  "bialko": 0.9,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fd3"
+  },
+  "rodzaj": 2,
+  "nazwa": "Papaja",
+  "kalorie": 43,
+  "weglowodany": 9.8,
+  "bialko": 0.6,
+  "tluszcz": 0.1
+},
+{
+  "_id": {
+    "$oid": "65717618ae45c269e3279fd4"
+  },
+  "rodzaj": 2,
+  "nazwa": "Pomarancza",
+  "kalorie": 51,
+  "weglowodany": 11.3,
+  "bialko": 0.9,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "65717619ae45c269e3279fd5"
+  },
+  "rodzaj": 2,
+  "nazwa": "Porzeczki biaL,e",
+  "kalorie": 63,
+  "weglowodany": 14.5,
+  "bialko": 0.4,
+  "tluszcz": 0.4
+},
+{
+  "_id": {
+    "$oid": "65717619ae45c269e3279fd6"
+  },
+  "rodzaj": 2,
+  "nazwa": "Porzeczki czarne",
+  "kalorie": 84,
+  "weglowodany": 17.4,
+  "bialko": 1.5,
+  "tluszcz": 0.9
+},
+{
+  "_id": {
+    "$oid": "65717619ae45c269e3279fd7"
+  },
+  "rodzaj": 2,
+  "nazwa": "Porzeczki czerwone",
+  "kalorie": 64,
+  "weglowodany": 13.8,
+  "bialko": 1.3,
+  "tluszcz": 0.4
+},
+{
+  "_id": {
+    "$oid": "65717619ae45c269e3279fd8"
+  },
+  "rodzaj": 2,
+  "nazwa": "Poziomki",
+  "kalorie": 41,
+  "weglowodany": 8.3,
+  "bialko": 0.8,
+  "tluszcz": 0.5
+},
+{
+  "_id": {
+    "$oid": "65717619ae45c269e3279fd9"
+  },
+  "rodzaj": 2,
+  "nazwa": "Rodzynki",
+  "kalorie": 298,
+  "weglowodany": 71.2,
+  "bialko": 2.3,
+  "tluszcz": 0.5
+},
+{
+  "_id": {
+    "$oid": "65717619ae45c269e3279fda"
+  },
+  "rodzaj": 2,
+  "nazwa": "Sliwki",
+  "kalorie": 70,
+  "weglowodany": 15.9,
+  "bialko": 1,
+  "tluszcz": 0.3
+},
+{
+  "_id": {
+    "$oid": "65717619ae45c269e3279fdb"
+  },
+  "rodzaj": 2,
+  "nazwa": "Sliwki suszone",
+  "kalorie": 311,
+  "weglowodany": 70.8,
+  "bialko": 4.9,
+  "tluszcz": 0.9
+},
+{
+  "_id": {
+    "$oid": "65717619ae45c269e3279fdc"
+  },
+  "rodzaj": 2,
+  "nazwa": "Truskawki",
+  "kalorie": 28,
+  "weglowodany": 7.2,
+  "bialko": 0.7,
+  "tluszcz": 0.4
+},
+{
+  "_id": {
+    "$oid": "65717619ae45c269e3279fdd"
+  },
+  "rodzaj": 2,
+  "nazwa": "Winogrona",
+  "kalorie": 69,
+  "weglowodany": 17.6,
+  "bialko": 0.5,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "65717619ae45c269e3279fde"
+  },
+  "rodzaj": 2,
+  "nazwa": "Wisnie",
+  "kalorie": 47,
+  "weglowodany": 10.9,
+  "bialko": 0.9,
+  "tluszcz": 0.4
+},
+{
+  "_id": {
+    "$oid": "65717619ae45c269e3279fdf"
+  },
+  "rodzaj": 2,
+  "nazwa": "Melon",
+  "kalorie": 36,
+  "weglowodany": 8.4,
+  "bialko": 0.9,
+  "tluszcz": 0.3
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432742"
+  },
+  "rodzaj": 4,
+  "nazwa": "Baleron gotowany",
+  "kalorie": 21,
+  "weglowodany": 6.3,
+  "bialko": 1.1,
+  "tluszcz": 0.1
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432743"
+  },
+  "rodzaj": 4,
+  "nazwa": "Baranina, lopatka",
+  "kalorie": 95,
+  "weglowodany": 23.5,
+  "bialko": 1,
+  "tluszcz": 0.3
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432744"
+  },
+  "rodzaj": 4,
+  "nazwa": "Baranina, udziec",
+  "kalorie": 284,
+  "weglowodany": 0,
+  "bialko": 15.6,
+  "tluszcz": 25
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432745"
+  },
+  "rodzaj": 4,
+  "nazwa": "Kabanosy",
+  "kalorie": 326,
+  "weglowodany": 0,
+  "bialko": 27.4,
+  "tluszcz": 24.3
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432746"
+  },
+  "rodzaj": 4,
+  "nazwa": "Kielbasa krakowska sucha",
+  "kalorie": 323,
+  "weglowodany": 0,
+  "bialko": 25.6,
+  "tluszcz": 24.8
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432747"
+  },
+  "rodzaj": 4,
+  "nazwa": "Kielbasa mortadela",
+  "kalorie": 205,
+  "weglowodany": 0,
+  "bialko": 12,
+  "tluszcz": 17.7
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432748"
+  },
+  "rodzaj": 4,
+  "nazwa": "Kielbasa mysliwska sucha",
+  "kalorie": 291,
+  "weglowodany": 0,
+  "bialko": 27.8,
+  "tluszcz": 20.1
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432749"
+  },
+  "rodzaj": 4,
+  "nazwa": "Kielbasa parowkowa",
+  "kalorie": 323,
+  "weglowodany": 0,
+  "bialko": 11,
+  "tluszcz": 31.5
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e743274a"
+  },
+  "rodzaj": 4,
+  "nazwa": "Kielbasa podwawelska",
+  "kalorie": 247,
+  "weglowodany": 0.9,
+  "bialko": 17.3,
+  "tluszcz": 19.6
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e743274b"
+  },
+  "rodzaj": 4,
+  "nazwa": "Kielbasa slaska",
+  "kalorie": 210,
+  "weglowodany": 0,
+  "bialko": 18.4,
+  "tluszcz": 15.3
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e743274c"
+  },
+  "rodzaj": 4,
+  "nazwa": "Kielbasa zwyczajna",
+  "kalorie": 209,
+  "weglowodany": 0,
+  "bialko": 17.6,
+  "tluszcz": 15.6
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e743274d"
+  },
+  "rodzaj": 4,
+  "nazwa": "Kielbasa zywiecka",
+  "kalorie": 315,
+  "weglowodany": 0,
+  "bialko": 20.3,
+  "tluszcz": 26.3
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e743274e"
+  },
+  "rodzaj": 4,
+  "nazwa": "Kiszka pasztetowa",
+  "kalorie": 384,
+  "weglowodany": 4.3,
+  "bialko": 12.5,
+  "tluszcz": 35.7
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e743274f"
+  },
+  "rodzaj": 4,
+  "nazwa": "Krolik, tuszka",
+  "kalorie": 156,
+  "weglowodany": 0,
+  "bialko": 21,
+  "tluszcz": 8
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432750"
+  },
+  "rodzaj": 4,
+  "nazwa": "Mielonka",
+  "kalorie": 171,
+  "weglowodany": 3.7,
+  "bialko": 12.8,
+  "tluszcz": 11.7
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432751"
+  },
+  "rodzaj": 4,
+  "nazwa": "Nerki wieprzowe",
+  "kalorie": 102,
+  "weglowodany": 0,
+  "bialko": 16.8,
+  "tluszcz": 3.8
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432752"
+  },
+  "rodzaj": 4,
+  "nazwa": "Nogi wieprzowe",
+  "kalorie": 274,
+  "weglowodany": 0,
+  "bialko": 23,
+  "tluszcz": 20.4
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432753"
+  },
+  "rodzaj": 4,
+  "nazwa": "Ozory cielece",
+  "kalorie": 106,
+  "weglowodany": 0,
+  "bialko": 17.1,
+  "tluszcz": 4.2
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432754"
+  },
+  "rodzaj": 4,
+  "nazwa": "Ozory wieprzowe",
+  "kalorie": 166,
+  "weglowodany": 0,
+  "bialko": 16.5,
+  "tluszcz": 11.1
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432755"
+  },
+  "rodzaj": 4,
+  "nazwa": "Parowki popularne",
+  "kalorie": 347,
+  "weglowodany": 0,
+  "bialko": 9.5,
+  "tluszcz": 34.3
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432756"
+  },
+  "rodzaj": 4,
+  "nazwa": "Pasztet popularny",
+  "kalorie": 405,
+  "weglowodany": 2,
+  "bialko": 13.2,
+  "tluszcz": 38.2
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432757"
+  },
+  "rodzaj": 4,
+  "nazwa": "Poledwica wolowa",
+  "kalorie": 112,
+  "weglowodany": 0,
+  "bialko": 20.1,
+  "tluszcz": 3.5
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432758"
+  },
+  "rodzaj": 4,
+  "nazwa": "Rostbef wolowy",
+  "kalorie": 152,
+  "weglowodany": 0,
+  "bialko": 21.5,
+  "tluszcz": 7.3
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432759"
+  },
+  "rodzaj": 4,
+  "nazwa": "Rozbratel wolowy",
+  "kalorie": 158,
+  "weglowodany": 0,
+  "bialko": 16.7,
+  "tluszcz": 10.1
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e743275a"
+  },
+  "rodzaj": 4,
+  "nazwa": "Salceson czarny",
+  "kalorie": 340,
+  "weglowodany": 0.5,
+  "bialko": 12.6,
+  "tluszcz": 32
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e743275b"
+  },
+  "rodzaj": 4,
+  "nazwa": "Salceson wloski",
+  "kalorie": 322,
+  "weglowodany": 0,
+  "bialko": 14.6,
+  "tluszcz": 29.3
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e743275c"
+  },
+  "rodzaj": 4,
+  "nazwa": "Sarnina",
+  "kalorie": 102,
+  "weglowodany": 0.4,
+  "bialko": 20.8,
+  "tluszcz": 1.9
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e743275d"
+  },
+  "rodzaj": 4,
+  "nazwa": "Schab surowy wieprzowy",
+  "kalorie": 174,
+  "weglowodany": 0,
+  "bialko": 21,
+  "tluszcz": 10
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e743275e"
+  },
+  "rodzaj": 4,
+  "nazwa": "Schab wedzony",
+  "kalorie": 136,
+  "weglowodany": 0,
+  "bialko": 25,
+  "tluszcz": 4
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e743275f"
+  },
+  "rodzaj": 4,
+  "nazwa": "Serca wieprzowe",
+  "kalorie": 111,
+  "weglowodany": 0,
+  "bialko": 16.9,
+  "tluszcz": 4.8
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432760"
+  },
+  "rodzaj": 4,
+  "nazwa": "Szponder wolowy",
+  "kalorie": 218,
+  "weglowodany": 0,
+  "bialko": 19.3,
+  "tluszcz": 15.7
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432761"
+  },
+  "rodzaj": 4,
+  "nazwa": "Szprot wedzony",
+  "kalorie": 243,
+  "weglowodany": 0,
+  "bialko": 19.3,
+  "tluszcz": 18.3
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432762"
+  },
+  "rodzaj": 4,
+  "nazwa": "Szynka surowa wieprzowa",
+  "kalorie": 264,
+  "weglowodany": 0,
+  "bialko": 18,
+  "tluszcz": 21.3
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432763"
+  },
+  "rodzaj": 4,
+  "nazwa": "Szynka wedzona gotowana",
+  "kalorie": 389,
+  "weglowodany": 0,
+  "bialko": 23,
+  "tluszcz": 33
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432764"
+  },
+  "rodzaj": 4,
+  "nazwa": "Watroba cieleca",
+  "kalorie": 124,
+  "weglowodany": 4.1,
+  "bialko": 19.2,
+  "tluszcz": 3.3
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432765"
+  },
+  "rodzaj": 4,
+  "nazwa": "Watroba wieprzowa",
+  "kalorie": 130,
+  "weglowodany": 2.6,
+  "bialko": 22,
+  "tluszcz": 3.4
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432766"
+  },
+  "rodzaj": 4,
+  "nazwa": "Watroba wolowa",
+  "kalorie": 125,
+  "weglowodany": 4,
+  "bialko": 20,
+  "tluszcz": 3.1
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432767"
+  },
+  "rodzaj": 4,
+  "nazwa": "Wolowina, pieczen",
+  "kalorie": 117,
+  "weglowodany": 0,
+  "bialko": 20.9,
+  "tluszcz": 3.6
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432768"
+  },
+  "rodzaj": 4,
+  "nazwa": "Wolowina, poledwica",
+  "kalorie": 113,
+  "weglowodany": 0,
+  "bialko": 20.1,
+  "tluszcz": 3.5
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e7432769"
+  },
+  "rodzaj": 4,
+  "nazwa": "Wolowina, rostbef",
+  "kalorie": 152,
+  "weglowodany": 0,
+  "bialko": 21.5,
+  "tluszcz": 7.3
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e743276a"
+  },
+  "rodzaj": 4,
+  "nazwa": "Wolowina, rozbratel",
+  "kalorie": 157,
+  "weglowodany": 0,
+  "bialko": 16.7,
+  "tluszcz": 10.1
+},
+{
+  "_id": {
+    "$oid": "6571822f223fbcf5e743276b"
+  },
+  "rodzaj": 4,
+  "nazwa": "Wolowina, szponder",
+  "kalorie": 217,
+  "weglowodany": 0,
+  "bialko": 19.3,
+  "tluszcz": 15.7
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1ec"
+  },
+  "rodzaj": 5,
+  "nazwa": "Bialko jaja kurzego",
+  "kalorie": 49,
+  "weglowodany": 0.7,
+  "bialko": 10.9,
+  "tluszcz": 0.2
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1ed"
+  },
+  "rodzaj": 5,
+  "nazwa": "Deser twarogowy termizowany truskawkowy",
+  "kalorie": 170,
+  "weglowodany": 18.3,
+  "bialko": 11,
+  "tluszcz": 5.8
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1ee"
+  },
+  "rodzaj": 5,
+  "nazwa": "Jaja gotowane",
+  "kalorie": 109,
+  "weglowodany": 0.5,
+  "bialko": 9.8,
+  "tluszcz": 7.6
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1ef"
+  },
+  "rodzaj": 5,
+  "nazwa": "Jogurt jagodowy 1.5%",
+  "kalorie": 62,
+  "weglowodany": 8.8,
+  "bialko": 3.7,
+  "tluszcz": 1.5
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1f0"
+  },
+  "rodzaj": 5,
+  "nazwa": "Jogurt morelowy 1.5%",
+  "kalorie": 63,
+  "weglowodany": 8.9,
+  "bialko": 3.7,
+  "tluszcz": 1.5
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1f1"
+  },
+  "rodzaj": 5,
+  "nazwa": "Jogurt naturalny 2%",
+  "kalorie": 60,
+  "weglowodany": 6.2,
+  "bialko": 4.3,
+  "tluszcz": 2
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1f2"
+  },
+  "rodzaj": 5,
+  "nazwa": "Jogurt truskawkowy 1.5%",
+  "kalorie": 60,
+  "weglowodany": 8.2,
+  "bialko": 3.7,
+  "tluszcz": 1.5
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1f3"
+  },
+  "rodzaj": 5,
+  "nazwa": "Kefir 2%",
+  "kalorie": 51,
+  "weglowodany": 4.7,
+  "bialko": 3.4,
+  "tluszcz": 2
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1f4"
+  },
+  "rodzaj": 5,
+  "nazwa": "Maslanka 0.5%",
+  "kalorie": 37,
+  "weglowodany": 4.7,
+  "bialko": 3.4,
+  "tluszcz": 0.5
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1f5"
+  },
+  "rodzaj": 5,
+  "nazwa": "Mleko kozie",
+  "kalorie": 68,
+  "weglowodany": 4.5,
+  "bialko": 3.2,
+  "tluszcz": 4.1
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1f6"
+  },
+  "rodzaj": 5,
+  "nazwa": "Mleko owcze",
+  "kalorie": 107,
+  "weglowodany": 5.1,
+  "bialko": 6,
+  "tluszcz": 7
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1f7"
+  },
+  "rodzaj": 5,
+  "nazwa": "Mleko spozywcze 0.5%",
+  "kalorie": 39,
+  "weglowodany": 5.1,
+  "bialko": 3.5,
+  "tluszcz": 0.5
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1f8"
+  },
+  "rodzaj": 5,
+  "nazwa": "Mleko spozywcze 1.5%",
+  "kalorie": 47,
+  "weglowodany": 5,
+  "bialko": 3.4,
+  "tluszcz": 1.5
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1f9"
+  },
+  "rodzaj": 5,
+  "nazwa": "Mleko spozywcze 2%",
+  "kalorie": 51,
+  "weglowodany": 4.9,
+  "bialko": 3.4,
+  "tluszcz": 2
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1fa"
+  },
+  "rodzaj": 5,
+  "nazwa": "Mleko spozywcze 3.2%",
+  "kalorie": 61,
+  "weglowodany": 4.8,
+  "bialko": 3.3,
+  "tluszcz": 3.2
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1fb"
+  },
+  "rodzaj": 5,
+  "nazwa": "Mleko spozywcze 3.5%",
+  "kalorie": 64,
+  "weglowodany": 4.8,
+  "bialko": 3.3,
+  "tluszcz": 3.5
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1fc"
+  },
+  "rodzaj": 5,
+  "nazwa": "Mleko w proszku odtluszczone",
+  "kalorie": 360,
+  "weglowodany": 51.2,
+  "bialko": 35.7,
+  "tluszcz": 0.8
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1fd"
+  },
+  "rodzaj": 5,
+  "nazwa": "Mleko w proszku pelne",
+  "kalorie": 479,
+  "weglowodany": 38.7,
+  "bialko": 27,
+  "tluszcz": 24
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1fe"
+  },
+  "rodzaj": 5,
+  "nazwa": "Mleko zageszczone nieslodzone",
+  "kalorie": 131,
+  "weglowodany": 9.4,
+  "bialko": 6.6,
+  "tluszcz": 7.5
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f1ff"
+  },
+  "rodzaj": 5,
+  "nazwa": "Mleko zageszczone slodzone",
+  "kalorie": 326,
+  "weglowodany": 55.3,
+  "bialko": 7.5,
+  "tluszcz": 8
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f200"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser Feta",
+  "kalorie": 216,
+  "weglowodany": 1,
+  "bialko": 17,
+  "tluszcz": 16
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f201"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser plesniowy Brie pelnotlusty",
+  "kalorie": 293,
+  "weglowodany": 0,
+  "bialko": 18,
+  "tluszcz": 24.5
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f202"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser plesniowy Rokpol pelnotlusty",
+  "kalorie": 354,
+  "weglowodany": 0,
+  "bialko": 22.6,
+  "tluszcz": 29.3
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f203"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser podpuszczkowy Brie pelnotlusty",
+  "kalorie": 332,
+  "weglowodany": 0.2,
+  "bialko": 19.8,
+  "tluszcz": 28
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f204"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser podpuszczkowy Camembert tlusty",
+  "kalorie": 263,
+  "weglowodany": 1.9,
+  "bialko": 19.3,
+  "tluszcz": 19.8
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f205"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser podpuszczkowy Cheddar pelnotlusty",
+  "kalorie": 382,
+  "weglowodany": 2.5,
+  "bialko": 27.1,
+  "tluszcz": 29.3
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f206"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser podpuszczkowy Ementaler pelnotlusty",
+  "kalorie": 383,
+  "weglowodany": 0.1,
+  "bialko": 28.8,
+  "tluszcz": 29.7
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f207"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser podpuszczkowy Ementaler tlusty",
+  "kalorie": 330,
+  "weglowodany": 1.5,
+  "bialko": 28.8,
+  "tluszcz": 23.2
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f208"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser podpuszczkowy Gouda tlusty",
+  "kalorie": 314,
+  "weglowodany": 1,
+  "bialko": 27.9,
+  "tluszcz": 22
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f209"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser podpuszczkowy Mozarella tlusty",
+  "kalorie": 224,
+  "weglowodany": 0,
+  "bialko": 20,
+  "tluszcz": 16
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f20a"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser podpuszczkowy Mysliwski pelnotlusty",
+  "kalorie": 349,
+  "weglowodany": 0.1,
+  "bialko": 25.5,
+  "tluszcz": 27.4
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f20b"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser podpuszczkowy Parmezan",
+  "kalorie": 408,
+  "weglowodany": 0.1,
+  "bialko": 35.1,
+  "tluszcz": 29.7
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f20c"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser podpuszczkowy Salami pelnotlusty",
+  "kalorie": 354,
+  "weglowodany": 0.1,
+  "bialko": 25.2,
+  "tluszcz": 28.1
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f20d"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser podpuszczkowy Salami tlusty",
+  "kalorie": 329,
+  "weglowodany": 3.1,
+  "bialko": 29.5,
+  "tluszcz": 22.1
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f20e"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser podpuszczkowy Tylzycki pelnotlusty",
+  "kalorie": 356,
+  "weglowodany": 0.1,
+  "bialko": 26.1,
+  "tluszcz": 27.9
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f20f"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser podpuszczkowy Tylzycki tlusty",
+  "kalorie": 327,
+  "weglowodany": 2.1,
+  "bialko": 27.8,
+  "tluszcz": 23
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f210"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser topiony tlusty",
+  "kalorie": 222,
+  "weglowodany": 1.6,
+  "bialko": 18,
+  "tluszcz": 16
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f211"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser twarogowy chudy",
+  "kalorie": 98,
+  "weglowodany": 3.5,
+  "bialko": 19.8,
+  "tluszcz": 0.5
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f212"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser twarogowy pelnotlusty",
+  "kalorie": 132,
+  "weglowodany": 3.7,
+  "bialko": 18.7,
+  "tluszcz": 4.7
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f213"
+  },
+  "rodzaj": 5,
+  "nazwa": "Ser twarogowy poltlusty",
+  "kalorie": 176,
+  "weglowodany": 3.5,
+  "bialko": 17.7,
+  "tluszcz": 10.1
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f214"
+  },
+  "rodzaj": 5,
+  "nazwa": "Serek Fromage naturalny",
+  "kalorie": 384,
+  "weglowodany": 2.4,
+  "bialko": 10.2,
+  "tluszcz": 37.1
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f215"
+  },
+  "rodzaj": 5,
+  "nazwa": "Serek homogenizowany truskawkowy",
+  "kalorie": 167,
+  "weglowodany": 17.7,
+  "bialko": 15.3,
+  "tluszcz": 3.9
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f216"
+  },
+  "rodzaj": 5,
+  "nazwa": "Serek homogenizowany waniliowy",
+  "kalorie": 158,
+  "weglowodany": 13.3,
+  "bialko": 16.8,
+  "tluszcz": 4.2
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f217"
+  },
+  "rodzaj": 5,
+  "nazwa": "Serek ziarnisty",
+  "kalorie": 101,
+  "weglowodany": 3.3,
+  "bialko": 12.3,
+  "tluszcz": 4.3
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f218"
+  },
+  "rodzaj": 5,
+  "nazwa": "smietana 12% tluszczu",
+  "kalorie": 134,
+  "weglowodany": 3.9,
+  "bialko": 2.7,
+  "tluszcz": 12
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f219"
+  },
+  "rodzaj": 5,
+  "nazwa": "smietana 18% tluszczu",
+  "kalorie": 186,
+  "weglowodany": 3.6,
+  "bialko": 2.5,
+  "tluszcz": 18
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f21a"
+  },
+  "rodzaj": 5,
+  "nazwa": "smietanka do kawy 9% tluszczu",
+  "kalorie": 54,
+  "weglowodany": 4,
+  "bialko": 2.8,
+  "tluszcz": 9
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f21b"
+  },
+  "rodzaj": 5,
+  "nazwa": "smietanka kremowa 30% tluszczu",
+  "kalorie": 291,
+  "weglowodany": 3.1,
+  "bialko": 2.2,
+  "tluszcz": 30
+},
+{
+  "_id": {
+    "$oid": "65718301eac9e644c046f21c"
+  },
+  "rodzaj": 5,
+  "nazwa": "zoltko jaja kurzego",
+  "kalorie": 314,
+  "weglowodany": 0.3,
+  "bialko": 15.5,
+  "tluszcz": 28.2
+}]
